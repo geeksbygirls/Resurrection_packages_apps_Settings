@@ -2115,7 +2115,6 @@
     <string name="nav_bar_dynamic_title">Dynamic navbar color</string>
     <string name="nav_bar_dynamic_summary">Enable disable this switch for navbar to adapt to apps primary dark color. Restart your desired app to see effect</string>
 
-
     <!-- Keyboard and Input ASS methods  -->
     <string name="attention">Attention</string>
     <string name="title_keyboard_input">Input options</string>
