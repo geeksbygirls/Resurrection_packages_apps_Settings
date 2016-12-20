@@ -121,4 +121,9 @@
 
     <!-- App Ops Settings -->
     <string name="app_ops_settings_summary">View or change app permissions</string>
+
+    <!-- Instant reboot -->
+    <string name="advanced_reboot_oneclick">One click reboot</string>
+    <string name="advanced_reboot_oneclick_summary">Instantly trigger reboot action</string>
+
 </resources>
