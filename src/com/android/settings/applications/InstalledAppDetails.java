@@ -1084,8 +1084,8 @@ public class InstalledAppDetails extends AppInfoBase
         iconView.setImageDrawable(icon);
 
         // Clicking on application icon opens application.
-        final String finalPackageName = pkgInfo.packageName;
-        icon.setOnClickListener(new View.OnClickListener() {
+        final String finalPackageName = packageName;
+        iconView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 PackageManager pm = v.getContext().getPackageManager();
