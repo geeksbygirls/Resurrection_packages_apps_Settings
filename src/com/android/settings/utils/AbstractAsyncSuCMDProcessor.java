@@ -1,5 +1,4 @@
-
-package com.android.settings.util;
+package com.android.settings.utils;
 
 import android.os.AsyncTask;
 

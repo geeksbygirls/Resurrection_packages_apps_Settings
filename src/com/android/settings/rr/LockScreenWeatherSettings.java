@@ -55,8 +55,8 @@ import java.util.Map;
 
 import android.util.Log;
 
-import com.android.settings.util.CMDProcessor;
-import com.android.settings.util.Helpers;
+import com.android.settings.utils.CMDProcessor;
+import com.android.settings.utils.Helpers;
 import com.android.settings.Utils;
 
 import com.android.internal.util.rr.PackageUtils;

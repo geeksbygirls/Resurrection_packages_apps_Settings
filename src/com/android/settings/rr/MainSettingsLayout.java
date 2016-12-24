@@ -56,9 +56,9 @@ import android.widget.Toast;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
-import com.android.settings.util.AbstractAsyncSuCMDProcessor;
-import com.android.settings.util.CMDProcessor;
-import com.android.settings.util.Helpers;
+import com.android.settings.utils.AbstractAsyncSuCMDProcessor;
+import com.android.settings.utils.CMDProcessor;
+import com.android.settings.utils.Helpers;
 import com.android.settings.dashboard.SummaryLoader;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;

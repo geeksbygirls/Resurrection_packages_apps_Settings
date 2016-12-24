@@ -39,8 +39,8 @@ import java.util.List;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.util.CMDProcessor;
-import com.android.settings.util.Helpers;
+import com.android.settings.utils.CMDProcessor;
+import com.android.settings.utils.Helpers;
 import com.android.settings.Utils;
 
 import net.margaritov.preference.colorpicker.ColorPickerPreference;

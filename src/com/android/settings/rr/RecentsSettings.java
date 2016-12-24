@@ -34,7 +34,7 @@ import android.view.ViewGroup;
 
 
 import com.android.settings.R;
-import com.android.settings.util.Helpers;
+import com.android.settings.utils.Helpers;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 
