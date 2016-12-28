@@ -116,9 +116,9 @@ public class MiscSettings extends SettingsPreferenceFragment
             if (preference == mMsob) {
             Settings.System.putInt(resolver,
                 Settings.System.MEDIA_SCANNER_ON_BOOT,
-                    Integer.valueOf(String.valueOf(newValue)));
+                    Integer.valueOf(String.valueOf(value)));
 
-            mMsob.setValue(String.valueOf(newValue));
+            mMsob.setValue(String.valueOf(value));
             mMsob.setSummary(mMsob.getEntry());
             return true;
         }
