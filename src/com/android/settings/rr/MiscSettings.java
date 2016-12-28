@@ -31,6 +31,7 @@ import android.os.UserHandle;
 import android.support.v7.preference.ListPreference;
 import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.Preference;
+import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v7.preference.PreferenceScreen;
 import android.provider.Settings;
 import com.android.settings.util.Helpers;
@@ -48,12 +49,14 @@ import java.io.DataOutputStream;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 
-public class MiscSettings extends SettingsPreferenceFragment {
+public class MiscSettings extends SettingsPreferenceFragment
+		implements OnPreferenceChangeListener{
 
     private static final String APP_REMOVER = "system_app_remover";
     private static final String ROOT_ACCESS_PROPERTY = "persist.sys.root_access";
+    private static final String PREF_MEDIA_SCANNER_ON_BOOT = "media_scanner_on_boot";
     private PreferenceScreen mAppRemover;
-
+    private ListPreference mMsob;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -63,6 +66,12 @@ public class MiscSettings extends SettingsPreferenceFragment {
   	    final ContentResolver resolver = getActivity().getContentResolver();
 
         mAppRemover = (PreferenceScreen) findPreference(APP_REMOVER);
+
+        mMsob = (ListPreference) findPreference(PREF_MEDIA_SCANNER_ON_BOOT);
+        mMsob.setValue(String.valueOf(Settings.System.getInt(resolver,
+                Settings.System.MEDIA_SCANNER_ON_BOOT, 0)));
+        mMsob.setSummary(mMsob.getEntry());
+        mMsob.setOnPreferenceChangeListener(this);
 
         // Magisk Manager
         boolean magiskSupported = false;
@@ -81,7 +90,6 @@ public class MiscSettings extends SettingsPreferenceFragment {
             if (mAppRemover != null)
                 getPreferenceScreen().removePreference(mAppRemover);
         }
-
     }
 
     public static boolean isRootForAppsEnabled() {
@@ -100,5 +108,20 @@ public class MiscSettings extends SettingsPreferenceFragment {
     public void onResume() {
         super.onResume();
     }
-}
 
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object value) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mSelinux) {
+            if (preference == mMsob) {
+            Settings.System.putInt(resolver,
+                Settings.System.MEDIA_SCANNER_ON_BOOT,
+                    Integer.valueOf(String.valueOf(newValue)));
+
+            mMsob.setValue(String.valueOf(newValue));
+            mMsob.setSummary(mMsob.getEntry());
+            return true;
+        }
+        return false;
+    }
+}
