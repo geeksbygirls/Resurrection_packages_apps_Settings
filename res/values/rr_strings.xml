@@ -2562,4 +2562,5 @@
 
     <!-- Development QS -->
     <string name="qs_disable_hw_overlays">@string/disable_overlays</string>
+    <string name="qs_show_touches">@string/show_touches</string> 
 </resources>
