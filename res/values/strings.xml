@@ -7960,4 +7960,12 @@
     <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
     <string name="touchscreen_gesture_settings_summary">Perform various touchscreen gestures for quick actions</string>
 
+    <!-- UI debug setting: scaling factor for window animations [CHAR LIMIT=25] -->
+    <string name="window_animation_scale_title">Window animation scale</string>
+
+    <!-- UI debug setting: scaling factor for transition animations [CHAR LIMIT=25] -->
+    <string name="transition_animation_scale_title">Transition animation scale</string>
+
+    <!-- UI debug setting: scaling factor for all Animator-based animations [CHAR LIMIT=25] -->
+	<string name="animator_duration_scale_title">Animator duration scale</string>
 </resources>
