@@ -166,4 +166,10 @@
     <!-- Color engine -->
     <color name="pixel_primary_color">#242424</color>
     <color name="pixel_secondary_color">#3a3a3a</color>
+
+    <!-- Extra info -->
+    <color name="extrainfo_separator">#ffffffff</color>
+    <color name="extrainfo_cat_background">#ff263238</color>
+    <color name="extrainfo_cat_text">#ffffffff</color>
+    <color name="extrainfo_value_text">#ff263238</color>
 </resources>

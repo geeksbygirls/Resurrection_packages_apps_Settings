@@ -2551,5 +2551,8 @@
     <string name="cyan">Cyan</string>
     <string name="grey">Grey</string>
     <string name="default_string">Default</string>
-
+    
+    <!-- Extra Info -->
+    <string name="lsextrainfo">Extra information</string>
+    <string name="lsextrainfo_summary">Display extra info for cpu, display, etc</string>	
 </resources>
