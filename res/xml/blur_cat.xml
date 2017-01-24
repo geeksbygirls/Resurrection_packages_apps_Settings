@@ -100,6 +100,12 @@
             android:defaultValue="60" />
     </PreferenceCategory>-->
 
+        <cyanogenmod.preference.CMSecureSettingSwitchPreference
+            android:key="lock_screen_blur_enabled"
+            android:title="@string/lockscreen_blur_enabled_title"
+            android:defaultValue="true"
+            cm:requiresConfig="@*android:bool/config_uiBlurEnabled" />
+
     <PreferenceCategory
         android:key="blur_qs_cat"
         android:title="@string/blur_qs_cat" >
