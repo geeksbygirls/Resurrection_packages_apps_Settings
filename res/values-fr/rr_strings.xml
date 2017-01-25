@@ -64,7 +64,7 @@
   <string name="rr_ls_gestures">Gestes</string>
   <string name="rr_ls_ui">Interface de l\'écran de verrouillage</string>
   <string name="rr_ls_security">Sécurité</string>
-  <string name="updater_title">Mises à jour</string>
+  <string name="updater_title">Mises à jour RR REMIXED</string>
   <string name="altankrk_summary">● Co-fondateur \n● Chef développeur \n● Concepteur UX \n● Mainteneur</string>
   <string name="varun_summary">● Développeur principal \n● Concepteur UX \n● Mainteneur</string>
   <string name="andres_summary">● Développeur \n● Mainteneur</string>
@@ -103,7 +103,7 @@
   <string name="changelog_unknown">Inconnu</string>
   <string name="changelog_version">Version</string>
   <!--RR Configurations-->
-  <string name="fab_updates">Mises à jour</string>
+  <string name="fab_updates">Mises à jour RR REMIXED</string>
   <string name="fab_restartui">Redémarrer l’interface utilisateur</string>
   <string name="fab_reset">Réinitialiser</string>
   <string name="fab_about">À propos de RR-OS</string>

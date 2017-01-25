@@ -65,7 +65,7 @@
     <string name="rr_ls_gestures">Gestures</string>
     <string name="rr_ls_ui">Lock UI</string>
     <string name="rr_ls_security">Security</string>
-    <string name="updater_title">Updates</string>
+    <string name="updater_title">RR REMIXED Updates</string>
 
     <string name="altankrk_summary">● CO-Founder \n● Head developer \n● UX designer \n● Maintainer</string>
     <string name="varun_summary">● Head developer \n● UX designer \n● Maintainer</string>
@@ -114,7 +114,7 @@
     <string name="changelog_version">Version</string>
 
     <!--RR Configurations-->
-    <string name="fab_updates">Updates</string>
+    <string name="fab_updates">RR REMIXED Updates</string>
     <string name="fab_restartui">Restart UI</string>
     <string name="fab_reset">Reset</string>
     <string name="fab_about">About RR-OS</string>
@@ -1891,6 +1891,7 @@
     <string name="heads_up_switch_title">Heads up</string>
     <string name="heads_up_switch_summary">Toogle Heads up globally, not per app.</string>
     <string name="heads_up_settings">Heads up</string>
+
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Time out</string>
     <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
