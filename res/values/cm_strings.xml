@@ -482,5 +482,8 @@
     <string name="crypt_keeper_choose_your_password_header">Set encryption password</string>
     <string name="crypt_keeper_replace_password_title">Replace encryption password</string>
     <string name="crypt_keeper_replace_password_summary">Remove the separate encryption password</string>
-
+    
+    <!-- Allow fake signature -->
+    <string name="allow_signature_fake">Allow signature spoofing</string>
+    <string name="allow_signature_fake_summary">Allow apps to bypass security systems by pretending to be a different app.</string> 
 </resources>
