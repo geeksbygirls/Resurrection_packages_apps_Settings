@@ -26,6 +26,7 @@
     <string name="media_scanner_on_boot_disabled">Do not scan media</string>
 
     <string name="volume_dialog_headers_title">Volume dialog headers</string>
-    <string name="volume_dialog_headers_summary">Show stream name headers in volume dialog</string>
+    <string name="volume_dialog_headers_summary_enabled">Stream name headers are enabled</string>
+    <string name="volume_dialog_headers_summary_disabled">Stream name headers are disabledabled</string>
 
 </resources>

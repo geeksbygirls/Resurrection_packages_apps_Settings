@@ -26,7 +26,8 @@
     <com.android.settings.rr.Preferences.SystemSettingSwitchPreference
         android:key="volume_dialog_headers"
         android:title="@string/volume_dialog_headers_title"
-        android:summary="@string/volume_dialog_headers_summary"
+        android:summaryOn="@string/volume_dialog_headers_summary_enabled"
+        android:summaryOff="@string/volume_dialog_headers_summary_disabled"
         android:defaultValue="true" />
 
     <com.android.settings.rr.SeekBarPreference
