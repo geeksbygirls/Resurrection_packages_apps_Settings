@@ -27,6 +27,6 @@
 
     <string name="volume_dialog_headers_title">Volume dialog headers</string>
     <string name="volume_dialog_headers_summary_enabled">Stream name headers are enabled</string>
-    <string name="volume_dialog_headers_summary_disabled">Stream name headers are disabledabled</string>
+    <string name="volume_dialog_headers_summary_disabled">Stream name headers are disabled</string>
 
 </resources>
