@@ -25,4 +25,7 @@
     <string name="media_scanner_on_boot_ask">Ask to scan (notification)</string>
     <string name="media_scanner_on_boot_disabled">Do not scan media</string>
 
+    <string name="volume_dialog_headers_title">Volume dialog headers</string>
+    <string name="volume_dialog_headers_summary">Show stream name headers in volume dialog</string>
+
 </resources>

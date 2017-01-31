@@ -23,6 +23,12 @@
   <PreferenceCategory
         android:title="@string/vol_diag">
 
+    <com.android.settings.rr.Preferences.SystemSettingSwitchPreference
+        android:key="volume_dialog_headers"
+        android:title="@string/volume_dialog_headers_title"
+        android:summary="@string/volume_dialog_headers_summary"
+        android:defaultValue="true" />
+
     <com.android.settings.rr.SeekBarPreference
         android:key="volume_dialog_timeout"
         android:title="@string/volume_dialog_timeout_title"
