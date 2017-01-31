@@ -32,7 +32,7 @@
 
     <!-- Blur options lock screen blur -->
     <string name="lock_screen_blur_enabled_title">Lock screen blur</string>
-    <string name="lockscreen_blue_enabled">Blur is enabled</string>
+    <string name="lockscreen_blur_enabled">Blur is enabled</string>
     <string name="lockscreen_blur_disabled">Blur is disabled</string>
 
 </resources>
