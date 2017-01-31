@@ -29,4 +29,8 @@
     <string name="volume_dialog_headers_summary_enabled">Stream name headers are enabled</string>
     <string name="volume_dialog_headers_summary_disabled">Stream name headers are disabled</string>
 
+    <string name="lock_screen_blur_enabled_title">Lock screen blur</string>
+    <string name="lockscreen_blue_enabled">Lock screen blur is enabled</string>
+    <string name="lockscreen_blur_disabled">Lock screen blur is disabledabled</string>
+
 </resources>
