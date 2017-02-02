@@ -85,6 +85,18 @@
             android:persistent="false"
             android:dependency="doze_overwrite_value" />
 
+        <com.android.settings.rr.Preferences.SystemSettingSwitchPreference
+            android:key="doze_vibrate_on_pickup"
+            android:title="@string/doze_vibrate_on_pickup_title"
+            android:dependency="doze_overwrite_value"
+            android:defaultValue="false" />
+
+        <com.android.settings.rr.Preferences.SystemSettingSwitchPreference
+            android:key="doze_check_proximity_before_pulse"
+            android:title="@string/doze_check_proximity_before_pulse_title"
+            android:dependency="doze_overwrite_value"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <SwitchPreference
