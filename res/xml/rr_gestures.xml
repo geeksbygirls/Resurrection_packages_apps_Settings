@@ -34,6 +34,14 @@
             android:summary="@string/app_circle_bar_summary"
             android:icon="@drawable/rr_appcirclebar_icon" />
 
+        <!-- App sidebar -->
+        <PreferenceScreen
+            android:key="app_sidebar"
+            android:fragment="com.android.settings.rr.AppSidebar"
+            android:title="@string/app_sidebar_title"
+            android:summary="@string/app_sidebar_summary"
+            android:icon="@drawable/ic_sidebar" /> 
+
        <PreferenceScreen
             android:key="pa_pie_control"
             android:title="@string/pa_pie_control_title"
