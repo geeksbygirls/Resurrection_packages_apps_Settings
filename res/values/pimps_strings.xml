@@ -65,6 +65,8 @@
     <string name="trigger_top_summary">Adjust the vertical postion of the trigger area</string>
     <string name="trigger_bottom_title">Trigger height</string>
     <string name="trigger_bottom_summary">Adjust the height of the trigger area</string>
+    <string name="app_sidebar_hide_timeout_title">Appbar auto hide</string>
+    <string name="app_sidebar_hide_timeout_summary">Timeout to auto hide Appbar.</string>
 
     <string name="doze_vibrate_on_pickup_title">Vibrate on pickup</string>
     <string name="doze_check_proximity_before_pulse_title">Check proximity before pulse</string>
