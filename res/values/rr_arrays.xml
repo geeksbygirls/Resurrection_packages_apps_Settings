@@ -367,6 +367,7 @@
         <item>@string/power_menu_animation_turn</item>
         <item>@string/power_menu_animation_fly</item>
         <item>@string/power_menu_animation_card</item>
+        <item>@string/power_menu_animation_fade</item>
         <item>@string/power_menu_animation_translucent_top</item>
         <item>@string/power_menu_animation_translucent_bottom</item>
     </string-array>
@@ -383,6 +384,7 @@
         <item>8</item>
         <item>9</item>
         <item>10</item>
+        <item>11</item>
     </string-array>
 
     <!-- Tiles animation style -->
