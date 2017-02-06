@@ -78,6 +78,13 @@
         android:persistent="false"
         android:defaultValue="0xffffff" />
 
+     <com.android.settings.rr.Preferences.SystemSettingSwitchPreference
+        android:key="battery_low_notification"
+        android:title="@string/battery_low_notif_title"
+        android:summaryOn="@string/battery_low_notif_summaryOn"
+        android:summaryOff="@string/battery_low_notif_summaryOff"
+        android:defaultValue="true" />
+
      </PreferenceCategory>
 
      <PreferenceCategory
