@@ -152,9 +152,9 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         findPreference(KEY_KERNEL_VERSION).setEnabled(true);
 
         String buildtype = SystemProperties.get("rr.build.type","unofficial");
-        if (buildtype.equalsIgnoreCase("unofficial")) {
-        removePreference(KEY_MAINTAINER);
-        }
+        //if (buildtype.equalsIgnoreCase("unofficial")) {
+        //removePreference(KEY_MAINTAINER);
+        //}
         setValueSummary(KEY_QGP_VERSION, PROPERTY_QGP_VERSION);
         // Remove QGP Version if property is not present
         removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_QGP_VERSION,
