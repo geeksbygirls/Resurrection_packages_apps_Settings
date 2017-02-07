@@ -57,6 +57,18 @@
             android:summary="@string/eos_fling_lavalamp_summary"
             android:dependency="eos_fling_show_pulse" />
 
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            android:key="fling_lavalamp_color_from"
+            android:title="@string/fling_lavalamp_color_from"
+            android:defaultValue="0xffff8080"
+            android:dependency="eos_fling_show_pulse" />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            android:key="fling_lavalamp_color_to"
+            android:title="@string/fling_lavalamp_color_to"
+            android:defaultValue="0xff8080ff"
+            android:dependency="eos_fling_show_pulse" />
+
         <PreferenceCategory
             android:key="pulse_fading_bars_category"
             android:title="@string/pulse_legacy_mode_advanced_category">
@@ -116,17 +128,6 @@
                 settings:units="ms"
                 android:dependency="eos_fling_show_pulse" />
 
-            <net.margaritov.preference.colorpicker.ColorPickerPreference
-                android:key="fling_lavalamp_color_from"
-                android:title="@string/fling_lavalamp_color_from"
-                android:defaultValue="0xffff8080"
-                android:dependency="eos_fling_show_pulse" />
-
-            <net.margaritov.preference.colorpicker.ColorPickerPreference
-                android:key="fling_lavalamp_color_to"
-                android:title="@string/fling_lavalamp_color_to"
-                android:defaultValue="0xff8080ff"
-                android:dependency="eos_fling_show_pulse" />
 	</PreferenceCategory>
 
 	<PreferenceCategory
