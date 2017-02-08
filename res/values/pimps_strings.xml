@@ -75,4 +75,7 @@
     <string name="battery_low_notif_title">Low battery notification</string>
     <string name="battery_low_notif_summaryOn">Low battery notification is enabled</string>
     <string name="battery_low_notif_summaryOff">Low battery notification is disabled</string>
+
+    <string name="pulse_colors_reset_title">Reset pulse colors</string>
+    <string name="pulse_colors_reset_message">Are you sure you want to reset these colors to default?</string>
 </resources>
