@@ -41,6 +41,17 @@
                 android:summary="@string/mod_version_default"
                 android:icon="@drawable/rr_mod_version_icon"/>
 
+        <!-- Updater -->
+        <PreferenceScreen
+            android:key="update_settings"
+            android:title="@string/updater_title"
+            android:summary="@string/rr_updater_summary"
+            android:icon="@drawable/rr_ota_icon">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.resurrection.ota"
+                    android:targetClass="com.resurrection.ota.MainActivity" />
+       </PreferenceScreen>
+
         <!-- About Resurrection -->        
         <PreferenceScreen
                 android:key="about_rom"
