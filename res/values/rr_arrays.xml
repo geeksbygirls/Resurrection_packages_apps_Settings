@@ -181,6 +181,7 @@
 	<item>@string/status_bar_battery_style_solid</item>
 	<item>@string/status_bar_battery_style_circle</item>
 	<item>@string/status_bar_battery_style_bigcircle</item>
+	<item>@string/status_bar_battery_style_aoscp</item>
 	<item>@string/status_bar_battery_style_hidden</item>
 	<item>@string/status_bar_battery_style_icon_landscape</item>
 	<item>@string/status_bar_battery_style_text</item>
@@ -194,6 +195,7 @@
         <item>4</item>
         <item>5</item>
         <item>6</item>
+        <item>7</item>
      </string-array>
 
     <string-array name="battery_tile_style_entries" translatable="false">
