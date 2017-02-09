@@ -23,6 +23,13 @@
         android:summary="@string/weather_show_weather_summary" />
 
     <com.android.settings.rr.Preferences.SystemSettingSwitchPreference
+        android:key="ambient_display_show_weather"
+        android:title="@string/ambient_display_show_weather_title"
+        android:summary="@string/ambient_display_show_weather_summary"
+        android:defaultValue="false"
+        android:dependency="lock_screen_show_weather" />
+
+    <com.android.settings.rr.Preferences.SystemSettingSwitchPreference
         android:key="lock_screen_show_weather_location"
         android:title="@string/weather_show_location_title"
         android:summary="@string/weather_show_location_summary"

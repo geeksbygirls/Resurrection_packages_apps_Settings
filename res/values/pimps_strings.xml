@@ -78,4 +78,7 @@
 
     <string name="pulse_colors_reset_title">Reset pulse colors</string>
     <string name="pulse_colors_reset_message">Are you sure you want to reset these colors to default?</string>
+
+    <string name="ambient_display_show_weather_title">Show while dozing</string>
+    <string name="ambient_display_show_weather_summary">Show weather information when ambient display is on</string>
 </resources>
