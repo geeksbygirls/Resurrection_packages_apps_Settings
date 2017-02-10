@@ -67,6 +67,8 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Set;
 
+import cyanogenmod.providers.CMSettings;
+
 import static android.os.UserManager.DISALLOW_CONFIG_BLUETOOTH;
 
 /**
@@ -295,7 +297,7 @@ public final class BluetoothSettings extends DeviceListPreferenceFragment implem
             R.string.bluetooth_search_for_devices;
 
         boolean isAcceptAllFilesEnabled = Settings.System.getInt(getContentResolver(),
-                Settings.System.BLUETOOTH_ACCEPT_ALL_FILES, 0) == 1;
+                CMSettings.System.BLUETOOTH_ACCEPT_ALL_FILES, 0) == 1;
 
         menu.add(Menu.NONE, MENU_ID_SCAN, 0, textId)
                 .setEnabled(bluetoothIsEnabled && !isDiscovering)
@@ -336,8 +338,8 @@ public final class BluetoothSettings extends DeviceListPreferenceFragment implem
 
             case MENU_ID_ACCEPT_ALL_FILES:
                 item.setChecked(!item.isChecked());
-                Settings.System.putInt(getContentResolver(),
-                        Settings.System.BLUETOOTH_ACCEPT_ALL_FILES,
+                CMSettings.System.putInt(getContentResolver(),
+                        CMSettings.System.BLUETOOTH_ACCEPT_ALL_FILES,
                         item.isChecked() ? 1 : 0);
                 return true;
         }
