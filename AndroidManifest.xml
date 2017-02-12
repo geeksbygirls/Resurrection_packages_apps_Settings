@@ -2625,7 +2625,7 @@
         </activity>
 
         <activity android:name="Settings$HeadsUpSettingsActivity"
-                android:label="@string/rr_title">
+                android:label="@string/heads_up_switch_title">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
