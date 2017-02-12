@@ -85,6 +85,7 @@ import com.android.settings.applications.WriteSettingsDetails;
 import com.android.settings.bluetooth.BluetoothSettings;
 import com.android.settings.dashboard.DashboardContainerFragment;
 import com.android.settings.dashboard.SearchResultsSummary;
+import com.android.settings.datausage.DataSaverSummary;
 import com.android.settings.datausage.DataUsageSummary;
 import com.android.settings.deletionhelper.AutomaticStorageManagerSettings;
 import com.android.settings.deviceinfo.ImeiInformation;
@@ -414,6 +415,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             HWSettings.class.getName(),
             PieSettings.class.getName(),
             Headsup.class.getName(),
+            DataSaverSummary.class.getName(),
             MasterClear.class.ge<<tName(),
             NightDisplaySettings.class.getName(),
             ManageDomainUrls.class.getName(),
