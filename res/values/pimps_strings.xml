@@ -90,4 +90,7 @@
     <string name="weather_number_of_notifications_four_title">4</string>
     <string name="weather_number_of_notifications_five_title">5</string>
     <string name="weather_number_of_notifications_six_title">6</string>
+
+    <string name="weather_show_condition_title">Show condition text</string>
+    <string name="weather_show_condition_summary">Enable to show the condition text</string>
 </resources>
