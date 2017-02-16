@@ -32,6 +32,13 @@
         android:entryValues="@array/status_bar_battery_style_values" />
 
      <com.android.settings.rr.Preferences.SystemSettingSwitchPreference
+        android:key="colorful_battery"
+        android:title="@string/colorful_battery_title"
+        android:summaryOn="@string/colorful_battery_enabled"
+        android:summaryOff="@string/colorful_battery_disabled"
+        android:defaultValue="false" />
+
+     <com.android.settings.rr.Preferences.SystemSettingSwitchPreference
         android:key="battery_large_text"
         android:title="@string/battery_large_text"
         android:summaryOn="@string/battery_large_text_summary_on"

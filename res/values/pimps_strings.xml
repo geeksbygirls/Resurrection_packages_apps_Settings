@@ -31,6 +31,11 @@
     <string name="volume_dialog_headers_summary_disabled">Stream name headers are disabled</string>
 
     <!-- Blur options lock screen blur -->
+    <string name="colorful_battery_title">Colorful battery icon</string>
+    <string name="colorful_battery_enabled">Battery icon is colorful</string>
+    <string name="colorful_battery_disabled">Battery icon is stock color</string>
+
+    <!-- Blur options lock screen blur -->
     <string name="lock_screen_blur_enabled_title">Lock screen blur</string>
     <string name="lockscreen_blur_enabled">Blur is enabled</string>
     <string name="lockscreen_blur_disabled">Blur is disabled</string>
