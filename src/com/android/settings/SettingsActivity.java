@@ -70,7 +70,6 @@ import com.android.settings.accounts.ChooseAccountActivity;
 import com.android.settings.accounts.ManagedProfileSettings;
 import com.android.settings.applications.AdvancedAppSettings;
 import com.android.settings.applications.DrawOverlayDetails;
-import com.android.settings.applications.ExpandedDesktopPreferenceFragment;
 import com.android.settings.applications.InstalledAppDetails;
 import com.android.settings.applications.ManageApplications;
 import com.android.settings.applications.ManageAssist;
@@ -156,6 +155,7 @@ import com.android.settings.rr.navbar.PulseSettings;
 import com.android.settings.rr.AppCircleBar;
 import com.android.settings.rr.pie.PieSettings;
 import com.android.settings.rr.AppSidebar;
+import com.android.settings.rr.ExpandedDesktop;
 import com.android.settings.rr.gestureanywhere.GestureAnywhereSettings;
 import com.android.settings.rr.ambientdisplay.AmbientSettings;
 import com.android.settings.rr.Headsup;
@@ -421,7 +421,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName(),
             RunningServices.class.getName(),
-            ExpandedDesktopPreferenceFragment.class.getName()
+            ExpandedDesktop.class.getName()
     };
 
     private static final String[] LIKE_SHORTCUT_INTENT_ACTION_ARRAY = {
