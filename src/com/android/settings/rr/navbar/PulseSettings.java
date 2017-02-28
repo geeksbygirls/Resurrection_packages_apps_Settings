@@ -49,7 +49,7 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 
 public class PulseSettings extends SettingsPreferenceFragment implements
-        Preference.OnPreferenceChangeListener {
+        Preference.OnPreferenceChangeListener, Indexable {
 
     private static final String TAG = PulseSettings.class.getSimpleName();
     private static final String CUSTOM_DIMEN = "pulse_custom_dimen";
