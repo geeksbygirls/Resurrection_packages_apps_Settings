@@ -62,11 +62,6 @@ public class RecentAppSidebar extends SettingsPreferenceFragment
     }
 
     @Override
-    protected int getMetricsCategory() {
-        return MetricsEvent.RESURRECTED;
-    }
-
-    @Override
     public Dialog onCreateDialog(int dialogId) {
         Dialog dialog = null;
         switch (dialogId) {
@@ -115,7 +110,7 @@ public class RecentAppSidebar extends SettingsPreferenceFragment
                 DEFAULT_COLOR);
         mAppSidebarBgColor.setSummary(R.string.default_string);
         mAppSidebarBgColor.setNewPreviewColor(DEFAULT_COLOR);
-}
+    }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mAppSidebarScale) {
@@ -152,6 +147,11 @@ public class RecentAppSidebar extends SettingsPreferenceFragment
         return false;
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+    }
+
     private void initializeAllPreferences() {
         mAppSidebarScale = (SeekBarPreference) findPreference(APP_SIDEBAR_SCALE);
         mAppSidebarScale.setOnPreferenceChangeListener(this);
@@ -183,5 +183,10 @@ public class RecentAppSidebar extends SettingsPreferenceFragment
             mAppSidebarBgColor.setSummary(hexColorSidebarBg);
         }
         mAppSidebarBgColor.setNewPreviewColor(intColorSidebarBg);
+    }
+
+    @Override
+    protected int getMetricsCategory() {
+        return MetricsEvent.RESURRECTED;
     }
 }
