@@ -17,10 +17,15 @@
 package com.android.settings.rr;
 
 import android.app.AlertDialog;
+import android.app.Dialog;
 import android.content.DialogInterface;
+import android.content.DialogInterface.OnClickListener;
 import android.os.Bundle;
 import android.support.v7.preference.Preference;
 import android.provider.Settings;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.MenuInflater;
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
 import com.android.settings.R;
@@ -44,17 +49,73 @@ public class RecentAppSidebar extends SettingsPreferenceFragment
 
     private static final int DEFAULT_COLOR = 0x00ffffff;
 
+    private static final int MENU_RESET = Menu.FIRST;
+    private static final int DIALOG_RESET_CONFIRM = 1;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.recent_app_sidebar_settings);
         initializeAllPreferences();
+
+        setHasOptionsMenu(true);
     }
 
     @Override
     protected int getMetricsCategory() {
         return MetricsEvent.RESURRECTED;
     }
+
+    @Override
+    public Dialog onCreateDialog(int dialogId) {
+        Dialog dialog = null;
+        switch (dialogId) {
+            case DIALOG_RESET_CONFIRM:
+                AlertDialog.Builder alertDialog = new AlertDialog.Builder(getActivity());
+                alertDialog.setTitle(R.string.recent_reset_title);
+                alertDialog.setMessage(R.string.recent_reset_confirm);
+                alertDialog.setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        resetSettings();
+                    }
+                });
+                alertDialog.setNegativeButton(R.string.write_settings_off, null);
+                dialog = alertDialog.create();
+                break;
+         }
+        return dialog;
+    }
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        menu.add(0, MENU_RESET, 0, R.string.reset)
+                .setIcon(com.android.internal.R.drawable.ic_menu_refresh)
+                .setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case MENU_RESET:
+                showDialog(DIALOG_RESET_CONFIRM);
+                return true;
+             default:
+                return super.onContextItemSelected(item);
+        }
+    }
+
+    private void resetSettings() {
+        Settings.System.putInt(getContext().getContentResolver(),
+                Settings.System.RECENT_APP_SIDEBAR_TEXT_COLOR,
+                DEFAULT_COLOR);
+        mAppSidebarLabelColor.setSummary(R.string.default_string);
+        mAppSidebarLabelColor.setNewPreviewColor(DEFAULT_COLOR);
+        Settings.System.putInt(getContext().getContentResolver(),
+                Settings.System.RECENT_APP_SIDEBAR_BG_COLOR,
+                DEFAULT_COLOR);
+        mAppSidebarBgColor.setSummary(R.string.default_string);
+        mAppSidebarBgColor.setNewPreviewColor(DEFAULT_COLOR);
+}
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mAppSidebarScale) {
