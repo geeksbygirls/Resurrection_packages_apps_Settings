@@ -1063,6 +1063,7 @@
     <string name="power_menu_lockdown_title">Device lockdown</string>
     <string name="power_menu_bug_report_title">Bug report</string>
     <string name="power_menu_sound_title">Sound panel</string>
+    <string name="power_menu_voiceassist_title">Voice assist</string>
     <string name="power_menu_screenrecord_title">Screen record</string>
     <string name="power_menu_torch">Flashlight</string>
     <string name="power_menu_onthego_title">On-the-go mode</string>
