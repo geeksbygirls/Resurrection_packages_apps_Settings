@@ -59,10 +59,10 @@
     <color name="unlock_pattern_view_regular_color">@android:color/white</color>
     <color name="unlock_pattern_view_error_color">@*android:color/system_error</color>
 
-    <color name="fingerprint_title_area_bg">?android:attr/colorAccent</color>
+    <color name="fingerprint_title_area_bg">@color/theme_accent</color>
     <color name="fingerprint_title_color">#ffffffff</color>
     <color name="fingerprint_message_color">#de000000</color>
-    <color name="fingerprint_progress_ring">?android:attr/colorAccent</color>
+    <color name="fingerprint_progress_ring">@color/theme_accent</color>
     <color name="fingerprint_progress_ring_bg">#20000000</color>
     <color name="fingerprint_indicator_background_resting">#12000000</color>
 
@@ -92,14 +92,14 @@
     <color name="zen_rule_name_warning">@*android:color/system_error</color>
 
     <!-- Accent color that matches the settings launcher icon -->
-    <color name="icon_accent">@*android:attr/colorAccent</color>
+    <color name="icon_accent">@color/theme_accent</color>
 
     <color name="importance_icon_tint">#8a000000</color>
     <color name="importance_disabled_tint">#4d000000</color>
 
     <!-- Accessibility SUW colors -->
-    <color name="material_blue_500">@*android:attr/colorAccent</color>
-    <color name="material_blue_700">@*android:attr/colorAccent</color>
+    <color name="material_blue_500">@color/theme_accent</color>
+    <color name="material_blue_700">@color/theme_accent</color>
 
     <color name="message_text_incoming">#ffffffff</color>
     <color name="message_text_outgoing">#ff323232</color>
