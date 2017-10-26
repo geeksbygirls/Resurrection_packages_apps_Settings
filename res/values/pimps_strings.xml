@@ -102,6 +102,13 @@
     <string name="sms_outgoing_check_max_count_hundred">100 per minute</string>
     <string name="sms_outgoing_check_max_count_sixhundred">600 per minute</string>
 
+    <string name="ticker_colors_reset_title">Reset ticker colors</string>
+    <string name="ticker_icon_title">Ticker icon color</string>
+    <string name="ticker_text_title">Ticker text color</string>
+    <string name="count_colors_reset_title">Reset count colors</string>
+    <string name="count_icon_title">Count icon color</string>
+    <string name="count_text_title">Count text color</string>
+
     <!-- Dynamic notification tint -->
     <string name="notification_tint_title">Dynamic notification title color</string>
     <string name="notification_tint_summary_off">Title color on notification will be handled by the theme</string>
