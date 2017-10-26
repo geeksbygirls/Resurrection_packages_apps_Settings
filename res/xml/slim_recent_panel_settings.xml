@@ -66,8 +66,7 @@
         <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="recent_panel_bg_color"
             android:title="@string/recent_panel_bg_color_title"
-            defaultColor="#00ffffff"
-            alphaSliderEnabled="true" />
+            defaultColor="#00ffffff" />
 
         <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="recent_card_bg_color"
@@ -116,6 +115,7 @@
 
             <PreferenceScreen
                     android:key="recent_app_sidebar"
+                    android:fragment="com.android.settings.rr.dslv.ActionListViewSettings"
                     android:title="@string/recent_app_sidebar_style_title"
                     android:fragment="com.android.settings.rr.RecentAppSidebar"
                     android:summary="@string/recent_app_sidebar_style_summary"

@@ -115,6 +115,5 @@
     <string name="notification_tint_summary_on">Title color on notification will be taken from app icon color</string>
 
     <!-- App Ops Settings -->
-    <string name="app_ops_settings">App ops</string>
     <string name="app_ops_settings_summary">View or change app permissions</string>
 </resources>

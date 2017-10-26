@@ -47,7 +47,8 @@ public class RecentAppSidebar extends SettingsPreferenceFragment
     private ColorPickerPreference mAppSidebarLabelColor;
     private ColorPickerPreference mAppSidebarBgColor;
 
-    private static final int DEFAULT_COLOR = 0x00ffffff;
+    private static final int DEFAULT_TEXT = 0x00ffffff;
+    private static final int DEFAULT_BG = 0x763367d6;
 
     private static final int MENU_RESET = Menu.FIRST;
     private static final int DIALOG_RESET_CONFIRM = 1;
@@ -59,6 +60,10 @@ public class RecentAppSidebar extends SettingsPreferenceFragment
         initializeAllPreferences();
 
         setHasOptionsMenu(true);
+    }
+
+    @Override
+    public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
     }
 
     @Override
@@ -102,14 +107,14 @@ public class RecentAppSidebar extends SettingsPreferenceFragment
     private void resetSettings() {
         Settings.System.putInt(getContext().getContentResolver(),
                 Settings.System.RECENT_APP_SIDEBAR_TEXT_COLOR,
-                DEFAULT_COLOR);
+                DEFAULT_TEXT);
         mAppSidebarLabelColor.setSummary(R.string.default_string);
-        mAppSidebarLabelColor.setNewPreviewColor(DEFAULT_COLOR);
+        mAppSidebarLabelColor.setNewPreviewColor(DEFAULT_TEXT);
         Settings.System.putInt(getContext().getContentResolver(),
                 Settings.System.RECENT_APP_SIDEBAR_BG_COLOR,
-                DEFAULT_COLOR);
+                DEFAULT_TEXT);
         mAppSidebarBgColor.setSummary(R.string.default_string);
-        mAppSidebarBgColor.setNewPreviewColor(DEFAULT_COLOR);
+        mAppSidebarBgColor.setNewPreviewColor(DEFAULT_TEXT);
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -133,7 +138,7 @@ public class RecentAppSidebar extends SettingsPreferenceFragment
         } else if (preference == mAppSidebarBgColor) {
             String hex = ColorPickerPreference.convertToARGB(
                     Integer.valueOf(String.valueOf(newValue)));
-            if (hex.equals("#00ffffff")) {
+            if (hex.equals("#763367d6")) {
                 preference.setSummary(R.string.default_string);
             } else {
                 preference.setSummary(hex);
@@ -175,9 +180,9 @@ public class RecentAppSidebar extends SettingsPreferenceFragment
                 (ColorPickerPreference) findPreference(APP_SIDEBAR_BG_COLOR);
         mAppSidebarBgColor.setOnPreferenceChangeListener(this);
         final int intColorSidebarBg = Settings.System.getInt(getContext().getContentResolver(),
-                Settings.System.RECENT_APP_SIDEBAR_BG_COLOR, 0x00ffffff);
+                Settings.System.RECENT_APP_SIDEBAR_BG_COLOR, 0x763367d6);
         String hexColorSidebarBg = String.format("#%08x", (0x00ffffff & intColorSidebarBg));
-        if (hexColorSidebarBg.equals("#00ffffff")) {
+        if (hexColorSidebarBg.equals("#763367d6")) {
             mAppSidebarBgColor.setSummary(R.string.default_string);
         } else {
             mAppSidebarBgColor.setSummary(hexColorSidebarBg);

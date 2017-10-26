@@ -37,16 +37,12 @@
             android:key="recent_app_sidebar_label_color"
             android:title="@string/recent_app_sidebar_label_color_title"
             android:defaultValue="0x00ffffff"
-            alphaSlider="false"
-            android:persistent="false"
             android:dependency="recent_app_sidebar_disable_labels" />
 
     <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="recent_app_sidebar_bg_color"
             android:title="@string/recent_app_sidebar_bg_color_title"
-            android:defaultValue="0x00ffffff"
-            alphaSlider="true"
-            android:persistent="false" />
+            android:defaultValue="0x00ffffff" />
 
     <com.android.settings.rr.Preferences.SystemSettingSwitchPreference
             android:key="recent_app_sidebar_open_simultaneously"
