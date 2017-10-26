@@ -385,6 +385,7 @@ public class LockScreenWeatherSettings extends SettingsPreferenceFragment implem
 	Settings.System.putInt(resolver,
                  Settings.System.LOCK_SCREEN_WEATHER_ICON_COLOR, -2);
           mIconColor.setNewPreviewColor(-2);
+          mIconColor.setSummary(R.string.default_string);
           Settings.System.putInt(resolver,
                    Settings.System.LOCK_SCREEN_WEATHER_TEMP_COLOR, -2);
           mTempColor.setNewPreviewColor(-2);
