@@ -153,12 +153,8 @@ public class BatterySettings extends SettingsPreferenceFragment implements
         if (batteryIconStyle == STATUS_BAR_BATTERY_STYLE_HIDDEN ||
                 batteryIconStyle == STATUS_BAR_BATTERY_STYLE_TEXT) {
             mStatusBarBatteryShowPercent.setEnabled(false);
-            mBatteryLargeText.setEnabled(false);
-            mColorfulBattery.setEnabled(false);
         } else {
             mStatusBarBatteryShowPercent.setEnabled(true);
-            mBatteryLargeText.setEnabled(true);
-            mColorfulBattery.setEnabled(true);
         }
     }
 
