@@ -170,9 +170,9 @@
 
     <!--RR Configurations Summaries-->
     <string name="clock_custom_summary">Customize various elements of the statusbar clock and date</string>
-    <string name="status_bar_logo_summary">Enable or disable Resurrection logo in statusbar. Customize colour and position</string>
+    <string name="status_bar_logo_summary">Enable or disable Resurrection logo in statusbar. Customize color and position</string>
     <string name="sb_custom_logos_summary">Enable or disable icons in statusbar. Customize their elements and position</string>
-    <string name="rr_battery_summary">Customize battery elements in statusbar and also customize the batterybar</string>
+    <string name="rr_battery_summary">Customize battery elements in statusbar.</string>
     <string name="rr_sb_icons_summary">Enable or disable icons of your choice in statusbar</string>
     <string name="ticker_screen_summary">Customize the ticker style in statusbar</string>
     <string name="status_bar_temperature_summary">Enable or disable temperature in statusbar and customize its style </string>
@@ -652,6 +652,11 @@
      <string name="battery_bar_statusbar">Statusbar</string>
      <string name="battery_bar_navbar_top">Top of navbar</string>
      <string name="battery_bar_navbar_bottom">Bottom of navbar</string>
+     <string name="battery_colors_reset_title">Reset battery colors</string>
+     <string name="battery_colors_reset_message">Are you sure you want to reset these colors to default?</string>
+     <string name="battery_bar_ambient_title">Ambient display</string>
+     <string name="battery_bar_ambient_summary_on">Battery bar will not be shown on ambient display</string>
+     <string name="battery_bar_ambient_summary_off">Battery bar will be shown on ambient display</string>
 
     <!-- Doze pulse options -->
     <string name="summary_doze_enabled">Enabled</string>

@@ -43,17 +43,24 @@
 
      <PreferenceScreen
         android:key="rr_battery"
-		android:fragment="com.android.settings.rr.BatterySettings"
+        android:fragment="com.android.settings.rr.BatterySettings"
         android:title="@string/rr_battery"
         android:summary="@string/rr_battery_summary"
-		android:icon="@drawable/rr_battery_icon" />
+        android:icon="@drawable/rr_battery_icon" />
+
+     <PreferenceScreen
+        android:key="rr_battery_bar"
+        android:fragment="com.android.settings.rr.BatteryBarSettings"
+        android:summary="@string/battery_bar_summary"
+        android:title="@string/battery_bar"
+        android:icon="@drawable/rr_header_icon"/>
 
      <PreferenceScreen
         android:key="rr_icons"
-		android:fragment="com.android.settings.rr.StatusBarIcons"
+	android:fragment="com.android.settings.rr.StatusBarIcons"
         android:title="@string/rr_sb_icons"
         android:summary="@string/rr_sb_icons_summary"
-		android:icon="@drawable/rr_statusbar_icons_icon" />
+	android:icon="@drawable/rr_statusbar_icons_icon" />
 
      <PreferenceScreen
         android:key="rr_ticker"
@@ -64,10 +71,10 @@
 
      <PreferenceScreen
         android:key="statusbar_weather"
-		android:fragment="com.android.settings.rr.StatusBarWeather"
+	android:fragment="com.android.settings.rr.StatusBarWeather"
         android:title="@string/status_bar_temperature_title"
         android:summary="@string/status_bar_temperature_summary"
-		android:icon="@drawable/rr_statusbar_weather_icon"/>
+	android:icon="@drawable/rr_statusbar_weather_icon"/>
 
    	<PreferenceScreen
         android:key="network_traffic_settings"
@@ -83,25 +90,25 @@
         android:summary="@string/carrier_summary"
         android:icon="@drawable/rr_carrier_label_icon" />
 
-   	<PreferenceScreen
+     <PreferenceScreen
         android:key="rr_sb_gestures"
         android:title="@string/rr_sb_gestures_title"
-		android:icon="@drawable/rr_statusbar_gestures_icon"
+	android:icon="@drawable/rr_statusbar_gestures_icon"
         android:summary="@string/rr_sb_gestures_summary"
         android:fragment="com.android.settings.rr.StatusBarGestures" />
 
-        <PreferenceScreen
-            android:key="tuner_settings"
-            android:icon="@drawable/rr_tuner_icon"
-            android:summary="@string/rr_tuner_summary"
-            android:title="@string/rr_tuner">
-            <intent android:action="com.android.settings.action.NAV_BAR_TUNER" />
-        </PreferenceScreen>
+      <PreferenceScreen
+        android:key="tuner_settings"
+        android:icon="@drawable/rr_tuner_icon"
+        android:summary="@string/rr_tuner_summary"
+        android:title="@string/rr_tuner">
+        <intent android:action="com.android.settings.action.NAV_BAR_TUNER" />
+      </PreferenceScreen>
         
-   	<PreferenceScreen
+      <PreferenceScreen
         android:key="rr_breathing_notif"
         android:title="@string/breathing_notifications_title"
-		android:icon="@drawable/rr_breathing_notif_icon"
+	android:icon="@drawable/rr_breathing_notif_icon"
         android:summary="@string/breathing_notifications_summary"
         android:fragment="com.android.settings.rr.BreathingNotifications" />
 
