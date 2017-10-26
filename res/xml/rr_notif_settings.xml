@@ -21,6 +21,13 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/rr_notif_settings_title">
 
+     <com.android.settings.rr.Preferences.SecureSettingSwitchPreference
+        android:key="notification_title_tint"
+        android:title="@string/notification_tint_title"
+        android:summaryOn="@string/notification_tint_summary_on"
+        android:summaryOff="@string/notification_tint_summary_off"
+        android:defaultValue="false" />
+
       <com.android.settings.rr.Preferences.SystemSettingSwitchPreference
         android:key="force_expanded_notifications"
         android:title="@string/force_expanded_notifications_title"

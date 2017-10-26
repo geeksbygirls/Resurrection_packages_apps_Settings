@@ -21,8 +21,8 @@
   <!-- RR Feature lists-->
   <!-- Share RR ROM -->
   <!-- RR Changelog-->
-  <!--RR Configurations-->
-  <!--RR Configurations Summaries-->
+  <!-- RR Configurations-->
+  <!-- RR Configurations Summaries-->
   <!-- Manage applications: show substratum overlays -->
   <!-- Manage applications: show substratum icon overlays -->
   <!-- AOKP custom system animations -->
@@ -67,7 +67,7 @@
   <!-- Title of dialog box -->
   <!-- Label of gesture name field in Rename gesture dialog box -->
   <!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures.  CHAR LIMIT=80 -->
-  <!--Power menu on Secure Lockscreen -->
+  <!-- Power menu on Secure Lockscreen -->
   <!-- CM Lockscreen shortcuts -->
   <!-- Battery Bar -->
   <!-- Doze pulse options -->
@@ -132,7 +132,7 @@
   <!-- Pulse config -->
   <!-- Navbar height -->
   <!-- SmartBar -->
-  <!--Custom logos-->
+  <!-- Custom logos-->
   <!-- Carrier label -->
   <!-- Status Bar Ticker -->
   <!-- Superuser indicator on status bar -->
@@ -171,7 +171,7 @@
   <!-- Alarm blocker -->
   <!-- DUI Double Tap to Sleep -->
   <!-- Pixel Animation Duration -->
-  <!--One handed mode -->
+  <!-- One handed mode -->
   <!-- SystemUI restart prompt -->
   <!-- Dashboard options -->
   <!-- Dashboard columns -->
@@ -179,6 +179,7 @@
   <!-- Slim Recent panel -->
   <!-- ATTENTION: RTL languages need to replace left with right -->
   <!-- Fingerprint unlock keystore -->
+  <!-- Emergency button -->
   <!-- Wired headset ringtone audio focus -->
   <!-- Slim Recent App Sidebar  -->
   <!-- Battery stats reset -->
