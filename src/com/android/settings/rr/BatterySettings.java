@@ -49,12 +49,16 @@ public class BatterySettings extends SettingsPreferenceFragment implements
     private static final String STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
     private static final String STATUS_BAR_CHARGE_COLOR = "status_bar_charge_color";
     private static final String TEXT_CHARGING_SYMBOL = "text_charging_symbol";
+    private static final String LARGE_TEXT = "battery_large_text";
+    private static final String COLOR_BATTERY = "colorful_battery";
 
     private static final int STATUS_BAR_BATTERY_STYLE_HIDDEN = 6;
     private static final int STATUS_BAR_BATTERY_STYLE_TEXT = 8;
 
     private ListPreference mStatusBarBattery;
     private ListPreference mStatusBarBatteryShowPercent;
+    private SwitchPreference mBatteryLargeText;
+    private SwitchPreference mColorfulBattery;
     private ColorPickerPreference mChargeColor;
     private ListPreference mTextChargingSymbol;
     private int mTextChargingSymbolValue;
@@ -87,6 +91,14 @@ public class BatterySettings extends SettingsPreferenceFragment implements
         mStatusBarBattery.setValue(String.valueOf(batteryStyle));
         mStatusBarBattery.setSummary(mStatusBarBattery.getEntry());
         mStatusBarBattery.setOnPreferenceChangeListener(this);
+
+        mBatteryLargeText = (SwitchPreference) findPreference(LARGE_TEXT);
+        mBatteryLargeText.setChecked(Settings.System.getInt(resolver,
+                Settings.System.BATTERY_LARGE_TEXT, 0) == 1);
+
+        mColorfulBattery = (SwitchPreference) findPreference(COLOR_BATTERY);
+        mColorfulBattery.setChecked(Settings.System.getInt(resolver,
+                Settings.System.COLORFUL_BATTERY, 0) == 1);
 
         int batteryShowPercent = CMSettings.System.getInt(resolver,
                 CMSettings.System.STATUS_BAR_SHOW_BATTERY_PERCENT, 0);
@@ -142,7 +154,28 @@ public class BatterySettings extends SettingsPreferenceFragment implements
             return true;
          }
 	return false;
-	}
+    }
+
+    @Override
+    public boolean onPreferenceTreeClick(Preference preference) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        boolean value;
+
+        if (preference == mBatteryLargeText) {
+            Settings.System.putInt(resolver,
+                    Settings.System.BATTERY_LARGE_TEXT,
+                    ((SwitchPreference) preference).isChecked() ? 1 : 0);
+            Helpers.showSystemUIrestartDialog(getActivity());
+            return true;
+        } else if (preference == mColorfulBattery) {
+            Settings.System.putInt(resolver,
+                    Settings.System.COLORFUL_BATTERY,
+                    ((SwitchPreference) preference).isChecked() ? 1 : 0);
+            Helpers.showSystemUIrestartDialog(getActivity());
+            return true;
+        }
+        return false;
+    }
 
     @Override
     protected int getMetricsCategory() {
@@ -153,8 +186,12 @@ public class BatterySettings extends SettingsPreferenceFragment implements
         if (batteryIconStyle == STATUS_BAR_BATTERY_STYLE_HIDDEN ||
                 batteryIconStyle == STATUS_BAR_BATTERY_STYLE_TEXT) {
             mStatusBarBatteryShowPercent.setEnabled(false);
+            mBatteryLargeText.setEnabled(false);
+            mColorfulBattery.setEnabled(false);
         } else {
             mStatusBarBatteryShowPercent.setEnabled(true);
+            mBatteryLargeText.setEnabled(true);
+            mColorfulBattery.setEnabled(true);
         }
     }
 
