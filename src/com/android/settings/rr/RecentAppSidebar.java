@@ -63,6 +63,11 @@ public class RecentAppSidebar extends SettingsPreferenceFragment
     }
 
     @Override
+    protected int getMetricsCategory() {
+        return MetricsEvent.RESURRECTED;
+    }
+
+    @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
     }
 
@@ -188,10 +193,5 @@ public class RecentAppSidebar extends SettingsPreferenceFragment
             mAppSidebarBgColor.setSummary(hexColorSidebarBg);
         }
         mAppSidebarBgColor.setNewPreviewColor(intColorSidebarBg);
-    }
-
-    @Override
-    protected int getMetricsCategory() {
-        return MetricsEvent.RESURRECTED;
     }
 }
