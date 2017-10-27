@@ -57,6 +57,9 @@ import java.util.Map;
 
 import android.util.Log;
 
+import com.android.settings.util.CMDProcessor;
+import com.android.settings.util.Helpers;
+import com.android.settings.Utils;
 import com.android.settings.R;
 
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
@@ -313,6 +316,7 @@ public class LockScreenWeatherSettings extends SettingsPreferenceFragment implem
             Settings.System.putInt(mResolver,
                     Settings.System.LOCK_SCREEN_WEATHER_ICON_COLOR, intHex);
             preference.setSummary(hex);
+	    Helpers.showSystemUIrestartDialog(getActivity());
             return true;
 		} else if (preference == mTempColor) {
             hex = ColorPickerPreference.convertToARGB(
@@ -358,7 +362,7 @@ public class LockScreenWeatherSettings extends SettingsPreferenceFragment implem
         alertDialog.setMessage(R.string.lockscreen_colors_reset_message);
         alertDialog.setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
-                resetValues();
+        	resetValues();
             }
         });
         alertDialog.setNegativeButton(R.string.cancel, null);
@@ -374,15 +378,15 @@ public class LockScreenWeatherSettings extends SettingsPreferenceFragment implem
           Settings.System.putInt(resolver,
                    Settings.System.LOCK_SCREEN_WEATHER_TEMP_COLOR, -2);
           mTempColor.setNewPreviewColor(-2);
-          mTempColor.setSummary(R.string.default_string);   
+          mTempColor.setSummary(R.string.default_string);
           Settings.System.putInt(resolver,
                    Settings.System.LOCK_SCREEN_WEATHER_CON_COLOR, -2);
           mConColor.setNewPreviewColor(-2);
-          mConColor.setSummary(R.string.default_string);  
+          mConColor.setSummary(R.string.default_string);
           Settings.System.putInt(resolver,
                    Settings.System.LOCK_SCREEN_WEATHER_CITY_COLOR, -2);
           mCityColor.setNewPreviewColor(-2);
-          mCityColor.setSummary(R.string.default_string);   
+          mCityColor.setSummary(R.string.default_string);
 
     }
 
