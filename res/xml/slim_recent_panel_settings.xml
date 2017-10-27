@@ -115,7 +115,6 @@
 
             <PreferenceScreen
                     android:key="recent_app_sidebar"
-                    android:fragment="com.android.settings.rr.dslv.ActionListViewSettings"
                     android:title="@string/recent_app_sidebar_style_title"
                     android:fragment="com.android.settings.rr.RecentAppSidebar"
                     android:summary="@string/recent_app_sidebar_style_summary"

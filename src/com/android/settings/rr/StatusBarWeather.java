@@ -339,4 +339,3 @@ public class StatusBarWeather extends SettingsPreferenceFragment
 
 
 }
-

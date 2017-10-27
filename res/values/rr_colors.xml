@@ -172,4 +172,6 @@
     <color name="extrainfo_cat_background">#ff263238</color>
     <color name="extrainfo_cat_text">#ffffffff</color>
     <color name="extrainfo_value_text">#ff263238</color>
+    
+    <color name="selectable_card_background_grey">@color/selectable_card_background</color>
 </resources>

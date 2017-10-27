@@ -1,3 +1,4 @@
+
 /*
  * Copyright (C) 2014-2015 The CyanogenMod Project
  *
@@ -109,11 +110,11 @@ public class PowerMenuActions extends SettingsPreferenceFragment  implements OnP
                 mSilentPref = (SwitchPreference) findPreference(GLOBAL_ACTION_KEY_ASSIST);
             }  else if (action.equals(GLOBAL_ACTION_KEY_TORCH)) {
                 mFlashlightPref = (SwitchPreference) findPreference(GLOBAL_ACTION_KEY_TORCH);
-	    } else if (action.equals(GLOBAL_ACTION_KEY_SCREENRECORD)) {
+            } else if (action.equals(GLOBAL_ACTION_KEY_SCREENRECORD)) {
                 mScreenrecordPref = (SwitchPreference) findPreference(GLOBAL_ACTION_KEY_SCREENRECORD);
-	    } else if  (action.equals(GLOBAL_ACTION_KEY_EMERGENCY)) {
+            } else if  (action.equals(GLOBAL_ACTION_KEY_EMERGENCY)) {
                 mEmergencyPref = (SwitchPreference) findPreference(GLOBAL_ACTION_KEY_EMERGENCY);
-	    }
+			}
 
         mOnTheGoPowerMenu = (SwitchPreference) findPreference(POWER_MENU_ONTHEGO_ENABLED);
         mOnTheGoPowerMenu.setChecked((Settings.System.getInt(getContentResolver(),

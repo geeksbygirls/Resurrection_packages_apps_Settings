@@ -267,8 +267,6 @@ public class SettingsActivity extends SettingsDrawerActivity
 
     private static final String THEMES_FRAGMENT = "com.android.settings.Themes";
 
-    private static final String MAGISK_FRAGMENT = "com.android.settings.MagiskManager";
-
     private String mFragmentClass;
     private String mActivityAction;
 
@@ -418,7 +416,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             PieSettings.class.getName(),
             Headsup.class.getName(),
             DataSaverSummary.class.getName(),
-            MasterClear.class.ge<<tName(),
+            MasterClear.class.getName(),
             NightDisplaySettings.class.getName(),
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName(),
@@ -1151,12 +1149,6 @@ public class SettingsActivity extends SettingsDrawerActivity
             startActivity(kaIntent);
             finish();
             return null;
-        } else if (MAGISK_FRAGMENT.equals(fragmentName)) {
-            Intent magiskIntent = new Intent();
-            magiskIntent.setClassName("com.topjohnwu.magisk", "com.topjohnwu.magisk.SplashActivity");
-            startActivity(magiskIntent);
-            finish();
-            return null;
         } else if (THEMES_FRAGMENT.equals(fragmentName)) {
             Intent themesIntent = new Intent();
             themesIntent.setClassName("projekt.substratum", "projekt.substratum.LaunchActivity");
@@ -1291,16 +1283,6 @@ public class SettingsActivity extends SettingsDrawerActivity
 
         // Reveal development-only quick settings tiles
         DevelopmentTiles.setTilesEnabled(this, showDev);
-
-        // Magisk Manager
-        boolean magiskSupported = false;
-        try {
-            magiskSupported = (getPackageManager().getPackageInfo("com.topjohnwu.magisk", 0).versionCode > 0);
-        } catch (PackageManager.NameNotFoundException e) {
-        }
-        setTileEnabled(new ComponentName(packageName,
-                        Settings.MagiskActivity.class.getName()),
-                magiskSupported, isAdmin, pm);
 
         // Show scheduled power on and off if support
         boolean showTimerSwitch = false;

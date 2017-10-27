@@ -70,13 +70,11 @@ public class MiscSettings extends SettingsPreferenceFragment
 
         addPreferencesFromResource(R.xml.rr_misc);
 
-  	final ContentResolver resolver = getActivity().getContentResolver();
+        final ContentResolver resolver = getActivity().getContentResolver();
 
         PreferenceScreen prefScreen = getPreferenceScreen();
 
         PreferenceCategory appsSecCategory = (PreferenceCategory) findPreference(APPS_SECURITY);
-
-
 
         mAppRemover = (PreferenceScreen) findPreference(APP_REMOVER);
 
@@ -136,8 +134,7 @@ public class MiscSettings extends SettingsPreferenceFragment
     @Override
     public boolean onPreferenceChange(Preference preference, Object value) {
         ContentResolver resolver = getActivity().getContentResolver();
-        if (preference == mSelinux) {
-            if (preference == mMsob) {
+        if (preference == mMsob) {
             Settings.System.putInt(resolver,
                 Settings.System.MEDIA_SCANNER_ON_BOOT,
                     Integer.valueOf(String.valueOf(value)));

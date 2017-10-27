@@ -42,5 +42,4 @@
         android:persistent="false" />
     </PreferenceCategory>
 
-
 </PreferenceScreen>
