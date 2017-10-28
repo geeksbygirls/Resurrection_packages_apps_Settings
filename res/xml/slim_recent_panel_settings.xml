@@ -111,6 +111,13 @@
                 android:title="@string/use_recent_app_sidebar_title"
                 android:summary="@string/use_recent_app_sidebar_summary"
                 android:defaultValue="true" />
+                
+            <PreferenceScreen
+                    android:key="recent_app_sidebar"
+                    android:title="@string/recent_app_sidebar_style_title"
+                    android:fragment="com.android.settings.rr.RecentAppSidebar"
+                    android:summary="@string/recent_app_sidebar_style_summary"
+                    android:dependency="use_recent_app_sidebar" />
 
             <PreferenceScreen
                     android:key="recent_app_sidebar_content"

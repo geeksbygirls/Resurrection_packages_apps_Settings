@@ -180,6 +180,7 @@
   <string name="gesture_anywhere_summary">Dessiner vos gestes pour lancer vos activités favorites</string>
   <string name="app_sidebar_summary">Utiliser une barre latérale pour stocker vos applications et les activités qui peuvent être lancées rapidement, en toute simplicité</string>
   <string name="app_circle_bar_summary">Utiliser une barre latérale circulaire pour lancer les applications et activités</string>
+  <string name="pa_pie_control">Réglages de l\'arc</string>
   <string name="pa_pie_control_summary">Glisser depuis le bord de l\'écran pour afficher/masquer un arc composé de raccourcis applicatifs et de navigation</string>
   <string name="rr_navbar_summary">Activer ou désactiver les boutons virtuels et les personnaliser</string>
   <string name="rr_power_summary">Définir les différents raccourcis à afficher dans le menu Marche/Arrêt</string>

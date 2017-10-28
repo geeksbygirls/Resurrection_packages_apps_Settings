@@ -117,9 +117,9 @@ public class RecentAppSidebar extends SettingsPreferenceFragment
         mAppSidebarLabelColor.setNewPreviewColor(DEFAULT_TEXT);
         Settings.System.putInt(getContext().getContentResolver(),
                 Settings.System.RECENT_APP_SIDEBAR_BG_COLOR,
-                DEFAULT_TEXT);
+                DEFAULT_BG);
         mAppSidebarBgColor.setSummary(R.string.default_string);
-        mAppSidebarBgColor.setNewPreviewColor(DEFAULT_TEXT);
+        mAppSidebarBgColor.setNewPreviewColor(DEFAULT_BG);
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
