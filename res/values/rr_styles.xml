@@ -46,6 +46,7 @@
 
     <style name="Theme.SmartBar.Dialog" parent="@*android:style/Theme.Material.Light.Dialog.Alert" />
 
+    <style name="rr_settings" parent="Theme.SettingsBase"></style>
     <!-- Preference fragment -->
     <style name="PreferenceTheme" parent="Theme.AppCompat">
         <item name="colorPrimary">@*android:color/primary_material_light</item>
