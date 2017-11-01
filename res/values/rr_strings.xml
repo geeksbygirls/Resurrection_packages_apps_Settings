@@ -42,22 +42,14 @@
     <string name="rr_donate_summary">Show your support to RR Remixed OS</string>
     <string name="app_name">RR Remixed OS</string>
     <string name="devs">Dev Tag</string>
-    <string name="github_westcrip">https://github.com/westcripp</string>
-    <string name="github_varund7726">https://github.com/varund7726</string>
-    <string name="github_akhilnarang">https://github.com/akhilnarang</string>
-    <string name="github_bdogg718k">https://github.com/bdogg718k</string>
-    <string name="github_apascual89">https://github.com/apascual89</string> 
+    <string name="github_jaiglissechef">https://github.com/Jaiglissechef-i9100</string>
     <string name="rr">Links</string>
-    <string name="rr_website_title">Website</string>
-    <string name="rr_website_summary">Get more information about RR Remixed OS</string>
     <string name="rr_forum_title">Forum</string>
     <string name="rr_forum_summary">Be a member of RR forum</string>
     <string name="rr_source_title">Github</string>
     <string name="rr_source_summary">RR Remixed OS sources</string>
     <string name="rr_facebook_title">Facebook</string>
     <string name="rr_facebook_summary">Facebook community</string>
-    <string name="rr_google_plus_title">Google+</string>
-    <string name="rr_google_plus_summary">Google+ community</string>
     <string name="maintainer_categorie_title">Official Devices</string>
     <string name="title_about">About</string>
     <string name="dev_categorie_title">Dev Tag</string>
@@ -67,15 +59,7 @@
     <string name="rr_ls_security">Security</string>
     <string name="updater_title">RR REMIXED Updates</string>
 
-    <string name="altankrk_summary">● CO-Founder \n● Head developer \n● UX designer \n● Maintainer</string>
-    <string name="varun_summary">● Head developer \n● UX designer \n● Maintainer</string>
-    <string name="andres_summary">● Developer \n● Maintainer</string>
-    <string name="akhil_summary">● Developer \n● Maintainer \n● Script master</string>
-    <string name="brian_summary">● Developer \n● Maintainer</string>
-    <string name="christopher_kardas_summary">● Moderator \n● Editor\n● Contributor</string>
-    <string name="matt_summary">● Moderator \n● Editor\n● Contributor</string>
-    <string name="justen_summary">● Moderator \n● Editor\n● Contributor</string>
-
+    <string name="gelstatset_summary">● Founder RR Remixed \n● Head developer \n● UX designer \n● Maintainer</string>
 
     <string name="support_team_title">Moderator Tag</string>
 
@@ -102,7 +86,7 @@
     <!-- Share RR ROM -->
     <string name="share_rr">Share</string>
     <string name="share_rr_summary">Let people know you use RR Remixed OS</string>
-    <string name="share_message">Try RR Remixed OS! https://plus.google.com/communities/109352646351468373340</string>
+    <string name="share_message">Try RR Remixed OS! http://www.phonandroid.com/forum/rr-remixed-5-8-5-t132883.html</string>
     <string name="share_chooser_title">Share RR Remixed OS via...</string>
 
     <!-- RR Changelog-->
