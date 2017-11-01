@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="rr_mod_version">Version de RR-OS</string>
+  <string name="rr_mod_version">Version RR-OS</string>
   <string name="build_date">Date de compilation</string>
   <string name="mod_version_default">Par défaut</string>
   <!-- General -->
@@ -36,28 +36,19 @@
   <string name="about_rr_settings">À propos</string>
   <string name="about_rr">À propos</string>
   <string name="about_rr_summary">\@null</string>
-  <string name="about_r0m_summary">Tout savoir sur Resurrection Remix OS</string>
+  <string name="about_r0m_summary">Tout savoir sur RR Remixed OS</string>
   <string name="rr_donate">Faire un don pour le développement</string>
-  <string name="rr_donate_summary">Montrer votre soutien à Resurrection Remix OS</string>
-  <string name="app_name">Resurrection Remix OS</string>
+  <string name="rr_donate_summary">Montrer votre soutien à RR Remixed OS</string>
+  <string name="app_name">RR Remixed OS</string>
   <string name="devs">Info Dev</string>
-  <string name="github_westcrip">https://github.com/westcripp</string>
-  <string name="github_varund7726">https://github.com/varund7726</string>
-  <string name="github_akhilnarang">https://github.com/akhilnarang</string>
-  <string name="github_bdogg718k">https://github.com/bdogg718k</string>
-  <string name="github_apascual89">https://github.com/apascual89</string>
+  <string name="github_jaiglissechef">https://github.com/Jaiglissechef-i9100</string>
   <string name="rr">Liens</string>
-  <string name="rr_website_title">Site Web</string>
-  <string name="rr_website_summary">Obtenir plus d’informations sur Resurrection Remix OS</string>
   <string name="rr_forum_title">Forum</string>
-  <string name="rr_forum_summary">Devenir un membre du forum Resurrection</string>
+  <string name="rr_forum_summary">Voir le post RR Remixed</string>
   <string name="rr_source_title">GitHub</string>
-  <string name="rr_source_summary">Sources Resurrection Remix OS</string>
+  <string name="rr_source_summary">Sources RR Remixed OS</string>
   <string name="rr_facebook_title">Facebook</string>
   <string name="rr_facebook_summary">Communauté Facebook</string>
-  <string name="rr_google_plus_title">Google+</string>
-  <string name="rr_google_plus_summary">Communauté Google+</string>
-  <string name="maintainer_categorie_title">Appareils officiels</string>
   <string name="title_about">À propos</string>
   <string name="dev_categorie_title">Info Dev</string>
   <string name="rr_lockscreen_title">Écran de verrouillage</string>
@@ -65,19 +56,7 @@
   <string name="rr_ls_ui">Interface de l\'écran de verrouillage</string>
   <string name="rr_ls_security">Sécurité</string>
   <string name="updater_title">Mises à jour RR REMIXED</string>
-  <string name="altankrk_summary">● Co-fondateur \n● Chef développeur \n● Concepteur UX \n● Mainteneur</string>
-  <string name="varun_summary">● Développeur principal \n● Concepteur UX \n● Mainteneur</string>
-  <string name="andres_summary">● Développeur \n● Mainteneur</string>
-  <string name="akhil_summary">● Développeur \n● mainteneur \n● Javascript master</string>
-  <string name="brian_summary">● Développeur \n● mainteneur</string>
-  <string name="christopher_kardas_summary">● Modérateur \n● Éditeur\n● Contributeur</string>
-  <string name="matt_summary">● Modérateur \n● Éditeur\n● Contributeur</string>
-  <string name="justen_summary">● Modérateur \n● Éditeur\n● Contributeur</string>
-  <string name="support_team_title">Moderator Tag</string>
-  <string name="device_maintainers_title">Appareils et mainteneurs</string>
-  <string name="device_maintainers_title_summary">Liste des appareils et de leurs mainteneurs officiels RR-OS</string>
-  <string name="maintainers_note_title">Note</string>
-  <string name="maintainers_note_title_summary">Envoyer un MP à « Varun Date » sur Hangouts contenant le lien vers le fil de discussion de votre ROM, si vous voulez que votre nom soit ajouté dans la liste des mainteneurs de l\'appareil.</string>
+  <string name="gelstatset_summary">● Fondateur RR Remixed \n● Chef développeur \n● Concepteur UX \n● Mainteneur</string>
   <!-- The Drill -->
   <string name="rr_drill_title">Humour</string>
   <string name="drill_summary">Logcat ou GFTO</string>
@@ -92,9 +71,9 @@
   <string name="rr_power_title">Dialogue du menu Marche/Arrêt</string>
   <!-- Share RR ROM -->
   <string name="share_rr">Partager</string>
-  <string name="share_rr_summary">Faites savoir aux gens que vous utilisez Resurrection Remix OS</string>
-  <string name="share_message">Essayez la ROM Resurrection Remix ! https://plus.google.com/Communities/109352646351468373340</string>
-  <string name="share_chooser_title">Partager Resurrection Remix Os via...</string>
+  <string name="share_rr_summary">Faites savoir aux gens que vous utilisez RR Remixed OS</string>
+  <string name="share_message">Essayez la ROM RR Remixed! http://www.phonandroid.com/forum/rr-remixed-5-8-5-t132883.html</string>
+  <string name="share_chooser_title">Partager RR Remixed OS via...</string>
   <!-- RR Changelog-->
   <string name="changelog_title">Historique des mises à jour</string>
   <string name="changelog_title_summary">Afficher les modifications récentes de la ROM</string>
@@ -373,7 +352,7 @@
   <string name="palette_rgb_title">RGB</string>
   <string name="reset_color_title">Réinitialiser</string>
   <string name="reset_android_title">Par défaut (Android)</string>
-  <string name="reset_title">Par défaut (Resurrection)</string>
+  <string name="reset_title">Par défaut (RR)</string>
   <string name="reset_theme_default_title">Thème par défaut</string>
   <string name="favorites_title">Favoris</string>
   <string name="hide_favorites_title">Masquer les favoris</string>
@@ -405,7 +384,7 @@
   <string name="color_picker_help_color_buttons_title">Boutons de couleur :</string>
   <string name="color_picker_help_favorites_title">Favoris :</string>
   <string name="color_picker_help_favorites_summary">La liste des favoris est vide par défaut. \nLa nouvelle couleur peut être enregistrée en tant que favorite à tout moment via un clic long, (l\'emplacement vide sera remplacée par la nouvelle couleur).\nUn clic définit la couleur favorite comme nouvelle couleur, sans l\'appliquer.</string>
-  <string name="color_picker_help_palette_title">Palette:\n(Resurrection Remix, Material and RGB)</string>
+  <string name="color_picker_help_palette_title">Palette:\n(RR Remixed, Material and RGB)</string>
   <string name="color_picker_help_palette_summary">Toutes les couleurs de la palette ont une valeur fixe. \nUn clic définit la couleur favorite comme nouvelle couleur, sans l\'appliquer.</string>
   <string name="color_picker_help_do_not_show_title">Ne plus afficher</string>
   <string name="color_picker_help_button_ok_title">OK</string>
@@ -636,6 +615,8 @@
   <string name="ambient_display_show_battery_summary">Afficher l\'icône de la batterie pendant la pulsation</string>
   <string name="keyguard_toggle_torch_title">Activer la lampe de poche via le bouton Marche/Arrêt</string>
   <string name="keyguard_toggle_torch_summary">Faites un appui long sur le bouton Marche/Arrêt lorsque l\'écran est inactif pour activer la lampe de poche</string>
+    <string name="doze_vibrate_on_pickup_title">Vibrer à la prise en main</string>
+    <string name="doze_check_proximity_before_pulse_title">Vérifier la proximité avant pulse</string>
   <!-- Selinux Switch -->
   <string name="selinux_switch_title">Changement d\'état de SELinux</string>
   <string name="selinux_switch_summary">SELinux est un ensemble de modifications du noyau et d\'outils de l\'espace utilisateur. Les changements d\'état peuvent provoquer des effets indésirables. À utiliser avec précaution.</string>
@@ -1038,6 +1019,9 @@
   <string name="status_bar_toggle_brightness_summary">Ajuster la luminosité en faisant glisser votre doigt sur la barre d\'état</string>
   <string name="status_bar_notif_count_title">Afficher le compteur de notification</string>
   <string name="status_bar_notif_count_summary">Afficher le nombre de notifications en attente</string>
+  <string name="count_colors_reset_title">Réinitialiser la couleur</string>
+  <string name="count_icon_title">Couleur de l\'icône</string>
+  <string name="count_text_title">Couleur du texte</string>
   <string name="status_bar_quick_qs_pulldown_title">Menu déroulant rapide</string>
   <string name="status_bar_quick_qs_pulldown_summary">Dérouler le volet des réglages rapides en balayant vers le bas le coté %1$s de la barre d\'état</string>
   <string name="status_bar_quick_qs_pulldown_summary_left">Gauche</string>
@@ -1298,9 +1282,9 @@
   <string name="button24">Base de données moins</string>
   <string name="button25">Cube séquentiel</string>
   <string name="button26">Sablier</string>
-  <string name="button27">Resurrection</string>
+  <string name="button27">RR</string>
   <string name="button28">Android (Stock)</string>
-  <string name="button29">Resurrection Lollipop</string>
+  <string name="button29">RR Lollipop</string>
   <string name="button30">Android N</string>
   <string name="animation0">Rotation </string>
   <string name="animation1">Sortie des récents</string>
@@ -1400,7 +1384,7 @@
   <string name="network_traffic_color_reset_message">Réinitialiser la couleur du moniteur de trafic à la valeur par défaut ?</string>
   <string name="status_bar_weather_color_title">Couleur de la température</string>
   <string name="status_bar_rr_logo_color">Couleur</string>
-  <string name="status_bar_logo">Logo Resurrection</string>
+  <string name="status_bar_logo">Logo RR</string>
   <string name="status_bar_logo_title">Logo de la Rom</string>
   <string name="status_bar_rr_logo_position">Position</string>
   <string name="status_bar_rr_logo_position_summary">Choisir de quel côté s\'affiche le logo, à gauche ou à droite</string>
@@ -1635,8 +1619,8 @@
   <string name="show_custom_logo_summary">Afficher dans la barre d\'état un logo parmi un large choix disponible dans le système</string>
   <string name="custom_logo_color">Couleur</string>
   <string name="custom_logo_position">Position</string>
-  <string name="logo0">Resurrection Remix</string>
-  <string name="logo1">Resurrection Lollipop</string>
+  <string name="logo0">RR</string>
+  <string name="logo1">RR Lollipop</string>
   <string name="logo2">Tuner </string>
   <string name="logo3">Bug droid </string>
   <string name="logo4">Fantôme ballon</string>
@@ -1673,9 +1657,9 @@
   <string name="logo35">Sexe : Masculin</string>
   <string name="logo36">Sexe : Féminin</string>
   <string name="logo37">Pitch Black </string>
-  <string name="logo38">Resurrection Original</string>
-  <string name="logo39">Resurrection Demi</string>
-  <string name="logo40">Resurrection sans cercle</string>
+  <string name="logo38">RR Original</string>
+  <string name="logo39">RR Demi</string>
+  <string name="logo40">RR sans cercle</string>
   <string name="logo41">Araignée 1</string>
   <string name="logo42">Araignée 2</string>
   <string name="logo43">Orioles</string>
@@ -1835,7 +1819,7 @@
   <string name="sum6">Quoi d\'autre ?</string>
   <string name="sum7">Je ne suis pas votre bouton F1</string>
   <string name="sum8">Ne pas manquer cette m*** !</string>
-  <string name="sum9">Bienvenue sur la rom Resurrection Remix</string>
+  <string name="sum9">Bienvenue sur la rom RR Remixed</string>
   <string name="sum10">Ne me passe pas !</string>
   <string name="sum11">As-tu fini tes devoirs ? ツ</string>
   <string name="sum12">Bonjour, je suis votre nouvel assistant</string>
@@ -2308,4 +2292,101 @@
   <string name="cyan">Cyan</string>
   <string name="grey">Gris</string>
   <string name="default_string">Par défaut</string>
+
+    <!-- Extra Info -->
+    <string name="lsextrainfo">Informations supplémentaires</string>
+    <string name="lsextrainfo_summary">Afficher des informations supplémentaires pour cpu, affichage, etc</string>	
+
+    <!-- Bluetooth accept all files -->
+    <string name="bluetooth_accept_all_files">Accepter tous types de fichiers</string>
+
+    <!-- EdgeGesture service -->
+    <string name="edge_gesture_service_title">Bloquer les événements tactiles</string>
+    <string name="edge_gesture_service_summary">Ne pas envoyer d\'événements tactiles pour la navigation et les gestes de la barre d\'état aux applications</string>
+
+    <string name="recent_reset_title">Réinitialiser la couleur</string>
+    <string name="recent_reset_confirm">Êtes-vous sûr de vouloir réinitialiser les couleurs par défaut?</string>
+
+    <!-- App Ops Settings -->
+    <string name="app_ops_settings_summary">Afficher ou modifier les autorisations d\'application</string>
+
+    <!-- MediaScanner behavior on boot -->
+    <string name="media_scanner_on_boot_title">MediaScanner au démarrage</string>
+    <string name="media_scanner_on_boot_enabled">Scanner les médias</string>
+    <string name="media_scanner_on_boot_ask">Autorisation par notification</string>
+    <string name="media_scanner_on_boot_disabled">Ne pas scanner les médias</string>
+
+    <!-- Volume dialog headers -->
+    <string name="volume_dialog_headers_title">En-têtes de fenêtre du volume</string>
+    <string name="volume_dialog_headers_summary_enabled">Le nom des volumes sont affichés</string>
+    <string name="volume_dialog_headers_summary_disabled">Le nom des volumes sont cachés</string>
+
+    <!-- App sidebar -->
+    <string name="app_sidebar_title">Barre latérale</string>
+    <string name="app_sidebar_summary">Barre latérale de lanceur d\'applications</string>
+    <string name="app_sidebar_enable_title">Activer la barre latérale</string>
+    <string name="app_sidebar_enable_summaryOn">La barre latérale est activée</string>
+    <string name="app_sidebar_enable_summaryOff">La barre latérale est désactivée</string>
+    <string name="app_sidebar_setup_items_title">Configuration du contenu</string>
+    <string name="app_sidebar_setup_items_summary">Ajouter, supprimer et positionner des applications</string>
+    <string name="app_sidebar_transparency_title">Transparence</string>
+    <string name="app_sidebar_transparency_summary">Ajuster le niveau de transparence de la barre latérale</string>
+    <string name="app_sidebar_position_title">Position</string>
+    <string name="app_sidebar_position_summary">Positionnez la barre latérale sur le côté gauche ou droit de l\'écran</string>
+    <string name="app_sidebar_position_left">Gauche</string>
+    <string name="app_sidebar_position_right">Droite</string>
+    <string name="app_sidebar_hide_labels_title">Nom des applications</string>
+    <string name="app_sidebar_hide_labels_summary">Activer, masque le nom des applications de la barre latérale</string>
+    <string name="tab_category">Onglet visible</string>
+    <string name="use_tab_title">Afficher l\'onglet</string>
+    <string name="use_tab_summary">Afficher un onglet visible sur le côté qui affichera la barre latérale lorsque vous le touchez.</string>
+    <string name="tab_position_title">Emplacement de l\'onglet</string>
+    <string name="tab_position_summary">Afficher l\'onglet en haut, au milieu ou en bas sur le côté de l\'écran.</string>
+    <string name="tab_size_title">Taille de l\'onglet</string>
+    <string name="tab_size_summary">Modifier la taille de l\'onglet visible.</string>
+    <string name="app_sidebar_hide_timeout_title">Masquer automatiquement l\'Appbar</string>
+    <string name="app_sidebar_hide_timeout_summary">Délai d'attente pour masquer automatiquement l\'Appbar.</string>
+
+    <string name="pulse_colors_reset_title">Réinitialiser la couleur</string>
+    <string name="pulse_colors_reset_message">Êtes-vous sûr de vouloir réinitialiser ces couleurs par défaut ?</string>
+
+    <string name="ambient_display_show_weather_title">Montrer la météo sur l'affichage ambiant</string>
+    <string name="ambient_display_show_weather_summary">Affiche les informations météo lorsque l'affichage ambiant est activé</string>
+    <string name="weather_show_condition_title">Afficher la condition météo</string>
+    <string name="weather_show_condition_summary">Activer pour afficher la condition météo</string>
+    <string name="lockscreen_weather_colors_reset_title">Réinitialiser la couleur</string>
+    <string name="weather_number_of_notifications_dlg_title">Choisissez le nombre de notifications pour masquer le panneau météo</string>
+    <string name="weather_number_of_notifications_always_title">Toujours</string>
+
+    <!-- Colorful battery -->
+    <string name="colorful_battery_title">Icône de batterie colorée</string>
+    <string name="colorful_battery_enabled">Couleur de l\'icône coloré</string>
+    <string name="colorful_battery_disabled">Couleur de l\'icône par défaut</string>
+
+    <!-- low battery notification toggle -->
+    <string name="battery_low_notif_title">Notification de batterie faible</string>
+    <string name="battery_low_notif_summaryOn">La notification de batterie faible est activée</string>
+    <string name="battery_low_notif_summaryOff">La notification de batterie faible est désactivée</string>
+
+    <!-- Sms security limit -->
+    <string name="apps_security_options_title">Sécurité des applications</string>
+    <string name="sms_outgoing_check_max_count_title">Limite de message des applications SMS</string>
+    <string name="sms_outgoing_check_max_count_dialog">Nombre de messages par minute qu\'une application peut envoyer avant de montrer une alerte</string>
+    <string name="sms_outgoing_check_max_count_default">30 par minute (défaut)</string>
+    <string name="sms_outgoing_check_max_count_hundred">100 par minute</string>
+    <string name="sms_outgoing_check_max_count_sixhundred">600 par minute</string>
+
+    <!-- Ticker -->
+    <string name="ticker_colors_reset_title">Réinitialiser la couleur</string>
+    <string name="ticker_icon_title">Couleur de l\'icône</string>
+    <string name="ticker_text_title">Couleur du texte</string>
+
+    <!-- Dynamic notification tint -->
+    <string name="notification_tint_title">Couleur du titre de notification dynamique</string>
+    <string name="notification_tint_summary_off">La couleur du titre sur la notification sera traitée par le thème</string>
+    <string name="notification_tint_summary_on">La couleur du titre sur la notification sera prise à partir de la couleur de l\'icône de l\'application</string>
+
+    <!-- Instant reboot -->
+    <string name="advanced_reboot_oneclick">Redémarrage en un click</string>
+    <string name="advanced_reboot_oneclick_summary">Déclenche instantanément une action de redémarrage</string>
 </resources>
