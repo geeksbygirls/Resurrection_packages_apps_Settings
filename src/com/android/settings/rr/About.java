@@ -77,11 +77,9 @@ public static final String TAG = "About";
     
 private static final String RR_ROM_SHARE = "share";
     
-    Preference mSiteUrl;
     Preference mForumUrl;
     Preference mSourceUrl;
     Preference mFacebookUrl;
-    Preference mGoogleUrl;
     Preference mDonateUrl;
     
     @Override
@@ -90,11 +88,9 @@ private static final String RR_ROM_SHARE = "share";
         addPreferencesFromResource(R.xml.about_rom);
         PreferenceScreen prefSet = getPreferenceScreen();
         ContentResolver resolver = getContentResolver();
-        mSiteUrl = findPreference("rr_website");
         mForumUrl = findPreference("rr_forum");
         mSourceUrl = findPreference("rr_source");
         mFacebookUrl = findPreference("rr_facebook");
-        mGoogleUrl = findPreference("rr_google_plus");
         mDonateUrl = findPreference("rr_donate");
         PreferenceGroup devsGroup = (PreferenceGroup) findPreference("devs");
         ArrayList<Preference> devs = new ArrayList<Preference>();
@@ -118,18 +114,14 @@ private static final String RR_ROM_SHARE = "share";
     }
 
     public boolean onPreferenceTreeClick(Preference preference) {
-        if (preference == mSiteUrl) {
-            launchUrl("http://resurrectionremix.com/");
-        } else if (preference == mForumUrl) {
-            launchUrl("http://forum.resurrectionremix.com/");
+        if (preference == mForumUrl) {
+            launchUrl("http://www.phonandroid.com/forum/rr-remixed-5-8-5-t132883.html");
         } else if (preference == mSourceUrl) {
-            launchUrl("https://github.com/ResurrectionRemix");
+            launchUrl("https://github.com/7comp");
         } else if (preference == mFacebookUrl) {
-            launchUrl("https://www.facebook.com/resurrectionremixrom");
-        } else if (preference == mGoogleUrl) {
-            launchUrl("https://plus.google.com/u/0/communities/109352646351468373340");
+            launchUrl("https://www.facebook.com/Freddy.La.Mouche");
         } else if (preference == mDonateUrl) {
-            launchUrl("http://forum.xda-developers.com/donatetome.php?u=4144763");
+            launchUrl("https://www.paypal.me/7comp");
         } else if (preference.getKey().equals(RR_ROM_SHARE)) {
             Intent intent = new Intent();
             intent.setAction(Intent.ACTION_SEND);

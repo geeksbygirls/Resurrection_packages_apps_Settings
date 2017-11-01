@@ -55,12 +55,6 @@
             android:title="@string/rr_drill_title"
             android:summary="@string/drill_summary"
             />
-             
-        <Preference
-            android:key="rr_website"
-            android:icon="@drawable/rr_web_icon"
-            android:title="@string/rr_website_title"
-            android:summary="@string/rr_website_summary" />
 
         <Preference
             android:key="rr_forum"
@@ -74,18 +68,11 @@
             android:title="@string/rr_source_title"
             android:summary="@string/rr_source_summary" />
 
-
         <Preference
             android:key="rr_facebook"
             android:icon="@drawable/rr_fb_icon"
             android:title="@string/rr_facebook_title"
             android:summary="@string/rr_facebook_summary" />
-
-        <Preference
-            android:key="rr_google_plus"
-            android:icon="@drawable/rr_gplus_icon"
-            android:title="@string/rr_google_plus_title"
-            android:summary="@string/rr_google_plus_summary" />
 
         <Preference
             android:key="rr_donate"
