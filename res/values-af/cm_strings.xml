@@ -270,8 +270,6 @@
   <string name="pa_pattern_or_fingerprint_header">Moet patroon teken of gebruik vingerafdruk om te ontsluit</string>
   <!-- title for lock screen weather preference -->
   <string name="lockscreen_weather_enabled_title">Wys weer</string>
-  <!-- title for lock screen blur preference -->
-  <string name="lockscreen_blur_enabled_title">Blur agtergrond</string>
   <!-- Proximity wake -->
   <string name="proximity_wake_title">Voorkom toevallige wakker word</string>
   <string name="proximity_wake_summary">Kontroleer die nabyheidsensor voor wakkerword, wat deur gebare veroorsaak is</string>

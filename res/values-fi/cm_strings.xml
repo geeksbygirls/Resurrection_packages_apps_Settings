@@ -270,8 +270,6 @@
   <string name="pa_pattern_or_fingerprint_header">Piirrä kuvio tai käytä sormenjälkeä avataksesi</string>
   <!-- title for lock screen weather preference -->
   <string name="lockscreen_weather_enabled_title">Näytä sää</string>
-  <!-- title for lock screen blur preference -->
-  <string name="lockscreen_blur_enabled_title">Sumennettu tausta</string>
   <!-- Proximity wake -->
   <string name="proximity_wake_title">Estä herätys vahingossa</string>
   <string name="proximity_wake_summary">Tarkista läheisyysanturi herättävien eleiden varalta</string>

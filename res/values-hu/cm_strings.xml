@@ -270,8 +270,6 @@
   <string name="pa_pattern_or_fingerprint_header">Ujjlenyomat vagy minta szükséges a feloldáshoz</string>
   <!-- title for lock screen weather preference -->
   <string name="lockscreen_weather_enabled_title">Időjárás megjelenítése</string>
-  <!-- title for lock screen blur preference -->
-  <string name="lockscreen_blur_enabled_title">Háttér életlenítés</string>
   <!-- Proximity wake -->
   <string name="proximity_wake_title">Véletlen ébresztés megakadályozása</string>
   <string name="proximity_wake_summary">Ellenőrizze a közelség érzékelőt a gesztusok által kiváltott ébresztések előtt</string>

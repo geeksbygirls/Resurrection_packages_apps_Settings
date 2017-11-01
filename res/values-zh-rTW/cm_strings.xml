@@ -269,8 +269,6 @@
   <string name="pa_pattern_or_fingerprint_header">必須使用解鎖圖案或指紋解鎖</string>
   <!-- title for lock screen weather preference -->
   <string name="lockscreen_weather_enabled_title">顯示天氣資訊</string>
-  <!-- title for lock screen blur preference -->
-  <string name="lockscreen_blur_enabled_title">模糊背景</string>
   <!-- Proximity wake -->
   <string name="proximity_wake_title">防止意外喚醒</string>
   <string name="proximity_wake_summary">手勢觸發喚醒前檢查接近感應器</string>

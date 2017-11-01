@@ -272,8 +272,6 @@
   <string name="pa_pattern_or_fingerprint_header">עלייך לצייר דפוס או להשתמש בטביעת אצבע כדי לשחרר נעילה</string>
   <!-- title for lock screen weather preference -->
   <string name="lockscreen_weather_enabled_title">הראה מזג אוויר</string>
-  <!-- title for lock screen blur preference -->
-  <string name="lockscreen_blur_enabled_title">טשטוש הרקע</string>
   <!-- Proximity wake -->
   <string name="proximity_wake_title">מנע התעוררות מקרית</string>
   <string name="proximity_wake_summary">בדוק את חיישן הקירבה לפני הערת המכשיר על ידי מחווה</string>

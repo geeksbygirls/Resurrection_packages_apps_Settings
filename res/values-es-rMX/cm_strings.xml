@@ -110,7 +110,6 @@
   <!-- Protected Apps -->
   <string name="pa_pattern_or_fingerprint_header">Debe dibujar el patrón o utilizar huellas digitales para desbloquear</string>
   <!-- title for lock screen weather preference -->
-  <!-- title for lock screen blur preference -->
   <!-- Proximity wake -->
   <!-- High touch sensitivity -->
   <!-- Touchscreen hovering -->

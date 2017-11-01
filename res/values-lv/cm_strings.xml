@@ -165,7 +165,6 @@
   <string name="pa_login_checking_password">Pārbauda kontu\u2026</string>
   <string name="pa_login_incorrect_login">Pieteikšanās bija nepareiza</string>
   <!-- title for lock screen weather preference -->
-  <!-- title for lock screen blur preference -->
   <!-- Proximity wake -->
   <string name="proximity_wake_title">Novērsiet nejaušu pamodināšanu</string>
   <!-- High touch sensitivity -->

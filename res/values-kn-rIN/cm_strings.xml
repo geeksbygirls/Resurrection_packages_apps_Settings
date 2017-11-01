@@ -257,7 +257,6 @@
   <string name="pa_pattern_or_fingerprint_header">ಅನ್ ಲಾಕ್ ಮಾಡಲು ವಿಧವನ್ನು ಎಳೆ ಅಥವಾ ಬೆರಳಚ್ಚು ಉಪಯೋಗಿಸು</string>
   <!-- title for lock screen weather preference -->
   <string name="lockscreen_weather_enabled_title">ಹವಾಮಾನ ಪ್ರದರ್ಶಿಸು</string>
-  <!-- title for lock screen blur preference -->
   <!-- Proximity wake -->
   <string name="proximity_wake_title">ಆಕಸ್ಮಿಕವಾಗಿ ಎಚ್ಚರವಾಗುವಿಕೆಯನ್ನು ತಡೆ</string>
   <!-- High touch sensitivity -->

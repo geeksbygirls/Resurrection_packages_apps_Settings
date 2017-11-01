@@ -262,8 +262,6 @@
   <string name="pa_login_incorrect_login">Login var forkert</string>
   <!-- title for lock screen weather preference -->
   <string name="lockscreen_weather_enabled_title">Vis vejr</string>
-  <!-- title for lock screen blur preference -->
-  <string name="lockscreen_blur_enabled_title">Sløring af baggrund</string>
   <!-- Proximity wake -->
   <string name="proximity_wake_title">Undgå utilsigtet vækning</string>
   <string name="proximity_wake_summary">Check nærhedsføler før oplåsning udløst af bevægelser</string>

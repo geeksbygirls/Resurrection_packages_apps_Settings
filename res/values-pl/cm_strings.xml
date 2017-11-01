@@ -265,8 +265,6 @@
   <string name="pa_pattern_or_fingerprint_header">Musisz narysować wzór lub użyć odcisk palca, aby odblokować</string>
   <!-- title for lock screen weather preference -->
   <string name="lockscreen_weather_enabled_title">Pokaż pogodę</string>
-  <!-- title for lock screen blur preference -->
-  <string name="lockscreen_blur_enabled_title">Rozmycie tła</string>
   <!-- Proximity wake -->
   <string name="proximity_wake_title">Zapobiega przypadkowemu wybudzeniu</string>
   <!-- High touch sensitivity -->

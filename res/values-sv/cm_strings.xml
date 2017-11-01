@@ -261,7 +261,6 @@
   <string name="pa_pattern_or_fingerprint_header">Måste rita mönster eller använda fingeravtryck för att låsa upp</string>
   <!-- title for lock screen weather preference -->
   <string name="lockscreen_weather_enabled_title">Visa väder</string>
-  <!-- title for lock screen blur preference -->
   <!-- Proximity wake -->
   <string name="proximity_wake_title">Förhindra oavsiktlig väckning</string>
   <!-- High touch sensitivity -->

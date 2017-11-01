@@ -257,7 +257,6 @@
   <string name="pa_pattern_or_fingerprint_header">আনলক কৰিবলৈ পেটাৰ্ণ আঁকিবই লাগিব বা আঙুলিছাপ ব্যৱহাৰ কৰিবই লাগিব</string>
   <!-- title for lock screen weather preference -->
   <string name="lockscreen_weather_enabled_title">বতৰ প্ৰদৰ্শন কৰক</string>
-  <!-- title for lock screen blur preference -->
   <!-- Proximity wake -->
   <string name="proximity_wake_title">দুৰ্ঘটনাক্ৰমে ৱেক-আপ হোৱাটো প্ৰতিৰোধ কৰক</string>
   <!-- High touch sensitivity -->

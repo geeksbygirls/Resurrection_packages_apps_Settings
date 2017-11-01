@@ -270,8 +270,6 @@
   <string name="pa_pattern_or_fingerprint_header">Tes que debuxar un patrón ou empregar a pegada dixital para desbloquear</string>
   <!-- title for lock screen weather preference -->
   <string name="lockscreen_weather_enabled_title">Amosar o tempo</string>
-  <!-- title for lock screen blur preference -->
-  <string name="lockscreen_blur_enabled_title">Desenfocar o fondo</string>
   <!-- Proximity wake -->
   <string name="proximity_wake_title">Previr acender de forma accidental</string>
   <string name="proximity_wake_summary">Verificar o sensor de proximidade antes de espertar ao dispositivo con xestos</string>

@@ -60,12 +60,6 @@
                 android:title="@string/lockscreen_visualizer_title"
                 android:defaultValue="true"/>
 
-        <cyanogenmod.preference.CMSecureSettingSwitchPreference
-            android:key="lock_screen_blur_enabled"
-            android:title="@string/lockscreen_blur_enabled_title"
-            cm:requiresConfig="@*android:bool/config_uiBlurEnabled" />
-
- 
     	<com.android.settings.rr.Preferences.SystemSettingSwitchPreference
                 android:key="lockscreen_battery_info"
                 android:title="@string/lockscreen_battery_info_title"

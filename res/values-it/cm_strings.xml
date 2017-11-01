@@ -270,8 +270,6 @@
   <string name="pa_pattern_or_fingerprint_header">Traccia la sequenza o utilizza l\'impronta digitale per sbloccare</string>
   <!-- title for lock screen weather preference -->
   <string name="lockscreen_weather_enabled_title">Mostra meteo</string>
-  <!-- title for lock screen blur preference -->
-  <string name="lockscreen_blur_enabled_title">Sfocatura sfondo</string>
   <!-- Proximity wake -->
   <string name="proximity_wake_title">Previeni risvegli accidentali</string>
   <string name="proximity_wake_summary">Controla il sensore di prossimità prima di risvegliare lo smartphone con le gesture</string>

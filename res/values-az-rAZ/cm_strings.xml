@@ -187,7 +187,6 @@
   <string name="pa_login_checking_password">Hesab yoxlanılır\u2026</string>
   <string name="pa_login_incorrect_login">Xətalı giriş</string>
   <!-- title for lock screen weather preference -->
-  <!-- title for lock screen blur preference -->
   <!-- Proximity wake -->
   <string name="proximity_wake_title">Təsadüfi oyanmaların qarşısını al</string>
   <!-- High touch sensitivity -->

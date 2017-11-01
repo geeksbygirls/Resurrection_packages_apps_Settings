@@ -165,7 +165,6 @@
   <string name="pa_login_checking_password">ගිණුම පිරික්සමින්\u2026</string>
   <string name="pa_login_incorrect_login">පුරනය වැරදිය</string>
   <!-- title for lock screen weather preference -->
-  <!-- title for lock screen blur preference -->
   <!-- Proximity wake -->
   <string name="proximity_wake_title">අහඹු අවදි වීම් වළක්වන්න</string>
   <!-- High touch sensitivity -->

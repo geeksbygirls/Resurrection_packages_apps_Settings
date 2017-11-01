@@ -160,7 +160,6 @@
   <!-- Protected Apps -->
   <string name="launch_app">Llanzar applicación</string>
   <!-- title for lock screen weather preference -->
-  <!-- title for lock screen blur preference -->
   <!-- Proximity wake -->
   <string name="proximity_wake_title">Evitar esconsueñu accidental</string>
   <!-- High touch sensitivity -->

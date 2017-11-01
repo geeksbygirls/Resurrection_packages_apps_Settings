@@ -272,8 +272,6 @@
   <string name="pa_pattern_or_fingerprint_header">Pentru deblocare trebuie să desenați modelul sau să utilizați amprenta</string>
   <!-- title for lock screen weather preference -->
   <string name="lockscreen_weather_enabled_title">Arată vremea</string>
-  <!-- title for lock screen blur preference -->
-  <string name="lockscreen_blur_enabled_title">Blurare fundal</string>
   <!-- Proximity wake -->
   <string name="proximity_wake_title">Previne trezirea accidentală</string>
   <string name="proximity_wake_summary">Verifică senzorul de proximitate înainte de wake-up-uri declanșate de gesturi</string>

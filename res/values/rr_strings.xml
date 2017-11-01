@@ -2597,11 +2597,6 @@
     <string name="volume_dialog_headers_summary_enabled">Stream name headers are enabled</string>
     <string name="volume_dialog_headers_summary_disabled">Stream name headers are disabled</string>
 
-    <!-- Blur options lock screen blur -->
-    <string name="lock_screen_blur_enabled_title">Lock screen blur</string>
-    <string name="lockscreen_blur_enabled">Blur is enabled</string>
-    <string name="lockscreen_blur_disabled">Blur is disabled</string>
-
     <!-- App sidebar -->
     <string name="app_sidebar_title">App Sidebar</string>
     <string name="app_sidebar_summary">App launcher from sidebar</string>

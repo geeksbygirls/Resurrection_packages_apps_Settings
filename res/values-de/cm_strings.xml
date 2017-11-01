@@ -270,8 +270,6 @@
   <string name="pa_pattern_or_fingerprint_header">Fingerabdruck oder Muster zum Entsperren erforderlich</string>
   <!-- title for lock screen weather preference -->
   <string name="lockscreen_weather_enabled_title">Wetter anzeigen</string>
-  <!-- title for lock screen blur preference -->
-  <string name="lockscreen_blur_enabled_title">Hintergrund weichzeichnen</string>
   <!-- Proximity wake -->
   <string name="proximity_wake_title">Unbeabsichtigtes Aufwecken verhindern</string>
   <string name="proximity_wake_summary">Vor dem Aufwecken durch Gesten den Näherungssensor prüfen</string>

@@ -270,8 +270,6 @@
   <string name="pa_pattern_or_fingerprint_header">Eredua marraztu edo hatz-marka erabili behar da desblokeatzeko</string>
   <!-- title for lock screen weather preference -->
   <string name="lockscreen_weather_enabled_title">Bistaratu eguraldia</string>
-  <!-- title for lock screen blur preference -->
-  <string name="lockscreen_blur_enabled_title">Lausotu atzealtea</string>
   <!-- Proximity wake -->
   <string name="proximity_wake_title">Ekidin ustekabeko esnatzea</string>
   <string name="proximity_wake_summary">Egiaztatu hurbiltasun sentsorea keinuen bidez eragindako esnatzeen aurretik</string>

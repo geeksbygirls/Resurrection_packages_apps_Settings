@@ -257,7 +257,6 @@
   <string name="pa_pattern_or_fingerprint_header">अनलॉक करण्यासाठी पॅटर्न रेखाटला पाहिजे किंवा बोटाचा ठसा वापरला पाहिजे</string>
   <!-- title for lock screen weather preference -->
   <string name="lockscreen_weather_enabled_title">हवामान दर्शवा</string>
-  <!-- title for lock screen blur preference -->
   <!-- Proximity wake -->
   <string name="proximity_wake_title">अपघाताने जागे करण्यास प्रतिबंध करा</string>
   <!-- High touch sensitivity -->

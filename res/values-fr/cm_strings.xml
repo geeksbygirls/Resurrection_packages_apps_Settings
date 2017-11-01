@@ -270,8 +270,6 @@ Vous êtes maintenant à <xliff:g id="step_count">%1$d</xliff:g> étapes de l\'a
   <string name="pa_pattern_or_fingerprint_header">Dessiner le schéma ou utiliser les empreintes digitales pour déverrouiller</string>
   <!-- title for lock screen weather preference -->
   <string name="lockscreen_weather_enabled_title">Afficher la météo</string>
-  <!-- title for lock screen blur preference -->
-  <string name="lockscreen_blur_enabled_title">Arrière-plan flou</string>
   <!-- Proximity wake -->
   <string name="proximity_wake_title">Empêcher un réveil accidentel</string>
   <string name="proximity_wake_summary">Vérifiez le capteur de proximité avant de déclencher la sortie du mode veille en utilisant les gestes</string>

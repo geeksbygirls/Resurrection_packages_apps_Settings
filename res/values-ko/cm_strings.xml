@@ -267,8 +267,6 @@
   <string name="pa_pattern_or_fingerprint_header">잠금을 해제하려면 패턴을 그리거나 지문 인식을 사용해야 합니다</string>
   <!-- title for lock screen weather preference -->
   <string name="lockscreen_weather_enabled_title">날씨 표시</string>
-  <!-- title for lock screen blur preference -->
-  <string name="lockscreen_blur_enabled_title">배경 흐림 효과</string>
   <!-- Proximity wake -->
   <string name="proximity_wake_title">실수로 화면 켜기 방지</string>
   <string name="proximity_wake_summary">제스처에 의해 깨워지기 전에 근접 센서 확인</string>

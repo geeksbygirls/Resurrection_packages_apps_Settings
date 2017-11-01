@@ -269,8 +269,6 @@
   <string name="pa_pattern_or_fingerprint_header">Слід використати графічний ключ або відбиток пальця для розблокування</string>
   <!-- title for lock screen weather preference -->
   <string name="lockscreen_weather_enabled_title">Показати погоду</string>
-  <!-- title for lock screen blur preference -->
-  <string name="lockscreen_blur_enabled_title">Розмиття тла</string>
   <!-- Proximity wake -->
   <string name="proximity_wake_title">Запобігання випадкового пробудження</string>
   <string name="proximity_wake_summary">Перевіряти датчик наближення, виходячи з режиму сну з використанням жестів</string>

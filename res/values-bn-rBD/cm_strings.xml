@@ -174,7 +174,6 @@
   <string name="pa_login_checking_password">একাউন্ট পরীক্ষা করা হচ্ছে\u2026</string>
   <string name="pa_login_incorrect_login">লগইন ভুল ছিল</string>
   <!-- title for lock screen weather preference -->
-  <!-- title for lock screen blur preference -->
   <!-- Proximity wake -->
   <string name="proximity_wake_title">আকস্মিক জেগে ওঠা প্রতিহত করুন</string>
   <!-- High touch sensitivity -->

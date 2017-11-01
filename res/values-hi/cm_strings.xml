@@ -195,7 +195,6 @@
   <string name="pa_login_incorrect_login">लॉगइन ग़लत था</string>
   <!-- title for lock screen weather preference -->
   <string name="lockscreen_weather_enabled_title">मौसम दिखाएँ</string>
-  <!-- title for lock screen blur preference -->
   <!-- Proximity wake -->
   <string name="proximity_wake_title">ग़लती से जगाए जाने को रोकें</string>
   <!-- High touch sensitivity -->

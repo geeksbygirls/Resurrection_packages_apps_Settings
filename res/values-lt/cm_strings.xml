@@ -199,7 +199,6 @@
   <string name="pa_login_incorrect_login">Prisijungimas neteisingas</string>
   <!-- title for lock screen weather preference -->
   <string name="lockscreen_weather_enabled_title">Rodyti orus</string>
-  <!-- title for lock screen blur preference -->
   <!-- Proximity wake -->
   <string name="proximity_wake_title">Išvengti atsitiktinio pažadinimo</string>
   <!-- High touch sensitivity -->
