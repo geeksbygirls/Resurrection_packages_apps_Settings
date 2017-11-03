@@ -2347,14 +2347,14 @@
     <string name="tab_position_summary">Afficher l\'onglet en haut, au milieu ou en bas sur le côté de l\'écran.</string>
     <string name="tab_size_title">Taille de l\'onglet</string>
     <string name="tab_size_summary">Modifier la taille de l\'onglet visible.</string>
-    <string name="app_sidebar_hide_timeout_title">Masquer automatiquement l\'Appbar</string>
-    <string name="app_sidebar_hide_timeout_summary">Délai d'attente pour masquer automatiquement l\'Appbar.</string>
+    <string name="app_sidebar_hide_timeout_title">Masquer automatiquement la barre latérale</string>
+    <string name="app_sidebar_hide_timeout_summary">Délai d\'attente pour masquer automatiquement la barre latérale.</string>
 
     <string name="pulse_colors_reset_title">Réinitialiser la couleur</string>
     <string name="pulse_colors_reset_message">Êtes-vous sûr de vouloir réinitialiser ces couleurs par défaut ?</string>
 
-    <string name="ambient_display_show_weather_title">Montrer la météo sur l'affichage ambiant</string>
-    <string name="ambient_display_show_weather_summary">Affiche les informations météo lorsque l'affichage ambiant est activé</string>
+    <string name="ambient_display_show_weather_title">Montrer la météo sur l\'affichage ambiant</string>
+    <string name="ambient_display_show_weather_summary">Affiche les informations météo lorsque l\'affichage ambiant est activé</string>
     <string name="weather_show_condition_title">Afficher la condition météo</string>
     <string name="weather_show_condition_summary">Activer pour afficher la condition météo</string>
     <string name="lockscreen_weather_colors_reset_title">Réinitialiser la couleur</string>
@@ -2363,7 +2363,7 @@
 
     <!-- Colorful battery -->
     <string name="colorful_battery_title">Icône de batterie colorée</string>
-    <string name="colorful_battery_enabled">Couleur de l\'icône coloré</string>
+    <string name="colorful_battery_enabled">Colorise l\'icône suivant la charge</string>
     <string name="colorful_battery_disabled">Couleur de l\'icône par défaut</string>
 
     <!-- low battery notification toggle -->
@@ -2391,5 +2391,5 @@
 
     <!-- Instant reboot -->
     <string name="advanced_reboot_oneclick">Redémarrage en un click</string>
-    <string name="advanced_reboot_oneclick_summary">Déclenche instantanément une action de redémarrage</string>
+    <string name="advanced_reboot_oneclick_summary">Redémarre sans confirmation, fonctionne uniquement quand le redémarrage avancé est désactivé.</string>
 </resources>
