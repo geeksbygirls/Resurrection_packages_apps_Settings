@@ -38,20 +38,11 @@
   <string name="rr_donate">Dona al desenvolupador</string>
   <string name="app_name">Resurrection Remix OS</string>
   <string name="devs">Dev Tag</string>
-  <string name="github_westcrip">https://github.com/westcripp</string>
-  <string name="github_varund7726">https://github.com/varund7726</string>
-  <string name="github_akhilnarang">https://github.com/akhilnarang</string>
-  <string name="github_bdogg718k">https://github.com/bdogg718k</string>
-  <string name="github_apascual89">https://github.com/apascual89</string>
   <string name="rr">Adresses</string>
-  <string name="rr_website_title">Lloc web</string>
   <string name="rr_forum_title">Forum</string>
   <string name="rr_source_title">Github</string>
   <string name="rr_facebook_title">Facebook</string>
   <string name="rr_facebook_summary">Comunitat Facebook</string>
-  <string name="rr_google_plus_title">Google+</string>
-  <string name="rr_google_plus_summary">Comunitat Google+</string>
-  <string name="maintainer_categorie_title">Dispositius oficials</string>
   <string name="title_about">Sobre</string>
   <string name="dev_categorie_title">Dev Tag</string>
   <string name="rr_lockscreen_title">Pantalla de bloqueix</string>
@@ -59,11 +50,6 @@
   <string name="rr_ls_ui">Bloqueja l\'UI</string>
   <string name="rr_ls_security">Seguretat</string>
   <string name="updater_title">Actualitzacions</string>
-  <string name="akhil_summary">• Desenvolupador \n• Maintainer \n• Script master</string>
-  <string name="brian_summary">•Desenvolupador \n•Maintainer</string>
-  <string name="device_maintainers_title">Dispositius i mantainers</string>
-  <string name="device_maintainers_title_summary">Llista de dispositius i els seus maintenidlrs oficials RR-OS</string>
-  <string name="maintainers_note_title">Nota</string>
   <!-- The Drill -->
   <string name="rr_drill_title">El taladre</string>
   <!-- RR Feature lists-->

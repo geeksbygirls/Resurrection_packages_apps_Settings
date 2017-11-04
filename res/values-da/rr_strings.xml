@@ -41,22 +41,13 @@
   <string name="rr_donate_summary">Vis din støtte til Resurrection Remix OS</string>
   <string name="app_name">Resurrection Remix OS</string>
   <string name="devs">Dev Tag</string>
-  <string name="github_westcrip">https://github.com/westcripp</string>
-  <string name="github_varund7726">https://github.com/varund7726</string>
-  <string name="github_akhilnarang">https://github.com/akhilnarang</string>
-  <string name="github_bdogg718k">https://github.com/bdogg718k</string>
   <string name="rr">Links</string>
-  <string name="rr_website_title">Hjemmeside</string>
-  <string name="rr_website_summary">Få flere oplysninger om Resurrection Rom OS</string>
   <string name="rr_forum_title">Forum</string>
   <string name="rr_forum_summary">Bliv medlem af Resurrection</string>
   <string name="rr_source_title">Github</string>
   <string name="rr_source_summary">Resurrection Remix OS kilder</string>
   <string name="rr_facebook_title">Facebook</string>
   <string name="rr_facebook_summary">Facebook community</string>
-  <string name="rr_google_plus_title">Google+</string>
-  <string name="rr_google_plus_summary">Google+ community</string>
-  <string name="maintainer_categorie_title">Officielle Enheder</string>
   <string name="title_about">Om</string>
   <string name="dev_categorie_title">Dev Tag</string>
   <string name="rr_lockscreen_title">Skærmlås</string>
@@ -64,13 +55,6 @@
   <string name="rr_ls_ui">Lås UI</string>
   <string name="rr_ls_security">Sikkerhed</string>
   <string name="updater_title">Opdateringer</string>
-  <string name="varun_summary">● Hoved udvikler \n● UX designer \n● vedligeholder</string>
-  <string name="akhil_summary">● Udvikler \n● vedligeholder \n● Script master</string>
-  <string name="brian_summary">● Udvikler \n● vedligeholder</string>
-  <string name="device_maintainers_title">Enheder og vedligeholdere</string>
-  <string name="device_maintainers_title_summary">Liste over enheder og deres Resurrection ROM vedligeholdere</string>
-  <string name="maintainers_note_title">Noter</string>
-  <string name="maintainers_note_title_summary">Send en PM til \'Varun dato\' på Hangouts der indeholder linket til din ROM tråd, hvis du ønsker dit navn føjes til vedligeholder listen.</string>
   <!-- The Drill -->
   <string name="rr_drill_title">The drill</string>
   <string name="drill_summary">Logcat ellers GTFO</string>

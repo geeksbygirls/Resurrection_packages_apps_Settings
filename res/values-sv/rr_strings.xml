@@ -41,23 +41,13 @@
   <string name="rr_donate_summary">Visa ditt stöd till Resurrection ROM</string>
   <string name="app_name">Resurrection Remix OS</string>
   <string name="devs">Dev tagg</string>
-  <string name="github_westcrip">https://github.com/westcripp</string>
-  <string name="github_varund7726">https://github.com/varund7726</string>
-  <string name="github_akhilnarang">https://github.com/akhilnarang</string>
-  <string name="github_bdogg718k">https://github.com/bdogg718k</string>
-  <string name="github_apascual89">https://github.com/apascual89</string>
   <string name="rr">Länkar</string>
-  <string name="rr_website_title">Webbsida</string>
-  <string name="rr_website_summary">Få mer information om Resurrection Remix OS</string>
   <string name="rr_forum_title">Forum</string>
   <string name="rr_forum_summary">Bli medlem på forumet</string>
   <string name="rr_source_title">Github</string>
   <string name="rr_source_summary">Resurrection Remix OS källor</string>
   <string name="rr_facebook_title">Facebook</string>
   <string name="rr_facebook_summary">Facebook community</string>
-  <string name="rr_google_plus_title">Google+</string>
-  <string name="rr_google_plus_summary">Google+ community</string>
-  <string name="maintainer_categorie_title">Officiella Enheter</string>
   <string name="title_about">Om</string>
   <string name="dev_categorie_title">Dev tagg</string>
   <string name="rr_lockscreen_title">Låsskärm</string>
@@ -65,13 +55,6 @@
   <string name="rr_ls_ui">Lås UI</string>
   <string name="rr_ls_security">Säkerhet</string>
   <string name="updater_title">Uppdateringar</string>
-  <string name="varun_summary">● Huvudutvecklare \n● Gränssnittsdesigner \n● Underhållare</string>
-  <string name="akhil_summary">● Utvecklare \n● Underhållare \n●Scriptmästare</string>
-  <string name="brian_summary">● Utvecklare \n● Underhållare</string>
-  <string name="device_maintainers_title">Enheter och utvecklare</string>
-  <string name="device_maintainers_title_summary">Lista över enheter och deras officiella RR-OS-utvecklare</string>
-  <string name="maintainers_note_title">Anteckning</string>
-  <string name="maintainers_note_title_summary">Skicka PM till \'Varun Date\' på Hangouts med länken till din ROM-tråd om du vill få ditt namn tillagt i Enhetsunderhållar-listan.</string>
   <!-- The Drill -->
   <string name="rr_drill_title">Rutinen</string>
   <string name="drill_summary">Logcat or GTFO</string>

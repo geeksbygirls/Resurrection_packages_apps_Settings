@@ -41,22 +41,13 @@
   <string name="rr_donate_summary">Подржите Resurrection Remix систем</string>
   <string name="app_name">Resurrection Remix систем</string>
   <string name="devs">Таг девелопера</string>
-  <string name="github_westcrip">https://github.com/westcripp</string>
-  <string name="github_varund7726">https://github.com/varund7726</string>
-  <string name="github_akhilnarang">https://github.com/akhilnarang</string>
-  <string name="github_bdogg718k">https://github.com/bdogg718k</string>
   <string name="rr">Везе</string>
-  <string name="rr_website_title">Веб-сајт</string>
-  <string name="rr_website_summary">Додатно се информишите о Resurrection Remix систему</string>
   <string name="rr_forum_title">Форум</string>
   <string name="rr_forum_summary">Будите члан Резурекција форума</string>
   <string name="rr_source_title">Гитхаб</string>
   <string name="rr_source_summary">Resurrection Remix извори</string>
   <string name="rr_facebook_title">Фејсбук</string>
   <string name="rr_facebook_summary">Фејсбук заједница</string>
-  <string name="rr_google_plus_title">Гугл+</string>
-  <string name="rr_google_plus_summary">Гугл+ заједница</string>
-  <string name="maintainer_categorie_title">Званични уређаји</string>
   <string name="title_about">О</string>
   <string name="dev_categorie_title">Таг девелопера</string>
   <string name="rr_lockscreen_title">Закључан екран</string>
@@ -64,13 +55,6 @@
   <string name="rr_ls_ui">Закључавање корисничког интерфејса</string>
   <string name="rr_ls_security">Сигурност</string>
   <string name="updater_title">Ажурирање</string>
-  <string name="varun_summary">● Главни девелопер \n● UX дизајнер \n● Одржавач</string>
-  <string name="akhil_summary">● Програмер \n● Одржавач \n● Мајстор скрипте</string>
-  <string name="brian_summary">● Девелопер \n● Одржавач</string>
-  <string name="device_maintainers_title">Уређаји и одржавачи</string>
-  <string name="device_maintainers_title_summary">Листа уређаја и њихових официјалних RR-OS одржавача</string>
-  <string name="maintainers_note_title">Белешка</string>
-  <string name="maintainers_note_title_summary">Пошаљи поруку за особу \'Varun Date\' преко Hangouts-а која садржи линк ка теми за твој РОМ ако желиш да се твоје име дода у листу одржавача овог уређаја.</string>
   <!-- The Drill -->
   <string name="rr_drill_title">Поступак</string>
   <string name="drill_summary">Logcat или GTFO</string>

@@ -41,22 +41,13 @@
   <string name="rr_donate_summary">Show your support to Resurrection Remix OS</string>
   <string name="app_name">Resurrection Remix OS</string>
   <string name="devs">Dev Tag</string>
-  <string name="github_westcrip">https://github.com/westcripp</string>
-  <string name="github_varund7726">https://github.com/varund7726</string>
-  <string name="github_akhilnarang">https://github.com/akhilnarang</string>
-  <string name="github_bdogg718k">https://github.com/bdogg718k</string>
   <string name="rr">Links</string>
-  <string name="rr_website_title">Website</string>
-  <string name="rr_website_summary">Get more information about Resurrection Remix OS</string>
   <string name="rr_forum_title">Forum</string>
   <string name="rr_forum_summary">Be a member of Resurrection forum</string>
   <string name="rr_source_title">Github</string>
   <string name="rr_source_summary">Resurrection Remix OS sources</string>
   <string name="rr_facebook_title">Facebook</string>
   <string name="rr_facebook_summary">Facebook community</string>
-  <string name="rr_google_plus_title">Google+</string>
-  <string name="rr_google_plus_summary">Google+ community</string>
-  <string name="maintainer_categorie_title">Official Devices</string>
   <string name="title_about">About</string>
   <string name="dev_categorie_title">Dev Tag</string>
   <string name="rr_lockscreen_title">Lock screen</string>
@@ -64,13 +55,6 @@
   <string name="rr_ls_ui">Lock UI</string>
   <string name="rr_ls_security">Security</string>
   <string name="updater_title">Updates</string>
-  <string name="altan_summary">● Founder \n● Project leader \n● Head developer \n● UX designer \n● Maintainer</string>
-  <string name="varun_summary">● Head developer \n● UX designer \n● Maintainer</string>
-  <string name="brian_summary">● Developer \n● Maintainer</string>
-  <string name="device_maintainers_title">Devices and maintainers</string>
-  <string name="device_maintainers_title_summary">List of devices and their official RR-OS maintainers</string>
-  <string name="maintainers_note_title">Note</string>
-  <string name="maintainers_note_title_summary">Send a PM to \'Varun Date\' on Hangouts containing the link to your ROM thread if you want your name to be added in Device Maintainers list.</string>
   <!-- The Drill -->
   <string name="rr_drill_title">The drill</string>
   <string name="drill_summary">Logcat or GTFO</string>

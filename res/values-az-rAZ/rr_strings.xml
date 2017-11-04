@@ -43,22 +43,13 @@
 </string>
   <string name="app_name">Resurrection Remix OS</string>
   <string name="devs">Developer Etiketi </string>
-  <string name="github_westcrip">https://github.com/westcripp</string>
-  <string name="github_varund7726">https://github.com/varund7726</string>
-  <string name="github_akhilnarang">https://github.com/akhilnarang</string>
-  <string name="github_bdogg718k">https://github.com/bdogg718k</string>
   <string name="rr">Əlaqələr</string>
-  <string name="rr_website_title">Veb-səhifə</string>
-  <string name="rr_website_summary">Resurrection Remix OS haqqında daha çox məlumat əldə edin</string>
   <string name="rr_forum_title">Forum</string>
   <string name="rr_forum_summary">Resurrection foruma üzv olun</string>
   <string name="rr_source_title">Github</string>
   <string name="rr_source_summary">Resurrection Remix OS mənbələri</string>
   <string name="rr_facebook_title">Facebook</string>
   <string name="rr_facebook_summary">Facebook cəmiyyəti</string>
-  <string name="rr_google_plus_title">Google+</string>
-  <string name="rr_google_plus_summary">Google+ cəmiyyəti</string>
-  <string name="maintainer_categorie_title">Rəsmi Cihazlar</string>
   <string name="title_about">Haqqında</string>
   <string name="dev_categorie_title">Developer Etiketi</string>
   <string name="rr_lockscreen_title">Kilid Ekranı</string>
@@ -66,13 +57,6 @@
   <string name="rr_ls_ui">Kilid Ekranı İstifadəçi İnterfeysi</string>
   <string name="rr_ls_security">Təhlükəsizlik</string>
   <string name="updater_title">Yeniləmələr</string>
-  <string name="varun_summary">● Baş Mütəxəssis \n● UX dizayneri \n● Məsul şəxs</string>
-  <string name="akhil_summary">● Developer \n● Maintainer \n● Script master</string>
-  <string name="brian_summary">● Mütəxəssis \n● Məsul şəxs</string>
-  <string name="device_maintainers_title">Cihazlar ve Məsul Şəxsləri</string>
-  <string name="device_maintainers_title_summary">Cihazlar və rəsmi RR-OS məsulların siyahısı</string>
-  <string name="maintainers_note_title">Qeyd</string>
-  <string name="maintainers_note_title_summary">Əgər adınızı Cihaz Məsul Şəxsləri siyahısına əlavə etmək istəyirsinizsə ROM Mövzusu əlaqəsi olan bir Şəxsi Mesajı Hangouts-dan \'Varın Date\' ə göndərin.</string>
   <!-- The Drill -->
   <string name="rr_drill_title">The Drill</string>
   <string name="drill_summary">Logcat ya da GTFO</string>

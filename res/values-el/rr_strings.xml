@@ -41,23 +41,13 @@
   <string name="rr_donate_summary">Υποστήριξε το Resurrection Remix OS</string>
   <string name="app_name">Resurrection Remix OS</string>
   <string name="devs">Ετικέτα του προγραμματιστη</string>
-  <string name="github_westcrip">https://GitHub.com/westcripp</string>
-  <string name="github_varund7726">https://GitHub.com/varund7726</string>
-  <string name="github_akhilnarang">https://github.com/akhilnaranag</string>
-  <string name="github_bdogg718k">https://GitHub.com/bdogg718k</string>
-  <string name="github_apascual89">https://github.com/apascual89</string>
   <string name="rr">Σύνδεσμοι</string>
-  <string name="rr_website_title">Ιστοσελίδα</string>
-  <string name="rr_website_summary">Δείτε περισσότερες πληροφορίες σχετικά με το Resurrection Remix OS</string>
   <string name="rr_forum_title">Κοινότητα</string>
   <string name="rr_forum_summary">Γίνετε μέλος της κοινότητας Resurrection Remix</string>
   <string name="rr_source_title">Github</string>
   <string name="rr_source_summary">Πήγες του Resurrection Remix OS</string>
   <string name="rr_facebook_title">Facebook</string>
   <string name="rr_facebook_summary">Κοινότητα Facebook</string>
-  <string name="rr_google_plus_title">Google +</string>
-  <string name="rr_google_plus_summary">Κοινότητα Google+</string>
-  <string name="maintainer_categorie_title">Επίσημες Συσκευές</string>
   <string name="title_about">Σχετικα με</string>
   <string name="dev_categorie_title">Ετικέτα Προγραμματιστη</string>
   <string name="rr_lockscreen_title">Οθόνη Κλειδώματος</string>
@@ -65,20 +55,7 @@
   <string name="rr_ls_ui">UI κλειδώματος</string>
   <string name="rr_ls_security">Ασφάλεια</string>
   <string name="updater_title">Ενημερώσεις</string>
-  <string name="altankrk_summary">● Συνιδρυτής \n● Επικεφαλής προγραμματιστής \n● Σχεδιαστής UX \n● Συντηρητής</string>
-  <string name="varun_summary">● Επικεφαλής προγραμματιστής \n● Σχεδιαστής του UX \n● Συντηρητής</string>
-  <string name="andres_summary">● Προγραμματιστής \n● Συντηρητής</string>
-  <string name="akhil_summary">● Προγραμματιστή \n● Συντηρητής \n● Master δέσμη ενεργειών</string>
-  <string name="brian_summary">● Προγραμματιστής \n● Συντηρητής</string>
-  <string name="christopher_kardas_summary">● Συντονιστής \n● Συντάκτης\n● Συνεισφέρων</string>
-  <string name="matt_summary">● Συντονιστής \n● Συντάκτης\n● Συνεισφέρων</string>
-  <string name="justen_summary">● Συντονιστής \n● Συντάκτης\n● Συνεισφέρων</string>
   <string name="support_team_title">Ετικέτα Συντάκτη</string>
-  <string name="device_maintainers_title">Συσκευές και συντηρητές</string>
-  <string name="device_maintainers_title_summary">Λίστα με τις συσκευές και τους επίσημους RR-OS συντηρητές</string>
-  <string name="maintainers_note_title">Σημείωση</string>
-  <string name="maintainers_note_title_summary">Στείλτε ένα προσωπικό μήνυμα στον \'Varun Date\' στο Hangouts συμπεριλαμβάνοντας τον σύνδεσμο του λογισμικού από το θέμα του φόρουμ εάν επιθυμείτε το όνομά σας να προστεθεί στη λίστα των συντηρητών.</string>
-  <!-- The Drill -->
   <string name="rr_drill_title">The Drill</string>
   <string name="drill_summary">Logcat ή GTFO</string>
   <!-- RR Feature lists-->
