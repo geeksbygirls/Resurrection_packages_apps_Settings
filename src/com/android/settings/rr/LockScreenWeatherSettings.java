@@ -55,8 +55,9 @@ import java.util.Map;
 
 import android.util.Log;
 
-import java.util.List;
-import java.util.ArrayList;
+import com.android.settings.util.CMDProcessor;
+import com.android.settings.util.Helpers;
+import com.android.settings.Utils;
 
 import com.android.internal.util.rr.PackageUtils;
 
@@ -316,6 +317,7 @@ public class LockScreenWeatherSettings extends SettingsPreferenceFragment implem
             Settings.System.putInt(mResolver,
                     Settings.System.LOCK_SCREEN_WEATHER_ICON_COLOR, intHex);
             preference.setSummary(hex);
+            Helpers.showSystemUIrestartDialog(getActivity());
             return true;
 	} else if (preference == mTempColor) {
             String hex = ColorPickerPreference.convertToARGB(
