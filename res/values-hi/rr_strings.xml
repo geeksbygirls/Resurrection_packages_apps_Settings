@@ -54,7 +54,7 @@
   <string name="rr_ls_gestures">इशारे</string>
   <string name="rr_ls_ui">लाक UI</string>
   <string name="rr_ls_security">सुरक्षा</string>
-  <string name="updater_title">अपडेट</string>$
+  <string name="updater_title">अपडेट</string>
   <!-- The Drill -->
   <string name="rr_drill_title">ड्रिल</string>
   <string name="drill_summary">Logcat or GTFO</string>
