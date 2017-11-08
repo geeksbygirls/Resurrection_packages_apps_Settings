@@ -172,10 +172,8 @@ public class BatteryBarSettings extends SettingsPreferenceFragment implements
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-        boolean value;
         int intValue;
         int index;
-        String hex;
         int intHex;
 
         if (preference == mBatteryBar) {
@@ -198,7 +196,7 @@ public class BatteryBarSettings extends SettingsPreferenceFragment implements
             return Settings.System.putInt(resolver,
                     Settings.System.STATUSBAR_BATTERY_BAR_THICKNESS, val);
         } else if (preference == mBatteryBarColor) {
-            hex = ColorPickerPreference.convertToARGB(Integer
+            String hex = ColorPickerPreference.convertToARGB(Integer
                     .valueOf(String.valueOf(newValue)));
             preference.setSummary(hex);
             intHex = ColorPickerPreference.convertToColorInt(hex);
@@ -206,7 +204,7 @@ public class BatteryBarSettings extends SettingsPreferenceFragment implements
                     Settings.System.STATUSBAR_BATTERY_BAR_COLOR, intHex);
            return true;
         }  else if (preference == mBatteryBarChargingColor) {
-            hex = ColorPickerPreference.convertToARGB(Integer
+            String hex = ColorPickerPreference.convertToARGB(Integer
                     .valueOf(String.valueOf(newValue)));
             preference.setSummary(hex);
             intHex = ColorPickerPreference.convertToColorInt(hex);
@@ -214,7 +212,7 @@ public class BatteryBarSettings extends SettingsPreferenceFragment implements
                     Settings.System.STATUSBAR_BATTERY_BAR_CHARGING_COLOR, intHex);
             return true;
         } else if (preference == mBatteryBarBatteryLowColor) {
-            hex = ColorPickerPreference.convertToARGB(Integer
+            String hex = ColorPickerPreference.convertToARGB(Integer
                     .valueOf(String.valueOf(newValue)));
             preference.setSummary(hex);
             intHex = ColorPickerPreference.convertToColorInt(hex);
@@ -222,7 +220,7 @@ public class BatteryBarSettings extends SettingsPreferenceFragment implements
                     Settings.System.STATUSBAR_BATTERY_BAR_LOW_COLOR, intHex);
             return true;
         } else if (preference == mBatteryBarBatteryLowColorWarn) {
-            hex = ColorPickerPreference.convertToARGB(Integer
+            String hex = ColorPickerPreference.convertToARGB(Integer
                     .valueOf(String.valueOf(newValue)));
             preference.setSummary(hex);
             intHex = ColorPickerPreference.convertToColorInt(hex);
@@ -230,7 +228,7 @@ public class BatteryBarSettings extends SettingsPreferenceFragment implements
                     Settings.System.STATUSBAR_BATTERY_BAR_BATTERY_LOW_COLOR_WARNING, intHex);
             return true;
         } else if (preference == mBatteryBarBatteryHighColor) {
-            hex = ColorPickerPreference.convertToARGB(Integer
+            String hex = ColorPickerPreference.convertToARGB(Integer
                     .valueOf(String.valueOf(newValue)));
             preference.setSummary(hex);
             intHex = ColorPickerPreference.convertToColorInt(hex);
@@ -238,19 +236,19 @@ public class BatteryBarSettings extends SettingsPreferenceFragment implements
                     Settings.System.STATUSBAR_BATTERY_BAR_HIGH_COLOR, intHex);
             return true;
         } else if (preference == mBatteryBarUseGradient) {
-            value = (Boolean) newValue;
+            boolean value = (Boolean) newValue;
             Settings.System.putInt(resolver,
                     Settings.System.STATUSBAR_BATTERY_BAR_USE_GRADIENT_COLOR,
                     value ? 1 : 0);
             return true;
         } else if (preference == mBatteryBarChargingAnimation) {
-            value = (Boolean) newValue;
+            boolean value = (Boolean) newValue;
             Settings.System.putInt(resolver,
                     Settings.System.STATUSBAR_BATTERY_BAR_ANIMATE,
                     value ? 1 : 0);
             return true;
         } else if (preference == mAmbient) {
-            value = (Boolean) newValue;
+            boolean value = (Boolean) newValue;
             Settings.System.putInt(resolver,
                     Settings.System.SHOW_BATTERYBAR_AMBIENT,
                     value ? 1 : 0);
