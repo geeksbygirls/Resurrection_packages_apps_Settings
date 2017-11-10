@@ -13,9 +13,10 @@
 */
 package com.android.settings.rr;
 
-import android.content.ContentResolver;
 import android.app.Activity;
+import android.content.ContentResolver;
 import android.content.Context;
+import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.support.v7.preference.ListPreference;
 import android.support.v14.preference.SwitchPreference;
@@ -78,6 +79,7 @@ public class BreathingNotifications extends SettingsPreferenceFragment implement
         prefSet.removePreference(mVoicemailBreath);
         prefSet.removePreference(mSmsBreath);
     }
+    }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
      if (preference == mMissedCallBreath) {
@@ -96,4 +98,6 @@ public class BreathingNotifications extends SettingsPreferenceFragment implement
                     value ? 1 : 0);
             return true;
         }
+        return false;
+    } 
 }
