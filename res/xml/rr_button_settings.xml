@@ -24,7 +24,6 @@
         android:key="rr_navbar"
         android:title="@string/rr_navbar_title"/>
 
-
      <PreferenceScreen
             android:key="rr_nav_bar"
             android:fragment="com.android.settings.rr.navbar.NavbarSettings"
@@ -83,19 +82,12 @@
             android:summary="@string/power_end_call_summary"
             android:persistent="false"/>
             
-       <cyanogenmod.preference.CMSecureSettingSwitchPreference
+        <cyanogenmod.preference.CMSecureSettingSwitchPreference
             android:key="advanced_reboot"
             android:title="@string/advanced_reboot_title"
             android:summary="@string/advanced_reboot_summary" />
-            
-       <com.android.settings.rr.Preferences.SecureSettingSwitchPreference
-            android:key="advanced_reboot_oneclick"
-            android:title="@string/advanced_reboot_oneclick"
-            android:summary="@string/advanced_reboot_oneclick_summary"
-            android:dependency="advanced_reboot" />
 
     </PreferenceCategory>
-
 
     <PreferenceCategory
         android:key="camera_key"
@@ -167,7 +159,6 @@
             android:entries="@array/volbtn_cursor_control_entries"
             android:entryValues="@array/volbtn_cursor_control_values"
             android:persistent="false" />
-
 
         <!-- Volume Steps -->
         <Preference

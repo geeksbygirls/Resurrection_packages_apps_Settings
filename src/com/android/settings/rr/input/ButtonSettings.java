@@ -51,22 +51,21 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.R;
 import com.android.settings.rr.utils.DeviceUtils;
 import com.android.settings.rr.utils.TelephonyUtils;
-import org.cyanogenmod.internal.util.ScreenType;
+
 import java.util.List;
 
 import cyanogenmod.hardware.CMHardwareManager;
 import cyanogenmod.providers.CMSettings;
+import org.cyanogenmod.internal.util.ScreenType;
 
 import com.android.internal.utils.du.DUActionUtils;
 
 import static android.provider.Settings.Secure.CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED;
 
-
-
 public class ButtonSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
     private static final String TAG = "ButtonSettings";
-;
+
 	private static final String LONG_PRESS_KILL_DELAY = "long_press_kill_delay";
   
     private static final String KEY_BUTTON_BACKLIGHT = "button_backlight";
@@ -138,7 +137,6 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private SeekBarPreference mDt2lCameraVibrateConfig;
     private SwitchPreference mEnableHwKeys;
     private SwitchPreference mHwKeyDisable;
-
     private PreferenceScreen mNavigationPreferencesCat;
 
     private Handler mHandler;
@@ -229,13 +227,11 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         }
         final ButtonBacklightBrightness backlight =
                 (ButtonBacklightBrightness) findPreference(KEY_BUTTON_BACKLIGHT);
-			if (backlight != null) {
-        		if (!backlight.isButtonSupported() && !backlight.isKeyboardSupported() ||needsNavbar) {
-                    prefScreen.removePreference(backlight);
-		        }
-            }
-
-
+		 if (backlight != null) {
+        	     if (!backlight.isButtonSupported() && !backlight.isKeyboardSupported() ||needsNavbar) {
+                          prefScreen.removePreference(backlight);
+		     }
+                 }
 
         // Power button ends calls.
         mPowerEndCall = (SwitchPreference) findPreference(KEY_POWER_END_CALL);
@@ -285,7 +281,6 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                 Settings.System.DT2L_CAMERA_VIBRATE_CONFIG, 1);
         mDt2lCameraVibrateConfig.setValue(dt2lCameraVibrateConfig / 1);
         mDt2lCameraVibrateConfig.setOnPreferenceChangeListener(this);
-
     }
 
     private ListPreference initActionList(String key, int value) {
@@ -305,7 +300,6 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         Settings.System.putInt(getContentResolver(), setting, Integer.valueOf(value));
     }
 
-
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
          if (preference == mCameraDoubleTapPowerGesture) {
@@ -313,17 +307,17 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             Settings.Secure.putInt(getContentResolver(), CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED,
                     value ? 0 : 1 /* Backwards because setting is for disabling */);
             return true;
-        } else if (preference == mDt2lCameraVibrateConfig) {
+         } else if (preference == mDt2lCameraVibrateConfig) {
             int dt2lcameravib = (Integer) newValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.DT2L_CAMERA_VIBRATE_CONFIG, dt2lcameravib * 1);
-           return true;
-        } else if (preference == mVolumeKeyCursorControl) {
+            return true;
+         } else if (preference == mVolumeKeyCursorControl) {
             handleSystemActionListChange(mVolumeKeyCursorControl, newValue,
                     Settings.System.VOLUME_KEY_CURSOR_CONTROL);
             return true;
          }
-        return false;
+         return false;
     }
 
     @Override
@@ -389,5 +383,5 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     @Override
     protected int getMetricsCategory() {
         return MetricsEvent.RESURRECTED;
-	}
+    }
 }
