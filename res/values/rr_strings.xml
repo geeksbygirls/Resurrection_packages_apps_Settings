@@ -2660,7 +2660,4 @@
     <string name="count_icon_title">Count icon color</string>
     <string name="count_text_title">Count text color</string>
 
-    <!-- Instant reboot -->
-    <string name="advanced_reboot_oneclick">One click reboot</string>
-    <string name="advanced_reboot_oneclick_summary">Instantly trigger reboot action</string>
 </resources>

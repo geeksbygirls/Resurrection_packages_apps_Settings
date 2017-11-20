@@ -2388,9 +2388,6 @@
     <string name="notification_tint_summary_off">La couleur du titre sur la notification sera traitée par le thème</string>
     <string name="notification_tint_summary_on">La couleur du titre sur la notification sera prise à partir de la couleur de l\'icône de l\'application</string>
 
-    <!-- Instant reboot -->
-    <string name="advanced_reboot_oneclick">Redémarrage en un click</string>
-    <string name="advanced_reboot_oneclick_summary">Redémarre sans confirmation, fonctionne uniquement quand le redémarrage avancé est désactivé.</string>
 </resources>
 
 

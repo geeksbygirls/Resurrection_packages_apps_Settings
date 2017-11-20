@@ -73,7 +73,7 @@
             android:entryValues="@array/weather_number_of_notifications_values" />
     </PreferenceCategory>
 
-    <PreferenceCategory
+  <PreferenceCategory
         android:key="weather_category"
         android:title="@string/sb_weather_ic_title" >
 
@@ -90,6 +90,6 @@
            android:title="@string/weather_icon_pack_title"
            android:persistent="false" />
 
-    </PreferenceCategory>
+      </PreferenceCategory>
 
 </PreferenceScreen>

@@ -94,7 +94,8 @@ public class LockScreenWeatherSettings extends SettingsPreferenceFragment implem
     private static final String WEATHER_SERVICE_PACKAGE = "org.omnirom.omnijaws";
     private static final String CHRONUS_ICON_PACK_INTENT = "com.dvtonder.chronus.ICON_PACK";
 
-    private static final int DEFAULT_COLOR = 0xffffffff;
+    private static final int DEFAULT_COLOR = 0xFFFFFFFF;
+    private static final int TRANSPARENT = 0x99FFFFFF;
 
     private static final int MENU_RESET = Menu.FIRST;
     private static final int DLG_RESET = 0;
@@ -176,10 +177,10 @@ public class LockScreenWeatherSettings extends SettingsPreferenceFragment implem
             intColor = Settings.System.getInt(mResolver,
                 Settings.System.LOCK_SCREEN_WEATHER_CON_COLOR, -2);
             if (intColor == -2) {
-                intColor = 0xffffffff;
+                intColor = 0xFFFFFFFF;
                 mConColor.setSummary(getResources().getString(R.string.default_string));
             } else {
-                hexColor = String.format("#%08x", (0xffffffff & intColor));
+                hexColor = String.format("#%08x", (0xFFFFFFFF & intColor));
                 mConColor.setSummary(hexColor);
             }
             mConColor.setNewPreviewColor(intColor);
@@ -188,10 +189,10 @@ public class LockScreenWeatherSettings extends SettingsPreferenceFragment implem
             intColor = Settings.System.getInt(mResolver,
                 Settings.System.LOCK_SCREEN_WEATHER_ICON_COLOR, -2);
             if (intColor == -2) {
-                intColor = 0xffffffff;
+                intColor = 0xFFFFFFFF;
                 mIconColor.setSummary(getResources().getString(R.string.default_string));
             } else {
-                hexColor = String.format("#%08x", (0xffffffff & intColor));
+                hexColor = String.format("#%08x", (0xFFFFFFFF & intColor));
                 mIconColor.setSummary(hexColor);
             }
             mIconColor.setNewPreviewColor(intColor);
@@ -200,10 +201,10 @@ public class LockScreenWeatherSettings extends SettingsPreferenceFragment implem
             intColor = Settings.System.getInt(mResolver,
                 Settings.System.LOCK_SCREEN_WEATHER_TEMP_COLOR, -2);
             if (intColor == -2) {
-                intColor = 0xffffffff;
+                intColor = 0xFFFFFFFF;
                 mTempColor.setSummary(getResources().getString(R.string.default_string));
             } else {
-                hexColor = String.format("#%08x", (0xffffffff & intColor));
+                hexColor = String.format("#%08x", (0xFFFFFFFF & intColor));
                 mTempColor.setSummary(hexColor);
             }
             mTempColor.setNewPreviewColor(intColor);
@@ -212,10 +213,10 @@ public class LockScreenWeatherSettings extends SettingsPreferenceFragment implem
             intColor = Settings.System.getInt(mResolver,
                 Settings.System.LOCK_SCREEN_WEATHER_CITY_COLOR, -2);
             if (intColor == -2) {
-                intColor = 0xffffffff;
+                intColor = 0xFFFFFFFF;
                 mCityColor.setSummary(getResources().getString(R.string.default_string));
             } else {
-                hexColor = String.format("#%08x", (0xffffffff & intColor));
+                hexColor = String.format("#%08x", (0xFFFFFFFF & intColor));
                 mCityColor.setSummary(hexColor);
             }
             mCityColor.setNewPreviewColor(intColor);
@@ -341,7 +342,7 @@ public class LockScreenWeatherSettings extends SettingsPreferenceFragment implem
                     Settings.System.OMNIJAWS_WEATHER_ICON_PACK, value);
                 int valueIndex = mWeatherIconPack.findIndexOfValue(value);
                 mWeatherIconPack.setSummary(mWeatherIconPack.getEntries()[valueIndex]);
-			refreshSettings();
+            refreshSettings();
             return true;
         }
         return false;
