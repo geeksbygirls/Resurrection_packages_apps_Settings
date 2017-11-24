@@ -2388,6 +2388,9 @@
     <string name="notification_tint_summary_off">La couleur du titre sur la notification sera traitée par le thème</string>
     <string name="notification_tint_summary_on">La couleur du titre sur la notification sera prise à partir de la couleur de l\'icône de l\'application</string>
 
+    <!-- aLogcat -->
+    <string name="alogcat_title">aLogcat</string>
+    <string name="alogcat_summary">Permet la lecture des logs système</string>
 </resources>
 
 

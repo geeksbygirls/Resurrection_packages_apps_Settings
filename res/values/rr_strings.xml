@@ -2660,4 +2660,7 @@
     <string name="count_icon_title">Count icon color</string>
     <string name="count_text_title">Count text color</string>
 
+    <!-- aLogcat -->
+    <string name="alogcat_title">aLogcat</string>
+    <string name="alogcat_summary">Allows reading of system logs</string>
 </resources>
