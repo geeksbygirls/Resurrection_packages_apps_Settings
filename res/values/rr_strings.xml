@@ -57,6 +57,7 @@
     <string name="rr_ls_ui">Lock UI</string>
     <string name="rr_ls_security">Security</string>
     <string name="updater_title">RR REMIXED Updates</string>
+    <string name="rr_about_browser_error">No app found! Make sure you have a Browser installed.</string>
 
     <string name="gelstatset_summary">● Founder RR Remixed \n● Head developer \n● UX designer \n● Maintainer</string>
  
@@ -2663,4 +2664,13 @@
     <!-- aLogcat -->
     <string name="alogcat_title">aLogcat</string>
     <string name="alogcat_summary">Allows reading of system logs</string>
+    
+    <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+    <string name="local_backup_password_title">Desktop backup password</string>
+    
+    <!-- Accessibility settings -->
+    <string name="accessibility_settings_summary">Easier access</string>
+
+   <!-- Advanced settings (former: Developer options) -->
+   <string name="dev_advanced_settings_summary">For the experienced user</string>
 </resources>

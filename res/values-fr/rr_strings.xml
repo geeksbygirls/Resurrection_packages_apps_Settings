@@ -54,6 +54,7 @@
   <string name="rr_ls_security">Sécurité</string>
   <string name="updater_title">Mises à jour RR REMIXED</string>
   <string name="gelstatset_summary">● Fondateur RR Remixed \n● Chef développeur \n● Concepteur UX \n● Mainteneur</string>
+  <string name="rr_about_browser_error">Aucune application trouvée! Assurez-vous d'avoir un navigateur installé.</string>
   <!-- The Drill -->
   <string name="rr_drill_title">Humour</string>
   <string name="drill_summary">Logcat ou GFTO</string>
@@ -2391,6 +2392,13 @@
     <!-- aLogcat -->
     <string name="alogcat_title">aLogcat</string>
     <string name="alogcat_summary">Permet la lecture des logs système</string>
+
+    <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+    <string name="local_backup_password_title">Mot de passe de sauvegarde</string>
+
+    <!-- Accessibility settings -->
+    <string name="accessibility_settings_summary">Accès plus facile</string>
+
+   <!-- Advanced settings (former: Developer options) -->
+   <string name="dev_advanced_settings_summary">Pour l'utilisateur expérimenté</string>
 </resources>
-
-

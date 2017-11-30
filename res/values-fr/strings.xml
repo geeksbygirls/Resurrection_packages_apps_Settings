@@ -651,7 +651,7 @@
     <string name="android_beam_off_summary" msgid="4663095428454779138">"Désactivé"</string>
     <string name="android_beam_disabled_summary" msgid="1737782116894793393">"Indisponible, car la NFC est désactivée"</string>
     <string name="android_beam_label" msgid="6257036050366775040">"Android Beam"</string>
-    <string name="android_beam_explained" msgid="1828555626055290684">"Lorsque cette fonctionnalité est activée, vous pouvez partager le contenu d\'une application avec un appareil compatible NFC en rapprochant les appareils. Vous pouvez, par exemple, partager des pages du navigateur, des vidéos YouTube, des contacts, etc.\n\nIl vous suffit de rapprocher les appareils (en les plaçant dos à dos), puis d\'appuyer sur votre écran. L\'application détermine le contenu à transférer."</string>
+    <string name="android_beam_explained" msgid="1828555626055290684">"Lorsque cette fonctionnalité est activée, vous pouvez partager le contenu d\'une application avec un appareil compatible NFC en rapprochant les appareils. Vous pouvez, par exemple, partager des pages web, des vidéos YouTube, des contacts, etc.\n\nIl vous suffit de rapprocher les appareils (en les plaçant dos à dos), puis d\'appuyer sur votre écran. L\'application détermine le contenu à transférer."</string>
     <string name="wifi_quick_toggle_title" msgid="8850161330437693895">"Wi-Fi"</string>
     <string name="wifi_quick_toggle_summary" msgid="2696547080481267642">"Activer le Wi-Fi"</string>
     <string name="wifi_settings" msgid="29722149822540994">"Wi-Fi"</string>
@@ -1021,7 +1021,7 @@
     <string name="system_update_settings_list_item_title" msgid="3342887311059985961">"Mises à jour du système"</string>
     <string name="system_update_settings_list_item_summary" msgid="3853057315907710747"></string>
     <string name="firmware_version" msgid="4801135784886859972">"Version d\'Android"</string>
-    <string name="security_patch" msgid="8438384045870296634">"Niveau du correctif de sécurité Android"</string>
+    <string name="security_patch" msgid="8438384045870296634">"Niveau du correctif de sécurité"</string>
     <string name="model_info" msgid="1952009518045740889">"Modèle"</string>
     <string name="fcc_equipment_id" msgid="149114368246356737">"ID de l\'équipement"</string>
     <string name="baseband_version" msgid="1848990160763524801">"Version de bande de base"</string>

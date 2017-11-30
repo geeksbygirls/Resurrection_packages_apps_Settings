@@ -331,6 +331,10 @@ public class PowerUsageSummary extends PowerUsageBase {
         });
         return results;
     }
+    
+    private boolean sipperCanBePruned(BatterySipper sipper) {
+        return sipper.drainType != BatterySipper.DrainType.SCREEN;
+    }  
 
     protected void refreshStats() {
         super.refreshStats();
@@ -356,13 +360,16 @@ public class PowerUsageSummary extends PowerUsageBase {
             final int numSippers = usageList.size();
             for (int i = 0; i < numSippers; i++) {
                 final BatterySipper sipper = usageList.get(i);
-                if ((sipper.totalPowerMah * SECONDS_IN_HOUR) < MIN_POWER_THRESHOLD_MILLI_AMP) {
-                    continue;
-                }
                 double totalPower = USE_FAKE_DATA ? 4000 : mStatsHelper.getTotalPower();
                 final double percentOfTotal =
                         ((sipper.totalPowerMah / totalPower) * dischargeAmount);
-                if (((int) (percentOfTotal + .5)) < 1) {
+                if (sipperCanBePruned(sipper)) {
+                    if ((sipper.totalPowerMah * SECONDS_IN_HOUR) < MIN_POWER_THRESHOLD_MILLI_AMP) {
+                        continue;
+                    }
+                    if (((int) (percentOfTotal + .5)) < 1) {
+                        continue;
+                    }
                     continue;
                 }
                 if (sipper.drainType == BatterySipper.DrainType.OVERCOUNTED) {
@@ -374,7 +381,7 @@ public class PowerUsageSummary extends PowerUsageBase {
                     if (percentOfTotal < 10) {
                         continue;
                     }
-                    if ("user".equals(Build.TYPE) || "userdebug".equals(Build.TYPE)) {
+                    if ("user".equals(Build.TYPE) || "userdebug".equals(Build.TYPE) || "eng".equals(Build.TYPE)) {
                         continue;
                     }
                 }
@@ -387,7 +394,7 @@ public class PowerUsageSummary extends PowerUsageBase {
                     if (percentOfTotal < 5) {
                         continue;
                     }
-                    if ("user".equals(Build.TYPE) || "userdebug".equals(Build.TYPE)) {
+                    if ("user".equals(Build.TYPE) || "userdebug".equals(Build.TYPE) || "eng".equals(Build.TYPE)) {
                         continue;
                     }
                 }
