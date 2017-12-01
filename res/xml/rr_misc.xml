@@ -27,18 +27,6 @@
             android:summary="@string/sensor_block_summary"
             android:defaultValue="false" />
 
-        <!-- Weather Settings -->
-        <Preference
-            android:id="@+id/weather_settings"
-            android:title="@string/weather_settings_title_cclock"
-            android:summary="@string/misc_weather_settings_summary"
-            android:icon="@drawable/rr_cclock_icon">
-          <intent
-                 android:action="android.intent.action.MAIN"
-                 android:targetPackage="com.cyanogenmod.lockclock"
-                 android:targetClass="com.cyanogenmod.lockclock.preference.Preferences" />
-        </Preference>
-
         <!-- Updater -->
         <PreferenceScreen
             android:key="update_settings"

@@ -302,8 +302,6 @@ public class TetherSettings extends RestrictedSettingsFragment
                     mSecurityType[index]));
         }
         updateHotspotTimeoutSummary(mWifiConfig);
-        // Init the switch to current state
-        mEnableWifiAp.setChecked(mWifiManager.isWifiApEnabled());
     }
 
     private void updateHotspotTimeoutSummary(WifiConfiguration wifiConfig) {
