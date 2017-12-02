@@ -5679,9 +5679,9 @@
     <string name="help_label">Help &amp; feedback</string>
 
     <!-- Help URI, Default [DO NOT TRANSLATE] -->
-    <string name="help_uri_default" translatable="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;end</string>
+    <string name="help_uri_default" translatable="false"></string>
     <!-- Help URI, Dashboard [DO NOT TRANSLATE] -->
-    <string name="help_uri_dashboard" translatable="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_home;end</string>
+    <string name="help_uri_dashboard" translatable="false"></string>
     <!-- Help URI, Android beam [DO NOT TRANSLATE] -->
     <string name="help_uri_beam" translatable="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_beam;end</string>
     <!-- Help URI, Display [DO NOT TRANSLATE] -->
@@ -5712,9 +5712,9 @@
     <!-- Help URL, Data usage [DO NOT TRANSLATE] -->
     <string name="help_url_data_usage" translatable="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_data;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_data;end</string>
     <!-- Help URL, Data saver [DO NOT TRANSLATE] -->
-    <string name="help_url_data_saver" translatable="false"></string>
+    <string name="help_url_data_saver" translatable="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_datasaver;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_datasaver;end</string>
     <!-- Help URL, Unrestricted data access [DO NOT TRANSLATE] -->
-    <string name="help_url_unrestricted_data_access" translatable="false"></string>
+    <string name="help_url_unrestricted_data_access" translatable="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_unrestricted_data_access;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_unrestricted_data_access;end</string>
     <!-- Help URL, More [DO NOT TRANSLATE] -->
     <string name="help_url_more_networks" translatable="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_more;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_wireless;end</string>
     <!-- Help URL, Vpn [DO NOT TRANSLATE] -->
@@ -5746,11 +5746,11 @@
     <!-- Help URL, Fingerprint [DO NOT TRANSLATE] -->
     <string name="help_url_fingerprint" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_fingerprint;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_fingerprint;end</string>
     <!-- Help URL, Gesture settings -->
-    <string name="help_url_gestures" translatable="false"></string>
+    <string name="help_url_gestures" translatable="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_gestures;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_gestures;end</string>
     <!-- Help URL, Manage Storage [DO NOT TRANSLATE]-->
-    <string name="help_url_manage_storage" translatable="false"></string>
+    <string name="help_url_manage_storage" translatable="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_manage_storage;end</string>
     <!-- Help URL, Android is upgrading [DO NOT TRANSLATE] -->
-    <string name="help_url_upgrading" translatable="false"></string>
+    <string name="help_url_upgrading" translatable="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_upgrading;end</string>
     <!-- User account title [CHAR LIMIT=30] -->
     <string name="user_account_title">Account for content</string>
     <!-- User picture title [CHAR LIMIT=30] -->
