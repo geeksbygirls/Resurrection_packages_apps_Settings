@@ -114,7 +114,12 @@ private static final String RR_ROM_SHARE = "share";
     }
 
     public boolean onPreferenceTreeClick(Preference preference) {
-        if (preference == mForumUrl) {
+        if (preference.getIntent() != null ) {
+            if (getPackageManager().queryIntentActivities(preference.getIntent(), 0).isEmpty()) {
+                // Don't send out the intent to stop crash & notify the user
+                Toast.makeText(getActivity(), R.string.rr_about_browser_error, Toast.LENGTH_SHORT).show();
+            }
+        } else if (preference == mForumUrl) {
             launchUrl("http://www.phonandroid.com/forum/rr-remixed-5-8-5-t132883.html");
         } else if (preference == mSourceUrl) {
             launchUrl("https://github.com/7comp");

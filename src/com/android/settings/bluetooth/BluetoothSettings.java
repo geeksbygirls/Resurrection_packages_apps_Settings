@@ -249,6 +249,10 @@ public final class BluetoothSettings extends DeviceListPreferenceFragment implem
         if (mBluetoothEnabler != null) {
             mBluetoothEnabler.resume(getActivity());
         }
+        if (mLocalAdapter != null) {
+            // enable page and inquiry scan
+            mLocalAdapter.setScanMode(BluetoothAdapter.SCAN_MODE_CONNECTABLE_DISCOVERABLE);
+        } 
         super.onResume();
 
         mInitiateDiscoverable = true;
@@ -276,7 +280,9 @@ public final class BluetoothSettings extends DeviceListPreferenceFragment implem
         }
 
         // Make the device only visible to connected devices.
-        mLocalAdapter.setScanMode(BluetoothAdapter.SCAN_MODE_CONNECTABLE);
+        if (mLocalAdapter != null) {
+            mLocalAdapter.setScanMode(BluetoothAdapter.SCAN_MODE_CONNECTABLE);
+        }
 
         if (isUiRestricted()) {
             return;
@@ -396,6 +402,7 @@ public final class BluetoothSettings extends DeviceListPreferenceFragment implem
 
         switch (bluetoothState) {
             case BluetoothAdapter.STATE_ON:
+                preferenceScreen.removeAll();
                 mDevicePreferenceMap.clear();
 
                 if (isUiRestricted()) {

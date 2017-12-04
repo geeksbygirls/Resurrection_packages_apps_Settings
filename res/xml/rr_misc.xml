@@ -20,7 +20,6 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/rr_misc_title">
 
-
     <com.android.settings.rr.Preferences.SystemSettingSwitchPreference
             android:key="sensor_block"
             android:title="@string/sensor_block_title"
@@ -82,6 +81,18 @@
             android:icon="@drawable/rr_system_app_remover_icon"
             android:summary="@string/system_app_remover_summary"
             android:fragment="com.android.settings.rr.fragments.SystemappRemover" />
+            
+       <!-- aLogcat -->
+       <Preference
+            android:key="alogcat"
+            android:icon="@drawable/rr_alogcat_icon"
+            android:title="@string/alogcat_title"
+            android:summary="@string/alogcat_summary">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="org.jtb.alogcat"
+                android:targetClass="org.jtb.alogcat.LogActivity" />
+       </Preference>
 
         <ListPreference
             android:key="media_scanner_on_boot"

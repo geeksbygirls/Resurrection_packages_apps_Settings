@@ -57,6 +57,7 @@
     <string name="rr_ls_ui">Lock UI</string>
     <string name="rr_ls_security">Security</string>
     <string name="updater_title">RR REMIXED Updates</string>
+    <string name="rr_about_browser_error">No app found! Make sure you have a Browser installed.</string>
 
     <string name="gelstatset_summary">● Founder RR Remixed \n● Head developer \n● UX designer \n● Maintainer</string>
  
@@ -1310,9 +1311,6 @@
     <string name="weather_hide_panel_custom_summary">The weather panel will be hidden when the visible notifications will reach the chosen number of notifications</string>
     <string name="weather_hide_panel_never_summary">The weather panel won\`t be hidden</string>
     <string name="weather_number_of_notifications_title">Number of notifications</string>
-    <string name="weather_city_layout_title">City view style</string>
-    <string name="weather_city_layout_summary_on">The city is displayed in the center</string>
-    <string name="weather_city_layout_summary_off">The city is displayed on the left</string>
 
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_title">Brightness slider</string>
@@ -2663,4 +2661,16 @@
     <string name="count_icon_title">Count icon color</string>
     <string name="count_text_title">Count text color</string>
 
+    <!-- aLogcat -->
+    <string name="alogcat_title">aLogcat</string>
+    <string name="alogcat_summary">Allows reading of system logs</string>
+    
+    <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+    <string name="local_backup_password_title">Desktop backup password</string>
+    
+    <!-- Accessibility settings -->
+    <string name="accessibility_settings_summary">Easier access</string>
+
+   <!-- Advanced settings (former: Developer options) -->
+   <string name="dev_advanced_settings_summary">For the experienced user</string>
 </resources>

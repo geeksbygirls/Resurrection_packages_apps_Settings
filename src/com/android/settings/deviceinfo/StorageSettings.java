@@ -163,7 +163,7 @@ public class StorageSettings extends SettingsPreferenceFragment implements Index
         mInternalCategory.addPreference(mInternalSummary);
 
         int privateCount = 0;
-        long privateUsedBytes = 0;
+        long privateUsedBytes = 0; 
         long privateTotalBytes = 0;
 
         final List<VolumeInfo> volumes = mStorageManager.getVolumes();

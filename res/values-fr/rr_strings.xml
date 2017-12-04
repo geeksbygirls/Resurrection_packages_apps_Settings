@@ -54,6 +54,7 @@
   <string name="rr_ls_security">Sécurité</string>
   <string name="updater_title">Mises à jour RR REMIXED</string>
   <string name="gelstatset_summary">● Fondateur RR Remixed \n● Chef développeur \n● Concepteur UX \n● Mainteneur</string>
+  <string name="rr_about_browser_error">Aucune application trouvée! Assurez-vous d\'avoir un navigateur installé.</string>
   <!-- The Drill -->
   <string name="rr_drill_title">Humour</string>
   <string name="drill_summary">Logcat ou GFTO</string>
@@ -1213,9 +1214,6 @@
   <string name="weather_hide_panel_custom_summary">Le panneau de météo sera masqué quand les notifications visibles atteignent le nombre choisi de notifications</string>
   <string name="weather_hide_panel_never_summary">Le panneau de météo ne sera pas masqué</string>
   <string name="weather_number_of_notifications_title">Nombre de notifications</string>
-  <string name="weather_city_layout_title">Style d\'affichage de la ville</string>
-  <string name="weather_city_layout_summary_on">La ville est affichée au centre</string>
-  <string name="weather_city_layout_summary_off">La ville est affichée à gauche</string>
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Curseur de luminosité</string>
   <string name="qs_brightness_slider_summary">Afficher un curseur de luminosité dans le volet des réglages rapides</string>
@@ -2391,6 +2389,16 @@
     <string name="notification_tint_summary_off">La couleur du titre sur la notification sera traitée par le thème</string>
     <string name="notification_tint_summary_on">La couleur du titre sur la notification sera prise à partir de la couleur de l\'icône de l\'application</string>
 
+    <!-- aLogcat -->
+    <string name="alogcat_title">aLogcat</string>
+    <string name="alogcat_summary">Permet la lecture des logs système</string>
+
+    <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+    <string name="local_backup_password_title">Mot de passe de sauvegarde</string>
+
+    <!-- Accessibility settings -->
+    <string name="accessibility_settings_summary">Accès plus facile</string>
+
+   <!-- Advanced settings (former: Developer options) -->
+   <string name="dev_advanced_settings_summary">Pour l\'utilisateur expérimenté</string>
 </resources>
-
-
