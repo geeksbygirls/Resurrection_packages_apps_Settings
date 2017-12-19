@@ -673,7 +673,9 @@
   <string name="explorer">Explorer</string>
   <string name="falcon">Falcon</string>
   <string name="fb">Facebook</string>
+  <string name="foursquare">Foursquare</string>
   <string name="firefox">Firefox</string>
+  <string name="googlebuzz">Google buzz</string>
   <string name="googledocs">Google Dokument</string>
   <string name="googlewallet">Google Plånbok</string>
   <string name="line">Linje</string>
@@ -779,6 +781,7 @@
   <!-- Advanced data tile -->
   <!-- Hardware button navigation -->
   <string name="button_pref_title">Knappar</string>
+  <string name="hardware_keys_volume_keys_title">Volymknapp</string>
   <string name="hardware_keys_home_key_title">Hemknapp</string>
   <string name="hardware_keys_menu_key_title">Menyknapp</string>
   <string name="hardware_keys_assist_key_title">Sökknapp</string>
