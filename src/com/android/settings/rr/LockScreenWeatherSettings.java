@@ -229,18 +229,21 @@ public class LockScreenWeatherSettings extends SettingsPreferenceFragment implem
 
             if (hideWeather == 0) {
                 mHideWeather.setSummary(R.string.weather_hide_panel_auto_summary);
+                mNumberOfNotifications.setEnabled(false);
                 catNotifications.removePreference(mNumberOfNotifications);
             } else if (hideWeather == 1) {
                 int numberOfNotifications = Settings.System.getInt(mResolver,
-                       Settings.System.LOCK_SCREEN_WEATHER_NUMBER_OF_NOTIFICATIONS, 6);
+                       Settings.System.LOCK_SCREEN_WEATHER_NUMBER_OF_NOTIFICATIONS, 3);
                 mNumberOfNotifications.setValue(String.valueOf(numberOfNotifications));
                 mNumberOfNotifications.setSummary(mNumberOfNotifications.getEntry());
                 mNumberOfNotifications.setOnPreferenceChangeListener(this);
 
                 mHideWeather.setSummary(getString(R.string.weather_hide_panel_custom_summary,
                         mNumberOfNotifications.getEntry()));
+                mNumberOfNotifications.setEnabled(true);
             } else {
                 mHideWeather.setSummary(R.string.weather_hide_panel_never_summary);
+                mNumberOfNotifications.setEnabled(false);
                 catNotifications.removePreference(mNumberOfNotifications);
             }
 

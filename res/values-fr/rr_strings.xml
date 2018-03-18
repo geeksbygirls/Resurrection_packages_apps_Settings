@@ -299,6 +299,8 @@
   <string name="toast_icon_summary">Afficher l\'icône de l\'application correspondant à la notification contextuelle</string>
   <string name="toast_text_color">Couleur du texte</string>
   <string name="toast_icon_color">Couleur de l’icône</string>
+  <string name="toast_colors_reset_title">Réinitialiser la couleur</string>
+  <string name="toast_colors_reset_message">Êtes-vous sûr de vouloir réinitialiser les couleurs par défaut ?</string>
   <!-- Bluetooth status -->
   <string name="bluetooth_battery_title">Afficher l’état de la batterie Bluetooth</string>
   <string name="bluetooth_battery_summary">Afficher l\'état de la batterie de l\'appareil Bluetooth actuellement connecté, si disponible</string>

@@ -331,6 +331,8 @@
     <string name="toast_icon_summary">Display the app icon corresponding with the toast</string>
     <string name="toast_text_color">Toast Text Color</string>
     <string name="toast_icon_color">Toast Icon Color</string>
+    <string name="toast_colors_reset_title">Reset toast color</string>
+    <string name="toast_colors_reset_message">Are you sure you want to reset these colors to default?</string>
 
     <!-- Bluetooth status -->
     <string name="bluetooth_battery_title">Show bluetooth battery status</string>
