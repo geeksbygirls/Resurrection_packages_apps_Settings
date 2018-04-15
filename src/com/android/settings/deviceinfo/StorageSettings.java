@@ -81,7 +81,7 @@ public class StorageSettings extends SettingsPreferenceFragment implements Index
     static final int COLOR_WARNING = Color.parseColor("#fff4511e");
 
     static final int[] COLOR_PRIVATE = new int[] {
-            Color.parseColor("#ff26a69a"),
+            Color.parseColor("#ff4285f4"),
             Color.parseColor("#ffab47bc"),
             Color.parseColor("#fff2a600"),
             Color.parseColor("#ffec407a"),

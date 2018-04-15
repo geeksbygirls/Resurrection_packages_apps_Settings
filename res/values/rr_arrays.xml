@@ -328,14 +328,14 @@
      </array>
  
      <array name="color_picker_palette">
-         <item>@color/black</item>
-         <item>@color/background_blue_grey</item>
-         <item>@color/holo_blue_light</item>
-         <item>@color/material_deep_teal_500</item>
-         <item>@color/white</item>
-         <item>@color/material_indigo_500</item>
-         <item>@color/material_red_500</item>>
-         <item>@color/material_purple_500</item>
+         <item>@color/blue</item>
+         <item>@color/green</item>
+         <item>@color/amber</item>
+         <item>@color/cyan</item>
+         <item>@color/pink</item>
+         <item>@color/purple</item>
+         <item>@color/yellow</item>
+         <item>@color/orange</item>
      </array>
  
      <array name="color_picker_material_palette">

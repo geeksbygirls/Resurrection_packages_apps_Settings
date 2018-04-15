@@ -37,21 +37,23 @@
     <!-- Colors of the panel view buttons -->
     <color name="black">@android:color/black</color>
     <color name="white">@android:color/white</color>
-    <color name="holo_blue_light">@color/theme_accent</color>
-    <color name="material_deep_teal_500">@color/theme_accent</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="material_deep_teal_500">#ff00695c</color>
     <color name="material_indigo_500">#ff3f51b5</color>
     <color name="material_red_500">#fff44336</color>
     <color name="material_purple_500">#ff9c27b0</color>
-    <color name="material_green_500">@color/theme_accent</color>
-    <color name="material_blue_500">@color/theme_accent</color>
+    <color name="material_green_500">#ff259b24</color>
+    <color name="material_blue_500">#ff5677fc</color>
     <color name="material_yellow_500">#ffffeb3b</color>
     <color name="material_orange_500">#ffff9800</color>
-    <color name="red">#ffff0000</color>
-    <color name="green">@color/theme_accent</color>
-    <color name="blue">@color/theme_accent</color>
+    <color name="green">#ff90df25</color>
+    <color name="blue">#ff0063ff</color>
     <color name="purple">#ff800080</color>
     <color name="yellow">#ffffff00</color>
     <color name="orange">#ffffa500</color>
+    <color name="amber">#ffffc107</color>
+    <color name="pink">#ffe91e63</color>
+    <color name="cyan">#ff00bcd4</color>
 
     <!-- Colors of the help screen -->
     <color name="color_picker_help_screen_background">#e0000000</color>

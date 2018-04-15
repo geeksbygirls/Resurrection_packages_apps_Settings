@@ -124,12 +124,15 @@ public class DashboardSummary extends InstrumentedFragment
     }
 
     @Override
-    public void onStart() {
+    public void onResume() {
         long startTime = System.currentTimeMillis();
-        super.onStart();
+        super.onResume();
 
         ((SettingsDrawerActivity) getActivity()).addCategoryListener(this);
-        mSummaryLoader.setListening(true);
+        // Settings, Won't refresh when Fragment 'onPause()', 2018-2-3, begin
+        // move to 'onStart()'.
+        // mSummaryLoader.setListening(true);
+        // Settings, Won't refresh when Fragment 'onPause()', 2018-2-3, end
         for (Condition c : mConditionManager.getConditions()) {
             if (c.shouldShow()) {
                 MetricsLogger.visible(getContext(), c.getMetricsConstant());
@@ -148,11 +151,14 @@ public class DashboardSummary extends InstrumentedFragment
     }
 
     @Override
-    public void onStop() {
-        super.onStop();
+    public void onPause() {
+        super.onPause();
 
         ((SettingsDrawerActivity) getActivity()).remCategoryListener(this);
-        mSummaryLoader.setListening(false);
+        // Settings, Won't refresh when Fragment 'onPause()', 2018-2-3, begin
+        // move to 'onStop()'.
+        // mSummaryLoader.setListening(false);
+        // Settings, Won't refresh when Fragment 'onPause()', 2018-2-3, end
         for (Condition c : mConditionManager.getConditions()) {
             if (c.shouldShow()) {
                 MetricsLogger.hidden(getContext(), c.getMetricsConstant());
@@ -172,6 +178,20 @@ public class DashboardSummary extends InstrumentedFragment
             }
         }
     }
+
+    // Settings, Won't refresh when Fragment 'onPause()', 2018-2-3, begin
+    @Override
+    public void onStart() {
+        super.onStart();
+        mSummaryLoader.setListening(true);
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        mSummaryLoader.setListening(false);
+    }
+    // Settings, Won't refresh when Fragment 'onPause()', 2018-2-3, end    
 
     @Override
     public void onWindowFocusChanged(boolean hasWindowFocus) {
