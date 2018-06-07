@@ -2194,7 +2194,6 @@
   <!-- In-call DND -->
   <string name="dnd_when_call_title">Non disturbare durante chiamate</string>
   <string name="dnd_when_call_summary">Attiva automaticamente \"non disturbare\" durante le chiamate</string>
-  <string name="battery_light_allow_on_dnd_title">Luce della batteria in modalità non disturbare</string>
   <string name="no_sim_cluster_switch_title">Nascondi nessuna sim rete</string>
   <string name="no_sim_cluster_switch_summary">Nascondi la barra di rete se la sottoscrizione della sim è inattiva e disabilitata. Se la sim non è disabilitata, questo interruttore non funziona</string>
   <string name="disable_no_sim_title">Disabilita icona nessuna sim</string>

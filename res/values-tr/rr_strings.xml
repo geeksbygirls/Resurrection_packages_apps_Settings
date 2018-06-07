@@ -2196,7 +2196,6 @@ Piksel yoğunluğu <xliff:g name="count" example="520">%d</xliff:g></string>
   <!-- In-call DND -->
   <string name="dnd_when_call_title">Arama sırasında rahatsız etme</string>
   <string name="dnd_when_call_summary">Arama sırasında otomatik olarak Rahatsız Etmeyini etkinleştir</string>
-  <string name="battery_light_allow_on_dnd_title">Rahatsız Etmeyin modunda pil ışığı</string>
   <string name="no_sim_cluster_switch_title">Sim ağı yok metnini gizle</string>
   <string name="no_sim_cluster_switch_summary">Sim ağı etkin değilse ve devre dışı bırakıldıysa ağ çubuğunda gizleyin. Sim devre dışı bırakılmazsa, bu değişim çalışmaz</string>
   <string name="disable_no_sim_title">Sim yok simgesini devre dışı bırak</string>

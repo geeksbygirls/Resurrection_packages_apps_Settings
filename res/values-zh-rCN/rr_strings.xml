@@ -2194,7 +2194,6 @@
   <!-- In-call DND -->
   <string name="dnd_when_call_title">通话中请勿打扰</string>
   <string name="dnd_when_call_summary">自动在通话中启用请勿打扰</string>
-  <string name="battery_light_allow_on_dnd_title">勿扰模式启用充电指示灯</string>
   <string name="no_sim_cluster_switch_title">无 SIM 卡图标隐藏</string>
   <string name="no_sim_cluster_switch_summary">当 SIM 卡被禁用时隐藏其图标。如果未禁用 SIM 卡，这个选项将不生效。</string>
   <string name="disable_no_sim_title">禁用无 SIM 卡图标</string>

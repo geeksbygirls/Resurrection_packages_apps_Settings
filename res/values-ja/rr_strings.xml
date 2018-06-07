@@ -2195,7 +2195,6 @@
   <!-- In-call DND -->
   <string name="dnd_when_call_title">通話は妨害しない。</string>
   <string name="dnd_when_call_summary">自動有効化は通話中に妨害しない 。</string>
-  <string name="battery_light_allow_on_dnd_title">バッテリー不可モードで光</string>
   <string name="no_sim_cluster_switch_title">SIMカードが刺さっていないネットワークを非表示</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">画面の明るさ</string>

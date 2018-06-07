@@ -2192,7 +2192,6 @@
   <!-- In-call DND -->
   <string name="dnd_when_call_title">Μην ενοχλείτε κατά την κλήση</string>
   <string name="dnd_when_call_summary">Αυτόματη ενεργοποίηση μην ενοχλείτε κατά τη διάρκεια κλήσεων</string>
-  <string name="battery_light_allow_on_dnd_title">Φως μπαταρίας στη λειτουργία \"Μην ενοχλείτε\"</string>
   <string name="no_sim_cluster_switch_title">Απόκρυψη χωρίς δίκτυο sim</string>
   <string name="no_sim_cluster_switch_summary">Απόκρυψη της μπάρας δικτύου εάν η συνδρομή της sim είναι ανενεργή και απενεργοποιημένη. Εάν η sim δεν είναι απενεργοποιημένη, αυτός ο διακόπτης δεν θα λειτουργήσει</string>
   <string name="disable_no_sim_title">Απενεργοποίηση εικονιδίου χωρίς κάρτα sim</string>

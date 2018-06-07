@@ -2194,7 +2194,6 @@
   <!-- In-call DND -->
   <string name="dnd_when_call_title">Ne ometaj tijekom poziva</string>
   <string name="dnd_when_call_summary">Automatsko omogućavanje opcije \"Ne ometaj\" tijekom poziva</string>
-  <string name="battery_light_allow_on_dnd_title">Svjetlo baterije u načinu Ne ometaj</string>
   <string name="no_sim_cluster_switch_title">Skrivanje SIM-a</string>
   <string name="no_sim_cluster_switch_summary">Mrežna traka sakrit će se ako je pretplata SIM-a neaktivna ili onemogućena. Ako SIM nije onemogućen, ovo neće funkcionirati.</string>
   <string name="disable_no_sim_title">Onemogući ikonu \"Bez SIM-a\"</string>

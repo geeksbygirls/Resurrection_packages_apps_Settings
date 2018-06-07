@@ -2194,7 +2194,6 @@
   <!-- In-call DND -->
   <string name="dnd_when_call_title">DND při volání</string>
   <string name="dnd_when_call_summary">Automatická aktivace DND při volání</string>
-  <string name="battery_light_allow_on_dnd_title">Světelná signalizace baterie v režimu „Nerušit“</string>
   <string name="no_sim_cluster_switch_title">Skrýt hlášení \"Žádná síť\"</string>
   <string name="no_sim_cluster_switch_summary">Skrýt hlášení \"Žádná síť\" pokud je SIM karta neaktivní nebo vypnutá. Pokud je SIM karta zapnutá, nebude tento přepínač fungovat</string>
   <string name="disable_no_sim_title">Zakázat ikonu \"Žádná SIM\"</string>

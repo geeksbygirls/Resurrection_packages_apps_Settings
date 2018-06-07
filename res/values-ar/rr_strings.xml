@@ -2192,7 +2192,6 @@
   <!-- In-call DND -->
   <string name="dnd_when_call_title">عدم الإزعاج أثناء المكالمة</string>
   <string name="dnd_when_call_summary">فعل عدم الإزعاج تلقائياً أثناء المكالمات</string>
-  <string name="battery_light_allow_on_dnd_title">السماح بالإشعار الضوئي للبطارية أثناء وضع عدم الإزعاج</string>
   <string name="no_sim_cluster_switch_title">إخفاء لا شبكة شريحة</string>
   <string name="no_sim_cluster_switch_summary">إخفاء شريط الشبكة إن كان إشتراك الشريحة غير فعال ومعطّل. إن كانت الشريحة غير معطّلة، هذا المحول لن يعمل</string>
   <string name="disable_no_sim_title">تعطيل أيقونة عدم وجود شريحة</string>

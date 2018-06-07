@@ -2194,7 +2194,6 @@
   <!-- In-call DND -->
   <string name="dnd_when_call_title">Jangan ganggu saat panggilan</string>
   <string name="dnd_when_call_summary">Otomatis menghidupkan DND selama panggilan</string>
-  <string name="battery_light_allow_on_dnd_title">Lampu baterai dalam mode Jangan Ganggu</string>
   <string name="no_sim_cluster_switch_title">Sembunyikan jaringan tidak ada sim</string>
   <string name="no_sim_cluster_switch_summary">Menyembunyikan bar jaringan jika langganan sim tidak aktif dan dimatikan. Jika sim tidak dimatikan, ini tidak akan bekerja</string>
   <string name="disable_no_sim_title">Matikan ikon tidak ada sim</string>

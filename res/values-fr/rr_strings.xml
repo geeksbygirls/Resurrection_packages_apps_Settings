@@ -2206,7 +2206,6 @@
   <!-- In-call DND -->
   <string name="dnd_when_call_title">En appel, ne pas déranger</string>
   <string name="dnd_when_call_summary">Activer automatiquement l\'option « Ne pas déranger » pendant les appels</string>
-  <string name="battery_light_allow_on_dnd_title">Led de batterie en mode Ne Pas Déranger</string>
   <string name="no_sim_cluster_switch_title">Masquer le réseau si aucune sim n\'est détectée</string>
   <string name="no_sim_cluster_switch_summary">Dissimule le signal du réseau si votre carte sim est inactif et désactivée. Si votre carte sim n\'est pas désactivée, ce commutateur ne fonctionnera pas</string>
   <string name="disable_no_sim_title">Désactiver l\'icône Carte SIM manquante</string>

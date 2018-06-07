@@ -2193,7 +2193,6 @@
   <!-- In-call DND -->
   <string name="dnd_when_call_title">통화 중 방해 금지 모드</string>
   <string name="dnd_when_call_summary">통화 중에는 방해 금지 모드를 자동으로 활성화 합니다</string>
-  <string name="battery_light_allow_on_dnd_title">방해 금지 모드에서 배터리 표시등 사용</string>
   <string name="no_sim_cluster_switch_title">SIM카드 없으면 네트워크 바 숨기기</string>
   <string name="no_sim_cluster_switch_summary">SIM카드가 비활성화 되거나 없을 때 네트워크 바를 숨깁니다. 비활성화된 SIM카드가 없으면 스위치가 작동하지 않습니다.</string>
   <string name="disable_no_sim_title">USIM 없음 아이콘 표시 중지</string>

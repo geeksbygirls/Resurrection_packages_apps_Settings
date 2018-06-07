@@ -38,7 +38,6 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 import com.android.settings.util.Helpers;
-import com.android.settings.rr.Preferences.SystemSettingSwitchPreference;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 
@@ -48,13 +47,10 @@ public class NotificationSettings extends SettingsPreferenceFragment implements
     private static final String DISABLE_IMMERSIVE_MESSAGE = "disable_immersive_message";
     private static final String NOTIFICATION_GUTS_KILL_APP_BUTTON = "notification_guts_kill_app_button";
     private static final String NO_NAVIGATION_NOTIFICATION = "no_navigation_notification";
-    private static final String BATTERY_DND_PREF = "battery_light_allow_on_dnd";
 
     private SwitchPreference mDisableIM;
     private SwitchPreference mNotificationKill;
     private SwitchPreference mNoNavigationNotification;
-    private SystemSettingSwitchPreference mDndPref;
-
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -79,11 +75,6 @@ public class NotificationSettings extends SettingsPreferenceFragment implements
         mNoNavigationNotification.setChecked(isNavNotificationEnabled);
         mNoNavigationNotification.setOnPreferenceChangeListener(this);
 
-        mDndPref = (SystemSettingSwitchPreference) findPreference(BATTERY_DND_PREF);
-        mDndPref.setChecked(Settings.System.getIntForUser(resolver,
-                        Settings.System.BATTERY_LIGHT_ALLOW_ON_DND, 1, UserHandle.USER_CURRENT) == 1);
-        mDndPref.setOnPreferenceChangeListener(this);
-
     }
 
 
@@ -105,11 +96,6 @@ public class NotificationSettings extends SettingsPreferenceFragment implements
                     isNavNotificationEnabled ? 1 : 0, UserHandle.USER_CURRENT);
             mNoNavigationNotification.setChecked(isNavNotificationEnabled);
             return true;
-        } else if (preference == mDndPref) {
-            boolean value = (Boolean) newValue;
-            Settings.System.putIntForUser(getActivity().getContentResolver(),
-                    Settings.System.BATTERY_LIGHT_ALLOW_ON_DND, value ? 1 : 0, UserHandle.USER_CURRENT);
-            mDndPref.setChecked(value);
         } 
         return false;
 	}

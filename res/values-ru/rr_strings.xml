@@ -2194,7 +2194,6 @@
   <!-- In-call DND -->
   <string name="dnd_when_call_title">Режим \"Не беспокоить\" во время голосового вызова</string>
   <string name="dnd_when_call_summary">Автоматическое включение режима \"Не беспокоить\" во время голосовых вызовов</string>
-  <string name="battery_light_allow_on_dnd_title">Индикатор батареи в режиме \"Не беспокоить\"</string>
   <string name="no_sim_cluster_switch_title">Скрыть надпись \"Нет сети\"</string>
   <string name="no_sim_cluster_switch_summary">Скрыть панель сети, если подпись SIM-карты неактивна или отключена. Если SIM-карта не отключена, данный переключатель не будет работать</string>
   <string name="disable_no_sim_title">Отключить значок \"Нет SIM-карты\"</string>

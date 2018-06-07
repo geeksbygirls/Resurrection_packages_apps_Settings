@@ -2194,7 +2194,6 @@
   <!-- In-call DND -->
   <string name="dnd_when_call_title">Niet-Storen tijdens oproep</string>
   <string name="dnd_when_call_summary">Schakel Niet-Storen in tijdens oproepen</string>
-  <string name="battery_light_allow_on_dnd_title">Acculicht in Niet-storen-modus</string>
   <string name="no_sim_cluster_switch_title">Verberg netwerk zonder simkaart</string>
   <string name="no_sim_cluster_switch_summary">Verberg netwerk indicator bij uitgeschakelde of inactieve simkaart(-sleuf)</string>
   <string name="disable_no_sim_title">Geen-sim pictogram uitschakelen</string>

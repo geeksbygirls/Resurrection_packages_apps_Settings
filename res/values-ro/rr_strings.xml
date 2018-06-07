@@ -2194,7 +2194,6 @@
   <!-- In-call DND -->
   <string name="dnd_when_call_title">Nu deranjați în apel</string>
   <string name="dnd_when_call_summary">Activare automată Nu deranjaţi în timpul apelurilor</string>
-  <string name="battery_light_allow_on_dnd_title">Lumini în modul Nu Deranjați</string>
   <string name="no_sim_cluster_switch_title">Ascundere pictogramă niciun SIM</string>
   <string name="no_sim_cluster_switch_summary">Ascundere bară de rețea dacă cartela SIM este inactivă și dezactivată. Dacă cartela SIM nu este dezactivată, acest comutator nu va funcționa</string>
   <string name="disable_no_sim_title">Dezactivare pictogramă niciun SIM</string>

@@ -2194,7 +2194,6 @@
   <!-- In-call DND -->
   <string name="dnd_when_call_title">Nie przerywać połączeń przychodzących</string>
   <string name="dnd_when_call_summary">Automatycznie włącz DND podczas połączeń</string>
-  <string name="battery_light_allow_on_dnd_title">Dioda LED w trybie \"Nie przeszkadzać\"</string>
   <string name="no_sim_cluster_switch_title">Ukryj sieć przy braku karty SIM</string>
   <string name="no_sim_cluster_switch_summary">Ukryj słupki zasięgu gdy karta SIM jest wyłączona lub nieaktywna. Jeśli karta SIM nie jest wyłączona, ten przełącznik nie będzie działać</string>
   <string name="disable_no_sim_title">Wyłącz ikonę braku karty SIM</string>

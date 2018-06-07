@@ -2194,7 +2194,6 @@
   <!-- In-call DND -->
   <string name="dnd_when_call_title">Не турбувати під час дзвінка</string>
   <string name="dnd_when_call_summary">Автоматичне ввімкнення DND під час дзвінків</string>
-  <string name="battery_light_allow_on_dnd_title">Індикатор заряду в режимі \"Не турбувати\"</string>
   <string name="no_sim_cluster_switch_title">Приховати неактивну мережу</string>
   <string name="no_sim_cluster_switch_summary">Приховати панель мережі, якщо sim-карта неактивна і вимкнена. Якщо sim-карту не вимкнуто, ця опція не працюватиме</string>
   <string name="disable_no_sim_title">Відключити значок \"Немає SIM-карти\"</string>

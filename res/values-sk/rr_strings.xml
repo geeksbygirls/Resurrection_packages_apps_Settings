@@ -2196,7 +2196,6 @@
   <!-- In-call DND -->
   <string name="dnd_when_call_title">Počas hlasového hovoru \"Nerušiť\"</string>
   <string name="dnd_when_call_summary">Automatická aktivácia nastavenia \"Nerušiť\" počas hlasových hovorov</string>
-  <string name="battery_light_allow_on_dnd_title">LED aj v režime „Nerušiť“</string>
   <string name="no_sim_cluster_switch_title">Skryť hlásenie \"Žiadna sieť\"</string>
   <string name="no_sim_cluster_switch_summary">Skryť hlásenie \"Žiadna sieť\", v prípade, že je SIM-karta je neaktívna alebo vypnutá. Ak SIM-karta nie je vypnutá, nebude tento prepínač fungovať</string>
   <string name="disable_no_sim_title">Zakázať ikonu \"Nie je SIM karta\"</string>

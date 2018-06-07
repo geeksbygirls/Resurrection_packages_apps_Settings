@@ -2194,7 +2194,6 @@
   <!-- In-call DND -->
   <string name="dnd_when_call_title">Hívás közbeni ne zavarjanak</string>
   <string name="dnd_when_call_summary">Hívások közben automatikusan engedélyezi a ne zavarjanak módot</string>
-  <string name="battery_light_allow_on_dnd_title">Akkumulátor fény a Ne zavarj módban</string>
   <string name="no_sim_cluster_switch_title">Nincs SIM hálózat elrejtése</string>
   <string name="no_sim_cluster_switch_summary">Elrejti a hálózati sávot, ha a SIM előfizetése inaktív és le van tiltva. Ha a SIM-kártya nincs letiltva, ez a kapcsoló nem fog működni</string>
   <string name="disable_no_sim_title">Nincs SIM ikon letiltása</string>

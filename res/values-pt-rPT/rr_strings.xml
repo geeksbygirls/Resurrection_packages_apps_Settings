@@ -2194,7 +2194,6 @@
   <!-- In-call DND -->
   <string name="dnd_when_call_title">\"Não incomodar\" nas chamadas</string>
   <string name="dnd_when_call_summary">Ativar automaticamente o modo \"Não incomodar\" durante as chamadas</string>
-  <string name="battery_light_allow_on_dnd_title">Luz de bateria no modo Não incomodar</string>
   <string name="no_sim_cluster_switch_title">Esconder o indicador de \"sem cartão SIM\"</string>
   <string name="no_sim_cluster_switch_summary">Esconder o indicador da rede se o cartão SIM estiver inativo ou desativado. Se o cartão SIM não estiver desativado, esta função não irá funcionar</string>
   <string name="disable_no_sim_title">Desativar o ícone de \"sem cartão SIM\"</string>

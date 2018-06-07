@@ -2195,7 +2195,6 @@ Mật độ điểm ảnh
   <!-- In-call DND -->
   <string name="dnd_when_call_title">Không làm phiền khi đang gọi</string>
   <string name="dnd_when_call_summary">Tự động kích hoạt DND trong suốt cuộc gọi</string>
-  <string name="battery_light_allow_on_dnd_title">Đèn báo pin trong chế độ Không Làm Phiền</string>
   <string name="no_sim_cluster_switch_title">Không có mạng sim ẩn</string>
   <string name="no_sim_cluster_switch_summary">Ẩn thanh mạng nếu đăng ký sim không hoạt động và bị vô hiệu. Nếu sim không bị vô hiệu, chuyển đổi này sẽ không làm việc</string>
   <string name="disable_no_sim_title">Vô hiệu hóa không có biểu tượng sim</string>
