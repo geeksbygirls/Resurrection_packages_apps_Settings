@@ -43,6 +43,7 @@
     <string name="app_name">RR Remixed OS</string>
     <string name="devs">Dev Tag</string>
     <string name="github_jaiglissechef">https://github.com/Jaiglissechef-i9100</string>
+    <string name="github_mcfy49">https://github.com/McFy49</string>
     <string name="rr">Links</string>
     <string name="rr_forum_title">Forum</string>
     <string name="rr_forum_summary">Be a member of RR post</string>
@@ -60,7 +61,7 @@
     <string name="rr_about_browser_error">No app found! Make sure you have a Browser installed.</string>
 
     <string name="gelstatset_summary">● Founder RR Remixed \n● Head developer \n● UX designer \n● Maintainer</string>
- 
+    <string name="mcfy49_summary">● Head developer \n● UX designer \n● Maintainer</string>
     <!-- The Drill -->
     <string name="rr_drill_title">The drill</string>
     <string name="drill_summary">Logcat or GTFO</string>

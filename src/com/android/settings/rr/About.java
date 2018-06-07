@@ -120,9 +120,9 @@ private static final String RR_ROM_SHARE = "share";
                 Toast.makeText(getActivity(), R.string.rr_about_browser_error, Toast.LENGTH_SHORT).show();
             }
         } else if (preference == mForumUrl) {
-            launchUrl("http://www.phonandroid.com/forum/rr-remixed-5-8-5-t132883.html");
+            launchUrl("http://www.phonandroid.com/forum/resurrection-remix-6-0-0-t132883-80.html#p2463791");
         } else if (preference == mSourceUrl) {
-            launchUrl("https://github.com/7comp");
+            launchUrl("https://github.com/geeksbygirls");
         } else if (preference == mFacebookUrl) {
             launchUrl("https://www.facebook.com/Freddy.La.Mouche");
         } else if (preference == mDonateUrl) {

@@ -39,6 +39,7 @@
   <string name="app_name">RR Remixed OS</string>
   <string name="devs">Info Dev</string>
   <string name="github_jaiglissechef">https://github.com/Jaiglissechef-i9100</string>
+  <string name="github_mcfy49">https://github.com/McFy49</string>
   <string name="rr">Liens</string>
   <string name="rr_forum_title">Forum</string>
   <string name="rr_forum_summary">Voir le post RR Remixed</string>
@@ -53,7 +54,8 @@
   <string name="rr_ls_ui">Interface de l\'écran de verrouillage</string>
   <string name="rr_ls_security">Sécurité</string>
   <string name="updater_title">Mises à jour RR REMIXED</string>
-  <string name="gelstatset_summary">● Fondateur RR Remixed \n● Chef développeur \n● Concepteur UX \n● Mainteneur</string>
+  <string name="gelstatset_summary">● Fondateur RR Remixed \n● Développeur \n● Concepteur UX \n● Mainteneur</string>
+  <string name="mcfy49_summary">● Développeur \n● Concepteur UX \n● Mainteneur</string>
   <string name="rr_about_browser_error">Aucune application trouvée! Assurez-vous d\'avoir un navigateur installé.</string>
   <!-- The Drill -->
   <string name="rr_drill_title">Humour</string>

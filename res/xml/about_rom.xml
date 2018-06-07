@@ -93,7 +93,20 @@
             resurrection:nameDev="Jaiglissechef-i9100"
             resurrection:donateLink="@string/github_jaiglissechef"
             resurrection:emailDev="yaggiland@gmail.com"/>
+            
+        </PreferenceCategory>
 
-        </PreferenceCategory>            
+        <PreferenceCategory
+            android:key="dev_categorie_two"
+            android:title="@string/dev_categorie_title">
+            
+        <com.android.settings.widgets.DeveloperPreference
+            android:title="mcfy49"
+            android:icon="@drawable/rr_dev_two_icon"
+            android:summary="@string/mcfy49_summary"
+            resurrection:nameDev="McFy49"
+            resurrection:donateLink="@string/github_mcfy49"
+            resurrection:emailDev="https://mcfy.fr"/>
 
+        </PreferenceCategory>
 </PreferenceScreen>
