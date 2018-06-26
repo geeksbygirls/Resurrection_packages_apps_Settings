@@ -57,6 +57,11 @@
   <string name="gelstatset_summary">● Fondateur RR Remixed \n● Développeur \n● Concepteur UX \n● Mainteneur</string>
   <string name="mcfy49_summary">● Développeur \n● Concepteur UX \n● Mainteneur</string>
   <string name="rr_about_browser_error">Aucune application trouvée! Assurez-vous d\'avoir un navigateur installé.</string>
+  <string name="maintainer_categorie_title">Appareils officiels</string>
+  <string name="device_maintainers_title">Appareils et mainteneurs</string>
+  <string name="device_maintainers_title_summary">Liste des appareils et de leurs mainteneurs officiels RR-OS</string>
+  <string name="maintainers_note_title">Note</string>
+  <string name="maintainers_note_title_summary">Envoyer un MP à « gelstatset » sur le forum contenant le lien vers le fil de discussion de la ROM, si vous voulez que votre nom soit ajouté dans la liste des mainteneurs de l\'appareil.</string>
   <!-- The Drill -->
   <string name="rr_drill_title">Humour</string>
   <string name="drill_summary">Logcat ou GFTO</string>

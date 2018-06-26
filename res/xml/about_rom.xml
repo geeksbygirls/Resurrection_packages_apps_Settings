@@ -83,6 +83,19 @@
         </PreferenceCategory>
 
         <PreferenceCategory
+            android:key="maintainer_categorie"
+            android:title="@string/maintainer_categorie_title">
+
+        <PreferenceScreen
+            android:key="maintainers"
+            android:icon="@drawable/rr_maintainers_icon"
+            android:fragment="com.android.settings.rr.DeviceMaintainersFragment"
+            android:summary="@string/device_maintainers_title_summary"
+            android:title="@string/device_maintainers_title" />
+
+        </PreferenceCategory>
+
+        <PreferenceCategory
             android:key="devs"
             android:title="@string/dev_categorie_title">
 
