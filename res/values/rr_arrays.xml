@@ -1370,6 +1370,14 @@
         <item>@string/logo41</item>
         <item>@string/logo42</item>	
         <item>@string/logo43</item>
+        <item>@string/logo44</item>
+        <item>@string/logo45</item>
+        <item>@string/logo46</item>
+        <item>@string/logo47</item>
+        <item>@string/logo48</item>
+        <item>@string/logo49</item>
+        <item>@string/logo50</item>	
+        <item>@string/logo51</item>
     </string-array>
 
     <string-array name="custom_logo_values" translatable="false">
@@ -1417,6 +1425,14 @@
         <item>41</item>
         <item>42</item>
         <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
     </string-array>
 
     <!-- DUI -->

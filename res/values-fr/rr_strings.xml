@@ -1672,9 +1672,17 @@
   <string name="logo38">RR Original</string>
   <string name="logo39">RR Demi</string>
   <string name="logo40">RR sans cercle</string>
-  <string name="logo41">Araignée 1</string>
-  <string name="logo42">Araignée 2</string>
-  <string name="logo43">Orioles</string>
+  <string name="logo41">RR yin yang</string>
+  <string name="logo42">Araignée 1</string>
+  <string name="logo43">Araignée 2</string>
+  <string name="logo44">Orioles</string>
+  <string name="logo45">Batman</string>
+  <string name="logo46">Deadpool</string>
+  <string name="logo47">Decepticons</string>
+  <string name="logo48">Ironman</string>
+  <string name="logo49">Minions</string>
+  <string name="logo50">Spiderman</string>
+  <string name="logo51">Superman</string>
   <!-- Carrier label -->
   <string name="carrier_title">Nom de l\'opérateur</string>
   <string name="carrier_options_summary">Éditer le nom de l\'opérateur</string>

@@ -1819,9 +1819,17 @@
     <string name="logo38">RR original</string>
     <string name="logo39">RR half</string>
     <string name="logo40">RR no-ring</string>
-    <string name="logo41">Spider 1</string>
-    <string name="logo42">Spider 2</string>
-    <string name="logo43">Orioles</string>
+    <string name="logo41">RR yin yang</string>
+    <string name="logo42">Spider 1</string>
+    <string name="logo43">Spider 2</string>
+    <string name="logo44">Orioles</string>
+    <string name="logo45">Batman</string>
+    <string name="logo46">Deadpool</string>
+    <string name="logo47">Decepticons</string>
+    <string name="logo48">Ironman</string>
+    <string name="logo49">Minions</string>
+    <string name="logo50">Spiderman</string>
+    <string name="logo51">Superman</string>
 
     <!-- Carrier label -->
     <string name="carrier_title">Carrier label</string>
