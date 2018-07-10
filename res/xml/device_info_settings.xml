@@ -19,6 +19,7 @@
         xmlns:rr="http://schemas.android.com/apk/res/com.android.settings"
         xmlns:settings="http://schemas.android.com/apk/res-auto"
         android:title="@string/about_settings">
+        <PreferenceScreen android:layout="@layout/logo" android:key="rr_logo" />
 
         <!-- System update settings - launches activity -->
         <!--PreferenceScreen android:key="system_update_settings"
@@ -38,19 +39,7 @@
         <Preference android:key="mod_version"
                 style="?android:preferenceInformationStyle"
                 android:title="@string/rr_mod_version"
-                android:summary="@string/mod_version_default"
-                android:icon="@drawable/rr_mod_version_icon"/>
-
-        <!-- Updater -->
-        <PreferenceScreen
-            android:key="update_settings"
-            android:title="@string/updater_title"
-            android:summary="@string/rr_updater_summary"
-            android:icon="@drawable/rr_ota_icon">
-            <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.resurrection.ota"
-                    android:targetClass="com.resurrection.ota.MainActivity" />
-       </PreferenceScreen>
+                android:summary="@string/mod_version_default" />
 
         <!-- About Resurrection -->        
         <PreferenceScreen
